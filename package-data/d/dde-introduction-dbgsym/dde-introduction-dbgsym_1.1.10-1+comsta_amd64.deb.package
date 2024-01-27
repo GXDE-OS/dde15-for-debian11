@@ -1,0 +1,19 @@
+Package: dde-introduction-dbgsym
+Architecture: amd64
+Version: 1.1.10-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-introduction
+Maintainer: zhangdingyuan <zhangdingyuan@deepin.com>
+Installed-Size: 5939
+Depends: dde-introduction (= 1.1.10-1+comsta)
+Filename: ./d/dde-introduction-dbgsym/dde-introduction-dbgsym_1.1.10-1+comsta_amd64.deb
+Size: 5981072
+MD5sum: e0e8a9a9eacbb6e847e252d7a7703869
+SHA1: 820deceb01caf59994c85c0289cb6acf616979ea
+SHA256: 6e6a3cc7cbdf51fc257d7444344b92641589d535bfb519c2d5440c7c0a7f4080
+SHA512: 8d11ed4d26596ddb829db3b872c9bf7bb70a615035587530ec449d92751e902f93bcf07f3ec57ef3d6b3d87d20329bc411142252439e6a8706b3994e20fb78b2
+Description: debug symbols for dde-introduction
+Build-Ids: f2d6c2e79b10ba84942eddcfc9bd03dc3d639acd
+

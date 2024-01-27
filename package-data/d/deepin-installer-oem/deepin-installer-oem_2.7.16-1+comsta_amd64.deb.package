@@ -1,0 +1,19 @@
+Package: deepin-installer-oem
+Architecture: amd64
+Version: 2.7.16-1+comsta
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 262
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.16-1+comsta_amd64.deb
+Size: 83552
+MD5sum: 6b15b83066887562fb72b4f236615f2a
+SHA1: 4736e5c5f5ad314dc73c8a0fc6ccd2199b86aa87
+SHA256: 55e51457b8b59e4beb5b7b050240db16aa762ca96c9948c376a16ec8683806d5
+SHA512: 5c90584c33f6922dbd084bc7640b326b378389364c2cd25a624f92bd86ea54d0782f0b8de57fb8fa995048754b4d0e1362884e71199818a6b0379f018b049f29
+Homepage: http://www.deepin.org
+Description: OEM tool
+ OEM tool for deepin-installer
+

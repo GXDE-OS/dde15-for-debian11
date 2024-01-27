@@ -1,0 +1,18 @@
+Package: blur-effect
+Architecture: i386
+Version: 1.1.3-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46
+Depends: libc6 (>= 2.4), libdrm2 (>= 2.3.1), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgles2-mesa (>= 9.1~) | libgles2, libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5.2)
+Filename: ./b/blur-effect/blur-effect_1.1.3-1_i386.deb
+Size: 15228
+MD5sum: 5970f7008da6153c3c85ed03e29c63f3
+SHA1: 1b67b87f91328f8824ecc4261100c871833669bb
+SHA256: d22e28d54f5b85986c970ab4feecd050e31e85631d6e7b95e2c451f92d3744b7
+SHA512: b8d43aa644ac7ca34cedff5ed923dde4950e3c12920cfe7ce72c0f3ea7c6fb9af3884e5af6f12eb7753a6d275504e9e04eab340f71f43ee0308436c6aee3a17a
+Homepage: http://www.deepin.org
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+

@@ -1,0 +1,19 @@
+Package: deepin-anything-server-dbgsym
+Architecture: amd64
+Version: 0.1.0-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 125
+Depends: deepin-anything-server (= 0.1.0-1+comsta)
+Filename: ./d/deepin-anything-server-dbgsym/deepin-anything-server-dbgsym_0.1.0-1+comsta_amd64.deb
+Size: 19812
+MD5sum: 09e79de712d48ad78a1780b401c3ec3c
+SHA1: ac9cf59406b2b0ac762ebbba9dd54ab1995d9cc3
+SHA256: 3dfa97a42820c667eafa3bfe6ea13da6f9f629fa77b6b979010460a8b69c9772
+SHA512: 13382edee988a805b4ead273fc8ce54d83b0dd684c18c4b328eddbfc676e535b1f1f786eddefb11694dea8e627419cd4b86210dfd3afede01da7c961099d7eb7
+Description: debug symbols for deepin-anything-server
+Build-Ids: 2ba4371dbc1d73df0f7cb65c46fd319405cede46 6aeb5b23caba15b54bfedf169ebae808d4e20832 bab3f39c8dd09ac8ff2bfd105bde3bb7d1c9d6c2 e5748f82074d1696a432a93dd479838b1a62ea47
+

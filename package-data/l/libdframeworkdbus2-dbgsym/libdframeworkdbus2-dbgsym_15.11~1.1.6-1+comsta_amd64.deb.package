@@ -1,0 +1,20 @@
+Package: libdframeworkdbus2-dbgsym
+Architecture: amd64
+Version: 15.11~1.1.6-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dde-qt-dbus-factory
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 30051
+Depends: libdframeworkdbus2 (= 15.11~1.1.6-1+comsta)
+Filename: ./l/libdframeworkdbus2-dbgsym/libdframeworkdbus2-dbgsym_15.11~1.1.6-1+comsta_amd64.deb
+Size: 29864332
+MD5sum: 75b887adfd012152a9120b6e7100d841
+SHA1: a8e5dc7068fcb1dfdbe06a7389a7def9a3eb8607
+SHA256: 5099c9d7d1f2b5b6b3b5a1025207f3ffab99460c52e2491fef8075320e2fc6e7
+SHA512: d00c07a154270aa78897e6da19bc60fa94a95c005d24708de768640be825e4bfaffbff583c8d39bd2ae72786c083618d8f5493e59f0a168aa06d0e55bae7a2c6
+Description: debug symbols for libdframeworkdbus2
+Build-Ids: 89795ae6bc115ab2e9ed1eb1843bd5ebccaf2661
+

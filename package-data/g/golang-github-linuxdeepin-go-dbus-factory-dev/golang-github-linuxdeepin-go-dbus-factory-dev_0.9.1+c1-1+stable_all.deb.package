@@ -1,0 +1,18 @@
+Package: golang-github-linuxdeepin-go-dbus-factory-dev
+Architecture: all
+Version: 0.9.1+c1-1+stable
+Priority: extra
+Section: devel
+Source: golang-github-linuxdeepin-go-dbus-factory
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 767
+Depends: golang-dlib-dev
+Filename: ./g/golang-github-linuxdeepin-go-dbus-factory-dev/golang-github-linuxdeepin-go-dbus-factory-dev_0.9.1+c1-1+stable_all.deb
+Size: 64306
+MD5sum: 12d034dce0575c2b5a99923f1e720429
+SHA1: d177bed89d8ba0adac1801bf75dfe72d34f3661d
+SHA256: 5e9c7be8a29bec690ac88ee4df46cf363a8f0dca3cd36ea4a58f8b6a48066656
+SHA512: 15234b5a9862570c2f5b94390150150f3321e3a7a5ad95b51685fd92746819ba1393b66d6160783ab80a73d0089166daf36cbfe2a8b3dc13282cbed10d915953
+Homepage: https://github.com/linuxdeepin/go-dbus-factory
+Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
+

@@ -1,0 +1,19 @@
+Package: dde-polkit-agent-dbgsym
+Architecture: amd64
+Version: 0.3.0-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-polkit-agent
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3638
+Depends: dde-polkit-agent (= 0.3.0-1+comsta)
+Filename: ./d/dde-polkit-agent-dbgsym/dde-polkit-agent-dbgsym_0.3.0-1+comsta_amd64.deb
+Size: 3657296
+MD5sum: 5928047d5ea5b7ba2c16c11957d29a34
+SHA1: c957cdbb91a6c108275d94d4f52e6c44bfa6045a
+SHA256: bd7120d689c642e3412aeea2d23e7e26525a3b50dcdaee515b3491468c5b3d78
+SHA512: 0abf3a1e85b0abf3a5beefa2cd60127b72d8792164026b70eb6b8ef9a7f6be7b7929be84288abdd448148c6ae8fca1d887ed4e9537b67526058e8a51118da097
+Description: debug symbols for dde-polkit-agent
+Build-Ids: 90163c809ceb9fc6a92062bd2b2449a6eeab0c97
+

@@ -1,0 +1,22 @@
+Package: libgnome2-common
+Architecture: all
+Version: 2.32.1-6
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: libgnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 5170
+Depends: gconf2 (>= 2.28.1-2)
+Suggests: desktop-base (>= 0.3.16)
+Breaks: gnome-panel (<< 2.28)
+Filename: ./l/libgnome2-common/libgnome2-common_2.32.1-6_all.deb
+Size: 927140
+MD5sum: a9b4ad2fc2c8db0f672f7c69b816914e
+SHA1: 67bcc0a7c12923b62d7251af483bf216b3b8dc30
+SHA256: fea533c0ccf08556a248431c15e81943f6f8ba5d1a990c5f3b1bd5bc117c0180
+SHA512: 4cdfcdb25f222b3143849fa70545668c63a2389860e9bc8e80e71687c65d69db715117da4c8878dfe25a02f3c606b086aecf8acd9f6092f50d92e199b3a22871
+Description: Deprecated GNOME 2 library - common files
+ This package contains internationalization files for the deprecated GNOME 2
+ library functions.
+

@@ -1,0 +1,19 @@
+Package: dde-launcher-dbgsym
+Architecture: amd64
+Version: 4.6.14+c1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-launcher
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10797
+Depends: dde-launcher (= 4.6.14+c1-1+comsta)
+Filename: ./d/dde-launcher-dbgsym/dde-launcher-dbgsym_4.6.14+c1-1+comsta_amd64.deb
+Size: 10765748
+MD5sum: 0141da6d33d3c87011d0260861ccaf6e
+SHA1: 1e79721291f46858fec31b6ecbde5d549211256a
+SHA256: bec31b1c182c8bd48669969d5361596e33a136a3f404c849d399340318ac1c82
+SHA512: 7c9e5107b65c2f322e41a7065394934516d91676575c3383387e6899d75092a14f28d898dece5f77a32d3633a5ac31984bd857028f6b5174d915edf8d692654a
+Description: debug symbols for dde-launcher
+Build-Ids: 81f29109ae479f45146810062065a4d4a09cb3b9
+

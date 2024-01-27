@@ -1,0 +1,19 @@
+Package: libgnome2-0
+Architecture: amd64
+Version: 2.32.1-6
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: libgnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 418
+Depends: libgnome-2-0 (= 2.32.1-6), libgnome2-bin (= 2.32.1-6)
+Filename: ./l/libgnome2-0/libgnome2-0_2.32.1-6_amd64.deb
+Size: 422196
+MD5sum: c42b04436c6c71d0f9ec6870fb47e299
+SHA1: 7cb26791d6cdb221cd2f10e485b578d734fc02b5
+SHA256: addaf48a0858f2cdef72cf240ba270152ef8eed87dc9fcedf8f3d9eab77fac17
+SHA512: 3faf3dda13d453bca9167cf2d7d4279c9f165019de0f195b9286151a8f930a441045a4301650137158999f7b7bdd30df9ad70b3cc8f2139933e04531178166e6
+Description: Deprecated GNOME 2 library - transition package
+ This convenience package is for upgrades.
+

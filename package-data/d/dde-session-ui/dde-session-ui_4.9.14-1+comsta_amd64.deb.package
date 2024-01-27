@@ -1,0 +1,23 @@
+Package: dde-session-ui
+Architecture: amd64
+Version: 4.9.14-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 9327
+Provides: lightdm-greeter
+Depends: libc6 (>= 2.14), libdframeworkdbus2, libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.30.0), libgsettings-qt1 (>= 0.1+14.04.20140408), liblightdm-qt5-3-0 (>= 1.18.3), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5sql5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, libx11-6 (>= 2:1.2.99.901), libxcb-ewmh2 (>= 0.4.1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.2), libxtst6, deepin-desktop-schemas (>= 2.91.2), dde-daemon, x11-xserver-utils, dbus-x11
+Recommends: onboard
+Conflicts: dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: ./d/dde-session-ui/dde-session-ui_4.9.14-1+comsta_amd64.deb
+Size: 1992796
+MD5sum: c058c49b1a8468d0250b1ba29503219f
+SHA1: c09a2db64984d60ddd87bca4e84aa68bde907e8e
+SHA256: 0afffdcc9cdc1165906cbcf30324a4da0818a0235e67449d71be6fa6c11d927c
+SHA512: 4c300acd94407c116fa32695421f4f5788dd236bb1d02881e9dcfa9039ec498c9241c576c2c5f94b02c3079e7fa8fc536638e9ee839532a28324851b4fe99f43
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+

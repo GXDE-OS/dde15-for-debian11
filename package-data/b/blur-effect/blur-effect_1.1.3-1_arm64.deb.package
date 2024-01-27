@@ -1,0 +1,18 @@
+Package: blur-effect
+Architecture: arm64
+Version: 1.1.3-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 47
+Depends: libc6 (>= 2.17), libdrm2 (>= 2.3.1), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgles2-mesa (>= 9.1~) | libgles2, libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5.2)
+Filename: ./b/blur-effect/blur-effect_1.1.3-1_arm64.deb
+Size: 13866
+MD5sum: d5765db823a7aa3394158ea6bae9446d
+SHA1: 6264b4cad5c3742a1cc656015319cc7814bfed82
+SHA256: bc356c911ed0bcb677f09270e696d8716df601d0017ba4545ee1bf08ce552638
+SHA512: cb83109959db05d7984fb62d9df6a8919a107551667053c569d47a638e58bf32e1904c89274c74ad480a9c1776c15950bec665a495f4fd49ca3a3525345222a7
+Homepage: http://www.deepin.org
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+

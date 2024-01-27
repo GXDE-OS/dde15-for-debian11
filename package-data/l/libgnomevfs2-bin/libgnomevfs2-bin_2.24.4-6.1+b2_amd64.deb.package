@@ -1,0 +1,27 @@
+Package: libgnomevfs2-bin
+Architecture: amd64
+Version: 1:2.24.4-6.1+b2
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: gnome-vfs (1:2.24.4-6.1)
+Maintainer: Josselin Mouette <joss@debian.org>
+Installed-Size: 445
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.16.0), libgnomevfs2-0 (>= 1:2.17.90)
+Replaces: libgnomevfs2-common (<< 2.12.2-4)
+Filename: ./l/libgnomevfs2-bin/libgnomevfs2-bin_2.24.4-6.1+b2_amd64.deb
+Size: 316712
+MD5sum: 8db03e612d155547821632b3ebc10f7f
+SHA1: 747227a83565b8d91db257f5b6e3a5edcd3cdd9e
+SHA256: 78c42d078d4d81b12a94df8851cfc9f28a0c3de223787a58e628e5040d6a87bd
+SHA512: dea057d9423897776d818f05c20db768c149f2ee64dd2a6abb17ca13bd835006c0b3fea006c5a12d8b0cedb35069f10ea73ac41aad1e802c8f34de159528e8fc
+Description: GNOME Virtual File System (support binaries)
+ GNOME VFS is the GNOME virtual file system.  It is the foundation of the
+ Nautilus file manager.  It provides a modular architecture and ships with
+ several modules that implement support for local files, http, ftp and others.
+ It provides an URI-based API, a backend supporting asynchronous file
+ operations, a MIME type manipulation library and other features.
+ .
+ This package contains some example binaries using the GNOME VFS
+ library.
+

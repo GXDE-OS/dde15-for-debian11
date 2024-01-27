@@ -1,0 +1,19 @@
+Package: dde-session-ui-dbgsym
+Architecture: amd64
+Version: 4.9.14-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-session-ui
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 93325
+Depends: dde-session-ui (= 4.9.14-1+comsta)
+Filename: ./d/dde-session-ui-dbgsym/dde-session-ui-dbgsym_4.9.14-1+comsta_amd64.deb
+Size: 93710296
+MD5sum: 3ffcaadb1d676e5ad2fc69b30847739f
+SHA1: 8dadf8a441e576b3823858124629bbf86180ba6b
+SHA256: 8e1273d048ddb400ae27e1b1d7f6e62f50d03e66d7a9c439b4f232becc338449
+SHA512: 39f6983fcb3ea94580bba9d8220b9d90c9286efa1bfcbccfc46c458f8e8aa67bef8cf84e449da1785449316dd5aacc3aea84ba8c182d32b016761b2d6b5d9a81
+Description: debug symbols for dde-session-ui
+Build-Ids: 16255f442ad2a18137e7ae4e6f8468137b5e9853 2241560326f08eec3aa53549bd224de5e064eba4 264204b47b73ebafd8f606ffe52f1fcd2bb23505 3edb7cb705b50050217e4fd4fbce0dee494d6487 5b737c0d74943bd8bd4470ff49de01adfb1ebfb4 5c0d70b6dbeb72e8684ee6a9419e44a5b42136f4 79b51b44bf25c579c819a4cced9ddc754ae5f9d9 ad4e245b82fd3920048a1ca71c80d5ca42d15c2c bdf49047d72447c996ec65c67c97b544d26f72a6 c3d7e179199674929a3c9a5dc432b23331e1d56a d270c8552eabe7cc7648af5e355a5fff0b8011b2 d6b3e7b36da9d252b05d1c7d589acd68c30d68b5 ed16dfa05c598f7e2e116fe60d5419a66de54dae
+

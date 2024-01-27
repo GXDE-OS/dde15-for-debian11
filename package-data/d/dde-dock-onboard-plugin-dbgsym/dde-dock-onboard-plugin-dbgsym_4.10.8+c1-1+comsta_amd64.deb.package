@@ -1,0 +1,19 @@
+Package: dde-dock-onboard-plugin-dbgsym
+Architecture: amd64
+Version: 4.10.8+c1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 854
+Depends: dde-dock-onboard-plugin (= 4.10.8+c1-1+comsta)
+Filename: ./d/dde-dock-onboard-plugin-dbgsym/dde-dock-onboard-plugin-dbgsym_4.10.8+c1-1+comsta_amd64.deb
+Size: 841996
+MD5sum: 044d75d34f9c2e28a6017f13fce4d226
+SHA1: f781c70a11727ce267de13c1d6e30ede767b4997
+SHA256: 6cb815023d533037d5cd31ad21f7a13b4699595d8a613c32fdb5da10312b0d64
+SHA512: a66ea9af5bcecfd36a10ac7824ac8003528b07554da9f803a07448c14da96ff8a91196bf1ea1d3f068130c515eb0c7bacc586e544ee3254717f80d6387a3568c
+Description: debug symbols for dde-dock-onboard-plugin
+Build-Ids: fcaafc8c25caf6fb621fb9b81449225c36d44a0a
+

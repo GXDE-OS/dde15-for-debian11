@@ -1,0 +1,19 @@
+Package: dde-desktop-dbgsym
+Architecture: amd64
+Version: 4.8.8.2+c1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 11356
+Depends: dde-desktop (= 4.8.8.2+c1-1+comsta)
+Filename: ./d/dde-desktop-dbgsym/dde-desktop-dbgsym_4.8.8.2+c1-1+comsta_amd64.deb
+Size: 11372740
+MD5sum: e07d604d762201eee8f6b4d6952bc8aa
+SHA1: 7f22e62fa1af4cd49223b5cb594a4335aa8de00f
+SHA256: 2e460cd9280edd03c1bef45552cf0a4cbb246aef6e4e1c37b7a03fa9ad8075aa
+SHA512: 5fc7c646d8bb64a09906cd4b257b35169a390658d4f35a240989831f3617b53ccbaa85466d2c90bc85f299a902ba9f1cdbfce0a42819862c0eae7242f196bd38
+Description: debug symbols for dde-desktop
+Build-Ids: d1c04beb27621da4ced9e08faf50d52355d84ebb
+

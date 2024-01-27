@@ -1,0 +1,20 @@
+Package: libfprint0-dbgsym
+Architecture: amd64
+Version: 1:0.6.0-2
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: libfprint
+Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
+Installed-Size: 488
+Depends: libfprint0 (= 1:0.6.0-2)
+Filename: ./l/libfprint0-dbgsym/libfprint0-dbgsym_0.6.0-2_amd64.deb
+Size: 443652
+MD5sum: 9ed343fcbab42334d6d34d1da752aa65
+SHA1: 76d110e4646ad610e6894420ec30d29af7c66d0f
+SHA256: 5dccf5fedf38f098c5566433bedd39d1126fec9a2d91a15d16ae520ffd4bd87d
+SHA512: 9b92bdf8e6a7c6ac225e3d7fa3f5c43c3715cbd00dde9ca1f606c8fbbabf29a784c36b5589f33aefd18a54dd5732938554235a2d9e968a0214adfad7982b9843
+Description: debug symbols for libfprint0
+Build-Ids: 1ebf22d333ece1ac338a6a96b3f784802c55c5d9
+

@@ -1,0 +1,20 @@
+Package: libdtkwidget2-dbgsym
+Architecture: amd64
+Version: 15.11~2.0.16.1-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24708
+Depends: libdtkwidget2 (= 15.11~2.0.16.1-1+comsta)
+Filename: ./l/libdtkwidget2-dbgsym/libdtkwidget2-dbgsym_15.11~2.0.16.1-1+comsta_amd64.deb
+Size: 24551160
+MD5sum: 93b5297451db9dab201b0dba12fb607e
+SHA1: 245c3337eae673fe593d0bb57ac4db80b7554795
+SHA256: 69200bedf36894e6ebe43bf601e2cfe0f54747f09d4b3a6f8c5b48e8701dfd28
+SHA512: c865058b616327b9f5d5302b0ec9669a01fd553effd56a54378862811c604e7bff5c7eb91b063fc2cf25e05c3f1029977b289211db2467bf177beddedd4ce7ed
+Description: debug symbols for libdtkwidget2
+Build-Ids: df90b7c94c94f6e823d95e551922aa30121ecb14
+

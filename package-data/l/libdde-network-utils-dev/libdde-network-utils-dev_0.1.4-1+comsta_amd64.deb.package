@@ -1,0 +1,19 @@
+Package: libdde-network-utils-dev
+Architecture: amd64
+Version: 0.1.4-1+comsta
+Priority: optional
+Section: libdevel
+Source: dde-network-utils
+Maintainer: listenerri <listenerri@gmail.com>
+Installed-Size: 45
+Depends: libdde-network-utils
+Filename: ./l/libdde-network-utils-dev/libdde-network-utils-dev_0.1.4-1+comsta_amd64.deb
+Size: 6460
+MD5sum: bd2c12c5ec6de083531d6b6ac6fd0470
+SHA1: 5acb610f555843fafc9b8d76d18bda6e7ec4084d
+SHA256: 11ea31b6dba97e07ee37d89f5dd74d0a2caa7a2af1c9a3384761afcc1a093874
+SHA512: 0f8e02eb83c05321c8912eeade655aa79917de3efc29445baf556d5387b5a9adc374f8c09618e88eb850e0bc9d1aa94ae7cb3e147072a494edacfaf3f62233f7
+Homepage: https://github.com/linuxdeepin/dde-network-utils
+Description: DDE network utils dev
+ DDE network utils dev.
+

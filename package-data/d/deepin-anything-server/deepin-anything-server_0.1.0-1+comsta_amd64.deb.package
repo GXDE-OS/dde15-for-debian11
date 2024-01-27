@@ -1,0 +1,19 @@
+Package: deepin-anything-server
+Architecture: amd64
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 370
+Depends: deepin-anything-libs, libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libmount1 (>= 2.24.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5), libudisks2-qt5-0 (>= 5.0.5), deepin-anything-dkms
+Filename: ./d/deepin-anything-server/deepin-anything-server_0.1.0-1+comsta_amd64.deb
+Size: 98916
+MD5sum: 0d598aa4be1f1a92965b160098ae1597
+SHA1: a98882c88066e02fd783451111b802c2c24a6862
+SHA256: b46154394bcee0b330a3930622e79c3eeab52aeb9a4bfa8f0ce4320aae6e660f
+SHA512: 33c5ca581881f7ac658cc828969508d3a61dde24be83316c3c7bd0b2f6acc39e58706f63fdc0f20adc85262a9156b62d89bce940956bfa89d7fff243e0555891
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server application and lib
+ anything server package
+

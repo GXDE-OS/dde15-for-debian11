@@ -1,0 +1,19 @@
+Package: libdde-network-utils-dbgsym
+Architecture: amd64
+Version: 0.1.4-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-network-utils
+Maintainer: listenerri <listenerri@gmail.com>
+Installed-Size: 2059
+Depends: libdde-network-utils (= 0.1.4-1+comsta)
+Filename: ./l/libdde-network-utils-dbgsym/libdde-network-utils-dbgsym_0.1.4-1+comsta_amd64.deb
+Size: 2037868
+MD5sum: 4d79cdf6f968cc4b0964e17a9c121094
+SHA1: ddcd9acf16905289331a53310d48ccb959d7fd03
+SHA256: 7aeffb505a300a11718b0a24e8f7948ff643db17e91bf04caf255ccff4a054bf
+SHA512: b3d44b242cab5599b1229ab521dd6239269164dfd9f506482b74ab86c463bbfc5030ea295502fe610d0840977a28acdd824d41dcf9e81bad3a2e0f031bdf1eae
+Description: debug symbols for libdde-network-utils
+Build-Ids: ca7532c394b7a7320d23a75268d11862f874a22b
+

@@ -1,0 +1,20 @@
+Package: plymouth-theme-deepin-logo
+Architecture: all
+Version: 15.10.9-1+comsta
+Priority: optional
+Section: admin
+Source: plymouth-theme-deepin
+Maintainer: Leng Ganghua <hiweed@gmail.com>
+Installed-Size: 8057
+Provides: plymouth-theme
+Depends: plymouth, util-linux
+Replaces: plymouth (<< 0.8.1-1~)
+Filename: ./p/plymouth-theme-deepin-logo/plymouth-theme-deepin-logo_15.10.9-1+comsta_all.deb
+Size: 4777264
+MD5sum: ee350eb40e636e0fd73491cbd28ab2fd
+SHA1: 30058a033e07e2dc7a09aff2a2cfab88085b695d
+SHA256: 3df7bbcf8e286f46a30d976f0f20871ae2c1305530fb33bda3da3405ba3ba070
+SHA512: bc37fb8a11e59cf54b5a22cd00a8c41b44d5cd232822df4bf34c5ff95d0ed2aa7b6dc11110c06d42ed5cd1e04b99353d6c4d672dddf6828bd393b2c7f85715f5
+Description: Plymouth theme for Linux Deepin
+ This theme package contains deepin-logo.
+

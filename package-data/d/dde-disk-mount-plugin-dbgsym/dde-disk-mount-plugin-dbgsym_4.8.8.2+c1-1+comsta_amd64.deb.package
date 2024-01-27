@@ -1,0 +1,19 @@
+Package: dde-disk-mount-plugin-dbgsym
+Architecture: amd64
+Version: 4.8.8.2+c1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-file-manager
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 3182
+Depends: dde-disk-mount-plugin (= 4.8.8.2+c1-1+comsta)
+Filename: ./d/dde-disk-mount-plugin-dbgsym/dde-disk-mount-plugin-dbgsym_4.8.8.2+c1-1+comsta_amd64.deb
+Size: 3169928
+MD5sum: affb108bf1f53f853932f02d22215577
+SHA1: 6af6b2f26262505b17d34bda52b8698f61d3c57e
+SHA256: a5e6f266abc02d94a5274984101b10f3541347f3c9de4d17cae9af6c07452181
+SHA512: 3f5c6db64751d631c99a71deea234cced689ec23acb38679d95961615bd567a46a743c5434c58e387aae92969a0ee2c02643517c2e1b693303662f1b9f7e8393
+Description: debug symbols for dde-disk-mount-plugin
+Build-Ids: 2a00d60727e83f6cd17bfc5e985ad49781f7b475
+

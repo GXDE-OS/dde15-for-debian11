@@ -1,0 +1,17 @@
+Package: deepin-screensaver
+Architecture: amd64
+Version: 0.0.10-1+comsta
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 113
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxss1, deepin-screensaver-xscreensaver-data
+Filename: ./d/deepin-screensaver/deepin-screensaver_0.0.10-1+comsta_amd64.deb
+Size: 32560
+MD5sum: 6bc20b31ddcc0ab8f39085fdb5ae2cfd
+SHA1: 8627da6c8dd64c28b3c126d6e7c5158ec6a920c3
+SHA256: 576fc76b55b962e3736397169d5df04cb01a36f3564d4be162f85d1715fd13bc
+SHA512: cab4c893487032c7a228ee11ae9943ab2bc6290d41215bcc9be1d377c9a8b2bf58bbd56f7ddd776d81829ed91c460b1793dc374b8326c0a78fc93b108e694812
+Description: Screensaver Tool
+ Deepin screensaver viewer and tools.
+

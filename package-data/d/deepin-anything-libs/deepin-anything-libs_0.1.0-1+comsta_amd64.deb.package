@@ -1,0 +1,19 @@
+Package: deepin-anything-libs
+Architecture: amd64
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 136
+Depends: libc6 (>= 2.14)
+Filename: ./d/deepin-anything-libs/deepin-anything-libs_0.1.0-1+comsta_amd64.deb
+Size: 18896
+MD5sum: af29dae6ca7db2f4f318aac3745a1259
+SHA1: 2452b326d52b1e362a48af3ee42e6e0fee380232
+SHA256: 90b1aa127eb0a6264ba039fcc25ec45afff3c2dd8222a74a2241ca66e21b7fa0
+SHA512: 8124789b74e46927ed5b7394cbcacb7ac1ca710ae794872804c0623efd149653195fc8e319068d253b2a1a89cfa2acad30a7cd54407f2f347802c150803d6ccf
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything library
+ anything library package
+

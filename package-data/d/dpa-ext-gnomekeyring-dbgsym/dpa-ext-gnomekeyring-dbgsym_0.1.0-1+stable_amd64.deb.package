@@ -1,0 +1,19 @@
+Package: dpa-ext-gnomekeyring-dbgsym
+Architecture: amd64
+Version: 0.1.0-1+stable
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dpa-ext-gnomekeyring
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 466
+Depends: dpa-ext-gnomekeyring (= 0.1.0-1+stable)
+Filename: ./d/dpa-ext-gnomekeyring-dbgsym/dpa-ext-gnomekeyring-dbgsym_0.1.0-1+stable_amd64.deb
+Size: 457396
+MD5sum: 6773b87b0663a37cff1a8926cb534ca6
+SHA1: 267f6c92787c030bbdb8c96a4efc8afc647c92d7
+SHA256: eea95001cb0417a366192395dd00f0df00634f2ea80df2851c9a09a50bee45af
+SHA512: cbf7fa28f76ef159403ca2488d9ae040b56940204a0bc884e6ae0a005f61535e7081c66132f003e5fcf822987aca057162a9637ad41b63a6b48f76d99945b9c6
+Description: debug symbols for dpa-ext-gnomekeyring
+Build-Ids: aaaa5407269825d508d4ce94fb6ad9a4f3541fdb
+

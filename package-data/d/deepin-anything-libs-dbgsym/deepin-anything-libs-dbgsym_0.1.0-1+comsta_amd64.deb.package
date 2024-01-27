@@ -1,0 +1,19 @@
+Package: deepin-anything-libs-dbgsym
+Architecture: amd64
+Version: 0.1.0-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 19
+Depends: deepin-anything-libs (= 0.1.0-1+comsta)
+Filename: ./d/deepin-anything-libs-dbgsym/deepin-anything-libs-dbgsym_0.1.0-1+comsta_amd64.deb
+Size: 3228
+MD5sum: 91ea67a0f64f4aecdb6de63658ad60d5
+SHA1: ddd8831a716a697728ae4def32c6329abe75cbf2
+SHA256: baa75dcbbb8420b0b36011c92b6548467520e7c716484175fa38894d189410d5
+SHA512: 7d3c607011a41edf218d97999a09dbf831f62203b214d2734d928538b0ffc269824c240f8bd2158cf1be01e54574dcb60a3cf61f42555dfde57e8af6557a3f4c
+Description: debug symbols for deepin-anything-libs
+Build-Ids: 0f24a74faf121117c009d0102ccbadec1357ed24
+

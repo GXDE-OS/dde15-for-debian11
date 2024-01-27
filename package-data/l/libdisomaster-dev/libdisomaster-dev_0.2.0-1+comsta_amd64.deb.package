@@ -1,0 +1,18 @@
+Package: libdisomaster-dev
+Architecture: amd64
+Version: 0.2.0-1+comsta
+Priority: optional
+Section: libs
+Source: disomaster
+Maintainer: Chris Xiong <chirs241097@gmail.com>
+Installed-Size: 17
+Depends: libdisomaster
+Filename: ./l/libdisomaster-dev/libdisomaster-dev_0.2.0-1+comsta_amd64.deb
+Size: 3264
+MD5sum: 72717f6e5b31c8a2392243d87ded116a
+SHA1: be291756eb187b26ed9c4bdaf9606601317ce1ee
+SHA256: 6942f07c5860d64cfebaf0cfb70992603cf61e4e4cff024af2d70ab30c3845d2
+SHA512: 25020024e07b0dce4cacd68b8710a4190c3ea7a756eadc33492964fe3f9848d63025fa03704eb145459f8464e8a967e2979d54c612782307c8a1fdcbefeb4291
+Homepage: https://github.com/linuxdeepin/disomaster
+Description: Development package for libdisomaster.
+

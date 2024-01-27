@@ -1,0 +1,19 @@
+Package: dde-api-dev
+Architecture: all
+Version: 3.18.5-1+comsta
+Priority: extra
+Section: devel
+Source: dde-api
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 930
+Depends: golang-dlib-dev (>= 1.2.13), golang-gir-gobject-2.0-dev (>> 1.2.0+), golang-gir-gio-2.0-dev (>> 1.2.0+), golang-gir-glib-2.0-dev (>> 1.2.0+), golang-gir-gudev-1.0-dev (>> 1.2.0+), golang-github-linuxdeepin-go-x11-client-dev (>= 0.0.4), golang-github-linuxdeepin-go-dbus-factory-dev (>> 0.7.0+), golang-gopkg-alecthomas-kingpin.v2-dev, libxi-dev, libcanberra-dev, librsvg2-dev, libgtk-3-dev, libgdk-pixbuf2.0-dev, libcairo2-dev, libfreetype6-dev, libpoppler-glib-dev
+Filename: ./d/dde-api-dev/dde-api-dev_3.18.5-1+comsta_all.deb
+Size: 72446
+MD5sum: 04fffa7ffdaf9ff8967c3edb955d175f
+SHA1: 873bf1276baa7f46807d01c6b28561ee29377b7c
+SHA256: e905b38084c4a6cdaf007bc81ebdec787d4e054ff728a7830d5ed73edf72d102
+SHA512: 3eddac6989bbf05b332a53a9ae0fdcaf5ed56d3c68ae284fbecf139bea2954dda798977e5602f13f162f3ae234a641353aea876b79f4bca3021642335e526f6d
+Homepage: http://www.deepin.org
+Description: Go-lang bingdings for dde-daemon
+ Go-lang bindings for dde-daemon -- dev file
+

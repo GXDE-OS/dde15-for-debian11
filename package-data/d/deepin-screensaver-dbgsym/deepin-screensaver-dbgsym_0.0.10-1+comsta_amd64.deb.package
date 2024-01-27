@@ -1,0 +1,19 @@
+Package: deepin-screensaver-dbgsym
+Architecture: amd64
+Version: 0.0.10-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-screensaver
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1317
+Depends: deepin-screensaver (= 0.0.10-1+comsta)
+Filename: ./d/deepin-screensaver-dbgsym/deepin-screensaver-dbgsym_0.0.10-1+comsta_amd64.deb
+Size: 1308912
+MD5sum: 8655a942b41818d5cd05a6fc7ee43943
+SHA1: 2498ca532f297259911e736ba5498fd5f1141114
+SHA256: cc911cd2a87ad42789e05d734653413f042d2fdeab51295a93289dd6e1bc8302
+SHA512: f7e814ccbc1088dd55258b79a1afee112aae969ce6d7bf7045f94b97c40126329d9e0aab41beb5afdb14d3e83679ca4a3a1d744e83bdb64a0cc83efaea9db4a3
+Description: debug symbols for deepin-screensaver
+Build-Ids: 154ea728c7c18ca9dfb5bfe77de0d1fd2617de19
+

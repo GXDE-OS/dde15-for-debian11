@@ -1,0 +1,21 @@
+Package: libgnome2-dev
+Architecture: amd64
+Version: 2.32.1-6
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libgnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 649
+Depends: libgnome-2-0 (= 2.32.1-6), libglib2.0-dev, libbonobo2-dev, liborbit2-dev, libgconf2-dev, libgnomevfs2-dev, libcanberra-dev, libpopt-dev
+Suggests: libgnome2-doc
+Filename: ./l/libgnome2-dev/libgnome2-dev_2.32.1-6_amd64.deb
+Size: 467170
+MD5sum: 13cc026920e9174c8e6a385a1ab8689c
+SHA1: 5c69ff0c010247f6de7908aab1287a9bbe61f296
+SHA256: 48e2dee1b40626b4ef5f9e271ea87e6f3f60390097982b1566ee4e18c8a9c0ea
+SHA512: 579ebb2dac8ad88fb6826bf4c9ee48507d4ae46181a6a8ea1768760792b437358c6c5e9b5c048387b0b960733b365841c9fcbb53f48c355fd558a40d18e97dbb
+Description: Deprecated GNOME 2 library - development files
+ This package contains the static library and development headers for
+ the deprecated GNOME 2 library functions.
+

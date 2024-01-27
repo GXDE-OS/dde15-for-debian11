@@ -1,0 +1,19 @@
+Package: libcroco-tools-dbgsym
+Architecture: amd64
+Version: 0.6.11-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: libcroco
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: libcroco-tools (= 0.6.11-3)
+Filename: ./l/libcroco-tools-dbgsym/libcroco-tools-dbgsym_0.6.11-3_amd64.deb
+Size: 23920
+MD5sum: 321db5240c5e045a66a690ac731510f9
+SHA1: 755944ecda5c7ea32ae85c68320773a68eb0e826
+SHA256: 05bbecae03e63de0906cc5666a9c997acb97dbb7bffa18a6807486da79b1c1a2
+SHA512: 75a3fc257712525c242f6fd5be8f89bdd0d9c733f14dc0c4775617313eb830fd25f0dc3a592c9c2fd592c41ffe73d523794dd1cef2a28b7c30f37d8d4ae028b3
+Description: debug symbols for libcroco-tools
+Build-Ids: f05e00d21d3a5f1ccd14e0d18e95cbb4f9b0a05e
+

@@ -1,0 +1,18 @@
+Package: dde-kwin-dev
+Architecture: amd64
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: libdevel
+Source: dde-kwin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 33
+Filename: ./d/dde-kwin-dev/dde-kwin-dev_0.1.0-1+comsta_amd64.deb
+Size: 9100
+MD5sum: f477fe97f832a13d390c9ffbf20b9734
+SHA1: 6c610df43c9b01567f7ad73c4f99e0dd4d62205c
+SHA256: 302eba77b380996c3d5c0bf210fa17b024d2e51941f12550f856c6c8af4229ed
+SHA512: bd7cfc1bc465253c2fcef84c81f37e5d16bbf9164091347c31ef727537930071a4cd693f19fba5e8f6a9664e870e6d582f0d2de2696bdc847acedb98bc2658b1
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: Developer package of dde-kwin
+ Provide dde-kwin plugin implementation basis files.
+

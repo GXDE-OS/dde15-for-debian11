@@ -1,0 +1,19 @@
+Package: deepin-anything-dkms
+Architecture: all
+Version: 0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 62
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_0.1.0-1+comsta_all.deb
+Size: 14920
+MD5sum: dc7faf5ffbd0c1fef82c709ea276465b
+SHA1: 9d280a3fa3a43ca43f4ca3f218a8621f6e73b99e
+SHA256: a458f60615e1b5eaa98624a48c2edd87a0bb7f7a061e5870a5557d83b40e9e37
+SHA512: 3b328ac26a980017a710a2631e8878d5f824792cc76bd6baef812e8efd8f59130dd6045b365cff4fcd89ceb73390b2a38527ac6430b11dc4195f08f05d3c561d
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything module
+ anything kernel module package
+

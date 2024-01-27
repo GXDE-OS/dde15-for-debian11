@@ -1,0 +1,18 @@
+Package: blur-effect
+Architecture: amd64
+Version: 1.1.3-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 47
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.3.1), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgbm1 (>= 8.1~0), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgles2-mesa (>= 9.1~) | libgles2, libglib2.0-0 (>= 2.12.0), libstdc++6 (>= 5.2)
+Filename: ./b/blur-effect/blur-effect_1.1.3-1_amd64.deb
+Size: 14684
+MD5sum: 9d80295cd0923e6d8761476a602f5b41
+SHA1: 34acfd3409c2cb6694f95deb059c1d967b11e4fa
+SHA256: b653d9c2b657d4b93abf5380c6c1d765595d78fea33e64bc7ab1b2859c0c220e
+SHA512: e79763a1b4b16aa2980c55ea34a28e801171df283c43c0bdd5782f457bbbd0fb060a09403fda35cd7b873e431f542da5992928cc774d3f762505fadbeca6fb94
+Homepage: http://www.deepin.org
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+

@@ -1,0 +1,20 @@
+Package: libdtkcore2-dbgsym
+Architecture: amd64
+Version: 15.11~2.0.16.1-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3511
+Depends: libdtkcore2 (= 15.11~2.0.16.1-1+comsta)
+Filename: ./l/libdtkcore2-dbgsym/libdtkcore2-dbgsym_15.11~2.0.16.1-1+comsta_amd64.deb
+Size: 3491512
+MD5sum: abcbb5b4b94e212b8fbc583eef480cb3
+SHA1: 3608b3dbf920cc96545f31f29b7c36d1e141e292
+SHA256: 33e2116b859eab9e8142623618463364dd02f2b65f7ca1257ab6dcb1cfe74139
+SHA512: 304708fc405a2b1f5bc9f862e81328241a475fb8457a85ad0c1589f7cbdc355c118a30bdf5fb897a6720a32f9bc2dbc69dc353868f98e8d2097b5b5f2c6fb13f
+Description: debug symbols for libdtkcore2
+Build-Ids: 8caf543bb95ed1484b2e874b85150b0c375ceefb
+

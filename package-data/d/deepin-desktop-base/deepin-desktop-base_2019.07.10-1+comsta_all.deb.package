@@ -1,0 +1,17 @@
+Package: deepin-desktop-base
+Architecture: all
+Version: 2019.07.10-1+comsta
+Priority: optional
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 81
+Provides: deepin-appstore-config
+Depends: deepin-keyring, distro-info-data
+Filename: ./d/deepin-desktop-base/deepin-desktop-base_2019.07.10-1+comsta_all.deb
+Size: 16424
+MD5sum: bb2ef718ba8c9e27c3ca5de6f39660e2
+SHA1: 34dfb1ee337f5882a8da169d004d3245d0330363
+SHA256: 0c42d3bcc9b56967eee29255bd61b1c0f8623979858d96e9b1a3904a463086c3
+SHA512: 8384d3d1e941cd2c988aed46e48bad7ac54d82de2d1859fd0ecca1cdd17e5b58a73dfcc61ac0b45909e216c73aea395638cccf303a6c5d57dac51ecb54c59147
+Description: Base files for Deepin Desktop
+

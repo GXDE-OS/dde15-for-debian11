@@ -1,0 +1,19 @@
+Package: libgnome2-doc
+Architecture: all
+Version: 2.32.1-6
+Priority: optional
+Section: doc
+Source: libgnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 878
+Suggests: devhelp
+Filename: ./l/libgnome2-doc/libgnome2-doc_2.32.1-6_all.deb
+Size: 455906
+MD5sum: adb31bdb81d1ad00dbc31211b4b02a8f
+SHA1: 841c3be6c8bed4471c054d877a56227aee698338
+SHA256: e7918d3019d79c5b0b66ddb1fd55cd1d5dd0321852f93c0c2b579b68ed6297b2
+SHA512: 324a4dd7dd310bf9be847aded7ae9c65a846f8abd952674cb1bd1dd8077556badc158b7ee5679d72b482996dfbceac0057da8a0d090cd0a08cf89c56296f70f7
+Description: Deprecated GNOME 2 library - documentation files
+ This package contains documentation files for the deprecated GNOME 2 library
+ functions.
+

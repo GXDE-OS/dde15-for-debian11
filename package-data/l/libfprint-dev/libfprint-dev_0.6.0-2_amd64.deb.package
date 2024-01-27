@@ -1,0 +1,33 @@
+Package: libfprint-dev
+Architecture: amd64
+Version: 1:0.6.0-2
+Priority: extra
+Section: libdevel
+Source: libfprint
+Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
+Installed-Size: 764
+Depends: libfprint0 (= 1:0.6.0-2)
+Filename: ./l/libfprint-dev/libfprint-dev_0.6.0-2_amd64.deb
+Size: 179780
+MD5sum: 16d33540b3a1cd89abf4d21284da4c60
+SHA1: c3485e811857df978c308feeb0ffedba458a1a02
+SHA256: 413e41687d7b7cec79d939e9e6c36d387807604f7b4a67bdb091e577e5fe903e
+SHA512: 27ace9f95a4cb3607e6ff0835a8c63bda3078cf7bc5d69e8dad1e5bc27869556b73aa9ce7903f9e7b0e05d2071a037797264cabfd1348461d65da12bbb468a11
+Homepage: http://www.freedesktop.org/wiki/Software/fprint/libfprint
+Description: async fingerprint library of fprint project, development headers
+ The fprint project aims to support for consumer fingerprint reader devices.
+ .
+ Previously, Linux support for such devices has been scattered amongst different
+ projects (many incomplete) and inconsistent in that application developers
+ would have to implement support for each type of fingerprint reader separately.
+ The idea is to change that by providing a central system to support all the
+ fingerprint readers as it's possible to get hands on.
+ .
+ libfprint is the centre of efforts, this component does the dirty job of
+ talking to fingerprint reading devices, and processing fingerprint data.
+ .
+ This library depends on the new libusb, which performs asynchronous callbacks,
+ allowing fprint to perform non-blocking device tasks.
+ .
+ This package provides development headers.
+

@@ -1,0 +1,22 @@
+Package: libgnome2-bin
+Architecture: i386
+Version: 2.32.1-6
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: libgnome
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 428
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.18.0), libgnome-2-0
+Breaks: libgnome2-0 (<< 2.32.1-5)
+Replaces: libgnome2-0 (<< 2.32.1-5)
+Filename: ./l/libgnome2-bin/libgnome2-bin_2.32.1-6_i386.deb
+Size: 425674
+MD5sum: 706c848b39739ee493f6ddf367c1dd89
+SHA1: 3f8627963b87ae136ffc1499619b65270da48795
+SHA256: 16963163477fe2fe6fa5d0c3dd5027284ed3a9539fba9306d4d48b0182ef747c
+SHA512: 7ebe747331071244fc4c12cebfc0c7279a0e988c49e1fae38e407bafdb371dd7e5a6948590f6d24c679fc57a22c614ecc1ce885505b09a35cea3f3104a6ff25c
+Description: Deprecated GNOME 2 library - binary files
+ This package contains gnome-open, a utility that exposes functionality from
+ the deprecated GNOME 2 library.
+
