@@ -1,0 +1,19 @@
+Package: deepin-voice-recorder-dbgsym
+Architecture: amd64
+Version: 15.11~1.4.2-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-voice-recorder
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3787
+Depends: deepin-voice-recorder (= 15.11~1.4.2-1+comsta)
+Filename: ./d/deepin-voice-recorder-dbgsym/deepin-voice-recorder-dbgsym_15.11~1.4.2-1+comsta_amd64.deb
+Size: 3807692
+MD5sum: 40acee7ccd34bb3482198c64b03595b3
+SHA1: bc490c9f2c212010c04a2d019260788afe959b7d
+SHA256: eb7e623c8bfa23a42a8e4a5893166ec86992524259a4fe64338d9d5ea296b6b6
+SHA512: db8b543a2619de96b641c4e087de4f5cede5b45f37f1c123d4713620a5bfcde4698680b25dc4045a1eabcb0fadce09afecac4a1338c664884944da07ecfe80bf
+Description: debug symbols for deepin-voice-recorder
+Build-Ids: 7c9cffa974258a89daabfad76af5b1507c40f43f
+

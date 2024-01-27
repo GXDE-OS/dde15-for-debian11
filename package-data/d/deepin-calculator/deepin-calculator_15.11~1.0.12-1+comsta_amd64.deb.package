@@ -1,0 +1,18 @@
+Package: deepin-calculator
+Architecture: amd64
+Version: 15.11~1.0.12-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 982
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.2.1)
+Filename: ./d/deepin-calculator/deepin-calculator_15.11~1.0.12-1+comsta_amd64.deb
+Size: 268052
+MD5sum: 799560dbcc68ef6cb53ad8ec548fff98
+SHA1: cef17f49f3222bc37585c29679948a22b38b0fc6
+SHA256: 44b6d8f0de6e76ffa07fd7d693b55de4a0c645c0054f012909cf036933a9c22b
+SHA512: 21dde78b40a5c44a3eaee5571b81d3d470b31a36cfa87d1f3c823f0b784f342e466409429d5a1f3a68c7983907c912d47e2f4ded3368b64a49b63c87351eaf73
+Homepage: http://www.deepin.org
+Description: Calculator for deepin
+ deepin calculator tool.
+

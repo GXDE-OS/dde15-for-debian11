@@ -1,0 +1,24 @@
+Package: cloud-initramfs-copymods
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 22
+Depends: initramfs-tools
+Filename: ./c/cloud-initramfs-copymods/cloud-initramfs-copymods_0.27deepin1.4_all.deb
+Size: 6256
+MD5sum: e135f3f759e8fe249eba991a825a36d3
+SHA1: b3a1391ea5c3f6c50377e41fb7263823e11e38bc
+SHA256: 7e60184c1ef76291dc76a3561f314aa81a64204864efa94d39874446c5ce3c4e
+SHA512: 4d202a6e172fcb93411aef3580c9a83fb2cc2aca151bc47bcb4fb5b4fd3c592bd90e616118036262e340453b0f9e75f2e383aecc67ea860c52e37cd7f8074fd1
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: copy initramfs modules into root filesystem for later use
+ When booting with an external-to-root kernel and initramfs, you need
+ to ensure that /lib/modules contains any necessary modules not already
+ loaded.
+ .
+ This package arranges for the modules in the initramfs to be placed
+ into /lib/modules after the switchroot is done.
+

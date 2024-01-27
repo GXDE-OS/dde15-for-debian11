@@ -1,0 +1,19 @@
+Package: deepin-graphics-driver-manager-dbgsym
+Architecture: amd64
+Version: 1.1.10-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-graphics-driver-manager
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1851
+Depends: deepin-graphics-driver-manager (= 1.1.10-1+comsta)
+Filename: ./d/deepin-graphics-driver-manager-dbgsym/deepin-graphics-driver-manager-dbgsym_1.1.10-1+comsta_amd64.deb
+Size: 1819272
+MD5sum: a09cea6a875cedd2bbf968d50cbb1bd1
+SHA1: 1d09b281caf942906ab315baba5bd4c0bb426dfe
+SHA256: 117052c82ca1eec9ab3a458c84b681391a22bb16147b0431b4256097b25fcc55
+SHA512: 28fa2e5ab04b13ddfc13bb1c5d5ed9806db0492edc2b1c4ab8c5b880a7f652296c4dd09cbf4d919fdb3cc1d31bc6eb8a73a036c558d95f30d4c4744e7a0d6122
+Description: debug symbols for deepin-graphics-driver-manager
+Build-Ids: 593566fb50756c37f4d0a3ffa86fe15addf28c51 ed2d7c9b28593ed5b50b2eab5cb9fbf30c9b2df7 f2e97c6d03963971ade06b544ab1f14b897a0ab8
+

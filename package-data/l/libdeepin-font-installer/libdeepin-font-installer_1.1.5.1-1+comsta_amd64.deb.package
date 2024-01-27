@@ -1,0 +1,20 @@
+Package: libdeepin-font-installer
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Multi-Arch: same
+Priority: optional
+Section: utils
+Source: deepin-font-installer
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 98
+Depends: libc6 (>= 2.14), libdtkwidget2 (>= 15.11~2.0.16.1), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdeepin-font-installer/libdeepin-font-installer_1.1.5.1-1+comsta_amd64.deb
+Size: 28816
+MD5sum: 5273e6a85238fcd50cd3b29f4c9e44a5
+SHA1: fb036175f8525c5624468c95bdb28dbd767c76d9
+SHA256: 6b5161bcef191d3146b77b5b923e4b62e0227dc398c210173f0341e719bf4696
+SHA512: 122dd483566ccd983fb68445b2a9e4f4dd8c895f23d39095bc747f41f321b7d92971f961cce887724451f97afdadfbff1908a7d14d1e75284654a009d27314cd
+Homepage: http://www.deepin.org
+Description: Deepin Font Installer library
+ This package contains the shared libraries.
+

@@ -7,11 +7,11 @@ Source: dde-dock
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 46
 Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.8+c1-1+comsta_all.deb
-Size: 19788
-MD5sum: 1542339d4e6fa699e3ff86c61a096f79
-SHA1: 79d977d582b50160bc53e36ac020ba79cde19979
-SHA256: 17b4a82dd0c37760735fd095c9d220a26cd26f9330a3f957173dd3c030c4873b
-SHA512: 864e8c7bc71936e82dc0e0bdd6a033a16fd85326763506eea3e9020281bada51ebcf9532b9873f6c67c84abce6f83fa62baf2e64576c7e4379922c5a9cbcb3f7
+Size: 19784
+MD5sum: fa4d41c15948db6d179eba7b2c4045d7
+SHA1: 7ac7802560db777c3471ba7f4cb08269c566800f
+SHA256: 2e4062d5089b12df10d15a5f31999df27f4fc91be94d376e8412d3680bc178cf
+SHA512: 6534a7605070be808f1191fff349cb599d66f30f1c9b57f510216f6458f2b3176fe54990d32e70c3f91d606caecbf4ec1d9e032792e93313742c8965a98fe8e4
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Deepin desktop environment - dock module development files.

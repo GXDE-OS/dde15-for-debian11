@@ -1,0 +1,18 @@
+Package: dde-dock-dev
+Architecture: all
+Version: 4.10.7-1+stable
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46
+Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.7-1+stable_all.deb
+Size: 19780
+MD5sum: 9ea678402df752d37e46877016ae1549
+SHA1: a0612bffe26ce1bf1afea53d718e3ce73c6e6280
+SHA256: 4b2a051c81a486327a7d231eb4744604aa6e964cfa26bc7bd9fae9f5cc922315
+SHA512: 54d3701090b1b2577e1f99be5cb62717f7d8f43b676e015172787ca66c4fb38bf60d8e38ade631bbd7fda16487a8749179844a399c580a076da61257069cbc88
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Deepin desktop environment - dock module development files.
+

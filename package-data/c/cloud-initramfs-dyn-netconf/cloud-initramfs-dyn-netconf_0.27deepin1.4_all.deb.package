@@ -1,0 +1,21 @@
+Package: cloud-initramfs-dyn-netconf
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 29
+Depends: initramfs-tools
+Filename: ./c/cloud-initramfs-dyn-netconf/cloud-initramfs-dyn-netconf_0.27deepin1.4_all.deb
+Size: 8768
+MD5sum: 154f60bf3c16da367affe42425bcebab
+SHA1: 6b76fa94884a3212d4ec89b8b12b4e6f87c34225
+SHA256: cd793c463d9021c238bab7ac00154237383527ae19393dbc5fa64b8a90063dbe
+SHA512: cae9cf49e1235b4191794f885bad92778e23b84075038fb3ac82f26ec07a5972db33c249f0128464587ae5e4a82ce58aee0e2dbaa8b872b10031d1cf31795085
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: write a network interface file in /run for BOOTIF
+ This package provides an initramfs module that will write a simple
+ network interfaces formated file to /run/network/interfaces with
+ entries for any devices that were configured during initramfs.
+

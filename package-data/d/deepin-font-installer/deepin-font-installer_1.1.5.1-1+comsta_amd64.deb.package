@@ -1,0 +1,18 @@
+Package: deepin-font-installer
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 450
+Depends: libc6 (>= 2.14), libdde-file-manager, libdeepin-font-installer (= 1.1.5.1-1+comsta), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/deepin-font-installer/deepin-font-installer_1.1.5.1-1+comsta_amd64.deb
+Size: 107860
+MD5sum: 525cc9050067e5150366ed40ee9ed0a1
+SHA1: 4b7ccd0aab7f41d089fa55bd81d187410fd9f1d6
+SHA256: a327f5e8c978d25b8fce97bb5a3bdce2549d9e5d82a3fd7e5615ddd24e7b297b
+SHA512: 8d6031a77147aa75a43001f60d0067aa165c3ebc1bd01e5faea6f9c1c0146bc42b9b6932b6c920031d9ab7a4b0a913b1af193bf1dd750e0a3cdcb228cdfa9dc7
+Homepage: http://www.deepin.org
+Description: Deepin Font Installer binary
+ Deepin Font Installer is used to install and uninstall font file for users with bulk install function.
+

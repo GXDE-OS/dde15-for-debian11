@@ -1,0 +1,19 @@
+Package: deepin-editor-dbgsym
+Architecture: amd64
+Version: 1.2.9.1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-editor
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 5889
+Depends: deepin-editor (= 1.2.9.1-1+comsta)
+Filename: ./d/deepin-editor-dbgsym/deepin-editor-dbgsym_1.2.9.1-1+comsta_amd64.deb
+Size: 5837560
+MD5sum: a332b2c4e3067064003e61afc5862d51
+SHA1: 548171951eb02a33d704caa860b66b1d9124ba44
+SHA256: 26b96759859cea4a36099398f355db1f7a6d9292418a43f376db1d893502e21b
+SHA512: 531fb50cc5fcf09499b376653dcb664f1f8486ac67b9aefb484703abb940e8fb55e700f3fe71ccd1eb1ba3a09360246db8e1bc018ed792670b7133867c310288
+Description: debug symbols for deepin-editor
+Build-Ids: 3872aa6e01ecb264f8ced3b1aec744c6c0c65eb9 80173c9cf37249329e270769616e62a43bbfe63d
+

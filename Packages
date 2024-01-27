@@ -1,3 +1,30 @@
+Package: gstreamer1.0-fluendo-mp3
+Architecture: amd64
+Version: 0.10.32.debian-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: gst-fluendo-mp3
+Maintainer: Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>
+Installed-Size: 218
+Depends: libc6 (>= 2.27), libglib2.0-0 (>= 2.37.3), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0)
+Filename: ./g/gstreamer1.0-fluendo-mp3/gstreamer1.0-fluendo-mp3_0.10.32.debian-1_amd64.deb
+Size: 87092
+MD5sum: f913d6e8464c442621265ef565f963de
+SHA1: 42af9de99256de376b510886d104feee5e0549e3
+SHA256: 51bd095f8fb132a3a9e60ffc5345922d0cd91bb802568938c0ee945fd057fa0d
+SHA512: 9e3480b244d741558f2f726fdbd4c71c05eac6032e8b34dbfaa0c82c100e6d742906a9e363e7988b2ccf91034056c486ea6e0764e9fa6c8657a206c49721cdba
+Homepage: http://www.fluendo.com/shop/product/fluendo-mp3-decoder/
+Description: Fluendo mp3 decoder GStreamer 1.0 plugin
+ This GStreamer 1.0 plugin permits decoding of MPEG 1 audio layer III
+ streams.  It is derived from the ISO MPEG dist10 reference package.
+ .
+ This plugin differs from the GStreamer MAD plugin in that it doesn't
+ depend on a GPL library.
+Gstreamer-Decoders: audio/mpeg, mpegversion=(int)1, layer=(int)[ 1, 3 ]
+Gstreamer-Elements: flump3dec
+Gstreamer-Version: 1.18
+
 Package: gir1.2-gnomekeyring-1.0
 Architecture: mips64el
 Version: 3.12.0-1+b2
@@ -131,6 +158,29 @@ SHA256: 5e9c7be8a29bec690ac88ee4df46cf363a8f0dca3cd36ea4a58f8b6a48066656
 SHA512: 15234b5a9862570c2f5b94390150150f3321e3a7a5ad95b51685fd92746819ba1393b66d6160783ab80a73d0089166daf36cbfe2a8b3dc13282cbed10d915953
 Homepage: https://github.com/linuxdeepin/go-dbus-factory
 Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
+
+Package: gstreamer1.0-fluendo-mp3-dbgsym
+Architecture: amd64
+Version: 0.10.32.debian-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: gst-fluendo-mp3
+Maintainer: Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>
+Installed-Size: 132
+Depends: gstreamer1.0-fluendo-mp3 (= 0.10.32.debian-1)
+Filename: ./g/gstreamer1.0-fluendo-mp3-dbgsym/gstreamer1.0-fluendo-mp3-dbgsym_0.10.32.debian-1_amd64.deb
+Size: 116324
+MD5sum: fe68318aca29c11bd0ff157363aec1e4
+SHA1: 8fbeee0298131c56278d1b18dc69ac4d3b3d416d
+SHA256: 805d62e7a20819b72c480ea7b01668a00a99d9850027f9a57a990f422ea06b53
+SHA512: dc8a00c47e88c3608fc04108c3a504c02b7fab959fb32f4d8e8f339d44cf4eab783e7b0ef7262e5b31e90dbe12e1f46097feb871ae2f8a6fd22a8be4caf045b2
+Description: debug symbols for gstreamer1.0-fluendo-mp3
+Build-Ids: 48c19e3a660ea1ebaeec09fac7f6374b45596e60
+Gstreamer-Decoders: audio/mpeg, mpegversion=(int)1, layer=(int)[ 1, 3 ]
+Gstreamer-Elements: flump3dec
+Gstreamer-Version: 1.18
 
 Package: libgnomevfs2-common
 Architecture: all
@@ -559,6 +609,46 @@ SHA512: 7ebe747331071244fc4c12cebfc0c7279a0e988c49e1fae38e407bafdb371dd7e5a69485
 Description: Deprecated GNOME 2 library - binary files
  This package contains gnome-open, a utility that exposes functionality from
  the deprecated GNOME 2 library.
+
+Package: libdtkwm2
+Architecture: amd64
+Version: 15.11~2.0.11.1-1+comsta
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 67
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxcb-util1 (>= 0.4.0), libxcb1
+Filename: ./l/libdtkwm2/libdtkwm2_15.11~2.0.11.1-1+comsta_amd64.deb
+Size: 17176
+MD5sum: e585d8a0de59362a92905fb12609285b
+SHA1: 418ccb3b167b38d4e51bb93fe8f3893032ea7eaa
+SHA256: 113451a70fca2d57b0b8d1a2961f9b9376e39938d6e0eee70e26585d84e54ae2
+SHA512: afed7597270b24fe7ab0fff0f43362fb18ef45663ca572cbe29c6565a558829f61798eb3e576c59ee064dbbc9a9c858b636a3f3789681b31f57d08d24b8edb51
+Description: Deepin graphical user interface library
+ DtkWm is used to handle double screen for deepin desktop development.
+ This package contains the shared libraries.
+
+Package: libdtkwm2
+Architecture: amd64
+Version: 2.0.11.1-1+comsta
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 67
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxcb-util1 (>= 0.4.0), libxcb1
+Filename: ./l/libdtkwm2/libdtkwm2_2.0.11.1-1+comsta_amd64.deb
+Size: 17164
+MD5sum: ffa345dae55b0748039540d35a5e55c8
+SHA1: d646e30c88c480663c01d7827bd0828584cfa947
+SHA256: b3c3a712f61eb064cdecfe45224233256b08491cd283a767a49421bba731570c
+SHA512: 4f46bc8a99c14f5a560e9648e9e853502144174944d6f8ccab05ca793f434ef17cf1199f96db6a5dada94afe0d16f132172fe80f5e88bdc44a13b2b71bec6d69
+Description: Deepin graphical user interface library
+ DtkWm is used to handle double screen for deepin desktop development.
+ This package contains the shared libraries.
 
 Package: libgnomevfs2-bin
 Architecture: i386
@@ -1432,6 +1522,66 @@ SHA512: d00c07a154270aa78897e6da19bc60fa94a95c005d24708de768640be825e4bfaffbff58
 Description: debug symbols for libdframeworkdbus2
 Build-Ids: 89795ae6bc115ab2e9ed1eb1843bd5ebccaf2661
 
+Package: libdeepin-font-installer
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Multi-Arch: same
+Priority: optional
+Section: utils
+Source: deepin-font-installer
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 98
+Depends: libc6 (>= 2.14), libdtkwidget2 (>= 15.11~2.0.16.1), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdeepin-font-installer/libdeepin-font-installer_1.1.5.1-1+comsta_amd64.deb
+Size: 28816
+MD5sum: 5273e6a85238fcd50cd3b29f4c9e44a5
+SHA1: fb036175f8525c5624468c95bdb28dbd767c76d9
+SHA256: 6b5161bcef191d3146b77b5b923e4b62e0227dc398c210173f0341e719bf4696
+SHA512: 122dd483566ccd983fb68445b2a9e4f4dd8c895f23d39095bc747f41f321b7d92971f961cce887724451f97afdadfbff1908a7d14d1e75284654a009d27314cd
+Homepage: http://www.deepin.org
+Description: Deepin Font Installer library
+ This package contains the shared libraries.
+
+Package: libdtkwm2-dbgsym
+Architecture: amd64
+Version: 2.0.11.1-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 516
+Depends: libdtkwm2 (= 2.0.11.1-1+comsta)
+Filename: ./l/libdtkwm2-dbgsym/libdtkwm2-dbgsym_2.0.11.1-1+comsta_amd64.deb
+Size: 503732
+MD5sum: f9759a91d8179396efeff3614172335c
+SHA1: e8fbd2b990076af4680cd341eaa49fdfbf18cddf
+SHA256: 2c4c7701a00d23ad071c6bbdf8e8a08e75d8182ffa33e0cb17cdc1c8243763aa
+SHA512: 60200a13fb1c228c6c98c87845f7742430754e853a1e156573a71a42bb0ba62164d89d0fee607dbfa2b96d3558c30dea1d3ebf8142a6ecaa1b010ce968f87cdb
+Description: debug symbols for libdtkwm2
+Build-Ids: 41a0c306ca1b932a8df4c483cde155a4828a5a7c
+
+Package: libdtkwm2-dbgsym
+Architecture: amd64
+Version: 15.11~2.0.11.1-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 516
+Depends: libdtkwm2 (= 15.11~2.0.11.1-1+comsta)
+Filename: ./l/libdtkwm2-dbgsym/libdtkwm2-dbgsym_15.11~2.0.11.1-1+comsta_amd64.deb
+Size: 503740
+MD5sum: c05fd004d15ef29319bebb1cc3d05464
+SHA1: cdf2aa256ace8861c07a212eb50b0aee038ae2e1
+SHA256: 470e05f8fcbe1507eef967476e6dedd7506ef97a67d7d11e60d265f323cc53ca
+SHA512: 13dd7fe72748eb485feaa35ea3eb7958202511ef9f1bb4c5bf6aea1b3fe60f94b4abb86afb2400d337da7d34c000f5bddaaee73cab811aaef91ac06bcb4a601f
+Description: debug symbols for libdtkwm2
+Build-Ids: 41a0c306ca1b932a8df4c483cde155a4828a5a7c
+
 Package: liborbit2-dev
 Architecture: mips64el
 Version: 1:2.14.19-2+b1
@@ -1597,6 +1747,26 @@ SHA512: b86e5b92d326dd94d12e4173fccf4b247e23e53afdc590085e1fb43ed1899f2c049718a8
 Description: debug symbols for libdtkwidget-bin
 Build-Ids: 6a5ee1ade78627c74f5bd69e5c0d908b694cb67c
 
+Package: libdeepin-font-installer-dev
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Priority: optional
+Section: utils
+Source: deepin-font-installer
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 31
+Depends: libdeepin-font-installer (= 1.1.5.1-1+comsta)
+Filename: ./l/libdeepin-font-installer-dev/libdeepin-font-installer-dev_1.1.5.1-1+comsta_amd64.deb
+Size: 8384
+MD5sum: 8cddfffc5c6117ff19b7c3f1c5088d1d
+SHA1: ea84e47560128f7cf482239e645708ea809ed48d
+SHA256: 0fb52a6d29e44618f8d3465bff4c617d0a630efbc89cdd97bc9ed38f0ce366f1
+SHA512: 44b01d27f9b4bc6a866264dbb25d4636e58f27f223ef1db4b7a4c072930e7b1c1cb6a22af43e9535755faae2b1acc23f569a5c324cb499ca96d407496ef41235
+Homepage: http://www.deepin.org
+Description: Deepin Font Instaler Devel library
+ This package contains the header files and static libraries
+ of libdeepin-font-installer
+
 Package: libgnome-keyring0
 Architecture: mips64el
 Version: 3.12.0-1+b2
@@ -1746,6 +1916,26 @@ Description: GNOME keyring services library - data files
  .
  This package contains data files and translations for the GNOME keyring
  library.
+
+Package: libdeepin-font-installer-dbgsym
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: deepin-font-installer
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 1094
+Depends: libdeepin-font-installer (= 1.1.5.1-1+comsta)
+Filename: ./l/libdeepin-font-installer-dbgsym/libdeepin-font-installer-dbgsym_1.1.5.1-1+comsta_amd64.deb
+Size: 1086564
+MD5sum: ca6350219ef29ca8652dfbcea2413f89
+SHA1: c2c899b3c72fe82ce2f717d1c295c86ecdec1395
+SHA256: 050e518da8fb01b69861a3ef3c6a22999f49d52084652dc52d0d0781cff1eff2
+SHA512: 06c1853131452221daf4fa1e486fc81fff78c4c26d2e729ae8dfb05340bef5eaffcccde42bc33b68afb4b788ca3bfa649506e7f34daed887676525eee15f08e8
+Description: debug symbols for libdeepin-font-installer
+Build-Ids: b7ce401370b726c739687783b53b5e806c61c8ca
 
 Package: libdtkcore-dev
 Architecture: amd64
@@ -2047,6 +2237,44 @@ Description: async fingerprint library of fprint project, development headers
  allowing fprint to perform non-blocking device tasks.
  .
  This package provides development headers.
+
+Package: libdtkwm-dev
+Architecture: amd64
+Version: 15.11~2.0.11.1-1+comsta
+Priority: optional
+Section: libdevel
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 31
+Depends: libdtkwm2 (= 15.11~2.0.11.1-1+comsta), libqt5x11extras5-dev, libdtkcore-dev
+Filename: ./l/libdtkwm-dev/libdtkwm-dev_15.11~2.0.11.1-1+comsta_amd64.deb
+Size: 4624
+MD5sum: 75f2f548127ca547f1d5fdf54ffc40e0
+SHA1: 7783d8a4a8cc39ee5fde68415bfc85a6354144fb
+SHA256: 1a6e003433fd201309772272e5bd798a04e9d5da7e77c8381c734c01ec811ccc
+SHA512: 4c4f8916c4552033ed62f0ebefa8945126da724c4462721a938edccea4a31aeae14ee73238e3c253f05bded0ca05cbf6455d073c61e8499ca7c8f54882a0930b
+Description: Deepin graphical user interface library
+ DtkWm is used to handle double screen for deepin desktop development.
+ This package contains the shared libraries.
+
+Package: libdtkwm-dev
+Architecture: amd64
+Version: 2.0.11.1-1+comsta
+Priority: optional
+Section: libdevel
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 31
+Depends: libdtkwm2 (= 2.0.11.1-1+comsta), libqt5x11extras5-dev, libdtkcore-dev
+Filename: ./l/libdtkwm-dev/libdtkwm-dev_2.0.11.1-1+comsta_amd64.deb
+Size: 4616
+MD5sum: 18d52e76e6ffde1562bf41ef5343bff6
+SHA1: 044a31bf678db9863880b16d06c10ac0fae4872d
+SHA256: d0d1abc8910a7d72ef38f15667be4b4b2a1ff5177fa1bc9f7a23b72270feb4b1
+SHA512: 8c1d2b63e4166b0ef80089a4d0d015cf9d5e82b09e442fedc212fe64c233f8d722d9cc708ca796a392a715507948667d81d0e7d95410b5095293ab58550a1ecb
+Description: Deepin graphical user interface library
+ DtkWm is used to handle double screen for deepin desktop development.
+ This package contains the shared libraries.
 
 Package: libdtkcore2
 Architecture: amd64
@@ -2969,6 +3197,32 @@ Description: Deepin graphical user interface library
  .
  This package contains the shared libraries.
 
+Package: overlayroot
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 63
+Depends: cryptsetup, cryptsetup-bin, initramfs-tools
+Suggests: haveged
+Filename: ./o/overlayroot/overlayroot_0.27deepin1.4_all.deb
+Size: 16948
+MD5sum: c8fa0ae660f0cc77323d4af1a607799a
+SHA1: 990c9caf8bcf3eb9b5f01683004cd25b5c77da8d
+SHA256: 05c3e7156916b446a86ea5104a40fbf7fb037249aca136435ace1d4b5916984d
+SHA512: a2001f7596833ab95b9a39bd282a9620259cc7eb1fee3d0b8a240e4b019cec40b7ab1047a08127135a7396b7214e93f10ede2315ee3c79f766372d3a568cdf61
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: use an overlayfs on top of a read-only root filesystem
+ This package adds functionality to an initramfs built by initramfs-tools.
+ When installed and configured, the initramfs will mount an overlayfs
+ filesystem on top of a read-only root volume.
+ .
+ The changes can be written to a in-memory temporary filesystem, a
+ filesystem on an existing block device, or a dmcrypt encrypted block
+ device.
+
 Package: orbit2-nameserver
 Architecture: amd64
 Version: 1:2.14.19-4
@@ -3203,6 +3457,24 @@ SHA512: bc37fb8a11e59cf54b5a22cd00a8c41b44d5cd232822df4bf34c5ff95d0ed2aa7b6dc111
 Description: Plymouth theme for Linux Deepin
  This theme package contains deepin-logo.
 
+Package: network-manager-integration-plugins
+Architecture: all
+Version: 0.0.4~1
+Priority: extra
+Section: metapackages
+Maintainer: Deepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 9
+Depends: sysv-rc, network-manager-openvpn, network-manager-openvpn-gnome, network-manager-l2tp, network-manager-l2tp-gnome, network-manager-pptp, network-manager-pptp-gnome, network-manager-vpnc, network-manager-vpnc-gnome, network-manager-openconnect, network-manager-openconnect-gnome, network-manager-strongswan, network-manager-sstp
+Filename: ./n/network-manager-integration-plugins/network-manager-integration-plugins_0.0.4~1_all.deb
+Size: 2152
+MD5sum: 9c0540213a7038fe47bc1f1920e20309
+SHA1: f8e6af21f2964b500d807567d7825fa110eb5fb1
+SHA256: 155709a01970ce350c739cd724e702ef6d437e3e5951d7635ccddce39d3d937a
+SHA512: 91d8a6bda0ee467ecc10178060b9af50ba9a63599377042809e757999662d757e8993ab831b595730f8a31719878674fd5f9094b856633fb0149dd0964bb7fcc
+Homepage: http://www.deepin.org
+Description: network-manager framework with plugin config.
+ This is a network manager plugin config for deepin control center.
+
 Package: dde-account-faces
 Architecture: all
 Version: 1.0.11-1
@@ -3313,6 +3585,62 @@ Homepage: http://www.deepin.org/
 Description: developement files of dde-polkit-agent extensions.
  Development files of dde-polkit-agent extensions.
 
+Package: deepin-font-installer
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 450
+Depends: libc6 (>= 2.14), libdde-file-manager, libdeepin-font-installer (= 1.1.5.1-1+comsta), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.2.0~alpha1), libstdc++6 (>= 5)
+Filename: ./d/deepin-font-installer/deepin-font-installer_1.1.5.1-1+comsta_amd64.deb
+Size: 107860
+MD5sum: 525cc9050067e5150366ed40ee9ed0a1
+SHA1: 4b7ccd0aab7f41d089fa55bd81d187410fd9f1d6
+SHA256: a327f5e8c978d25b8fce97bb5a3bdce2549d9e5d82a3fd7e5615ddd24e7b297b
+SHA512: 8d6031a77147aa75a43001f60d0067aa165c3ebc1bd01e5faea6f9c1c0146bc42b9b6932b6c920031d9ab7a4b0a913b1af193bf1dd750e0a3cdcb228cdfa9dc7
+Homepage: http://www.deepin.org
+Description: Deepin Font Installer binary
+ Deepin Font Installer is used to install and uninstall font file for users with bulk install function.
+
+Package: deepin-calculator-dbgsym
+Architecture: amd64
+Version: 15.11~1.0.12-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-calculator
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 7042
+Depends: deepin-calculator (= 15.11~1.0.12-1+comsta)
+Filename: ./d/deepin-calculator-dbgsym/deepin-calculator-dbgsym_15.11~1.0.12-1+comsta_amd64.deb
+Size: 6958960
+MD5sum: 7b6e0f94ce867d25d39a4d52f7ff82bc
+SHA1: 99d512426d67539fd5d016c4bd920cb357c0dfca
+SHA256: ad013ed88ddbd0a914ab77617586d7b88b05dc5b644d18fcc923207f512f0a3b
+SHA512: a70720081ff8342573ae3b549c0fb44428a802552f3f93e5442ec4940ff641579333288d4c6a2ef5c589751410cf791a1d8ac88e67ea0681ab3fba4f46d6aaed
+Description: debug symbols for deepin-calculator
+Build-Ids: 2ed213f81be9b0688fa14e9b4ec1012e13e6ed7d
+
+Package: deepin-menu-dbgsym
+Architecture: amd64
+Version: 15.11~3.4.8-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-menu
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2610
+Depends: deepin-menu (= 15.11~3.4.8-1+comsta)
+Filename: ./d/deepin-menu-dbgsym/deepin-menu-dbgsym_15.11~3.4.8-1+comsta_amd64.deb
+Size: 2626124
+MD5sum: 038d7b6b5bbd97029771c0c92b3140ac
+SHA1: fd66467859a5e7df43b6741cccd3a66f30eac92d
+SHA256: 812d7364c8d10b78ddbb23511e78e19d9c87f03a79b984a205bb74136ae1ec74
+SHA512: 30110eb9695a4dbff6fc62f81ed144909f507fccc76e4f3b0e909d772a3a4f564717f059cf6e682fd06baef98c2813f42ff7738c263dc75ab1864e49924df44c
+Description: debug symbols for deepin-menu
+Build-Ids: e59963d27f88c2b0997ad250196ddc06fe15cd85
+
 Package: dde-file-manager
 Architecture: amd64
 Version: 4.8.8.2+c1-1+comsta
@@ -3331,6 +3659,23 @@ SHA512: b136dbbc42466bf07a11a58160848fb744145a67b8e4cad3c489a772d4eeb89779faefa0
 Homepage: http://www.deepin.org
 Description: File manager front end
  File manager front-end of Deepin OS
+
+Package: deepin-graphics-driver-manager
+Architecture: amd64
+Version: 1.1.10-1+comsta
+Priority: optional
+Section: misc
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 668
+Depends: freeglut3 (>= 2.8.1), libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libgl1, libpci3 (>= 1:3.5.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.4.0), libstdc++6 (>= 5.2), dialog, overlayroot, rsync, sed, qdbus-qt5
+Filename: ./d/deepin-graphics-driver-manager/deepin-graphics-driver-manager_1.1.10-1+comsta_amd64.deb
+Size: 122612
+MD5sum: 93f89d3448e9371164813615bc8bc153
+SHA1: f816b8625068c7a1b5bf3791d8c732512ec33d48
+SHA256: e5e1785c7702d293bb142de64d6239bc7b192d195002c26d8a17fa8872a7ae12
+SHA512: 6b8093df2297b9889967d6ed124945e2d26d4a2c455c9cadaae1b7a24e533dcbe2604ebc5e3d42dca780bb20e9ac541a68d028c7d6d649891112b1c7412128bb
+Homepage: https://www.deepin.org
+Description: deepin driver manager
 
 Package: dde-daemon
 Architecture: i386
@@ -3412,13 +3757,51 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 24615
 Depends: dde-dock (= 4.10.8+c1-1+comsta)
 Filename: ./d/dde-dock-dbgsym/dde-dock-dbgsym_4.10.8+c1-1+comsta_amd64.deb
-Size: 24509008
-MD5sum: c2298773b9d17fe6d9d2fc7fbe1941af
-SHA1: fb5c6887450c90129b30523b61631c032a46f16a
-SHA256: 6b0e505778cc73078d3ef16cf708a37d2ca7ffbf5eb212579a3a36ec2c09c35c
-SHA512: 2e11c56b5b9ee3d292c89b005456cd21865c634538a4e07578ce5b0a1cc25a37e7042f918eb82819342807354a80b7d31ca98afa4adb6020dc1176ca3ba19bbd
+Size: 24508984
+MD5sum: 7c2c4bcc73f0c3bcada16a8f314ceb78
+SHA1: 9ddefb2066dde52c7a542a0aa6bc79bbf51f90c0
+SHA256: 2a5210b34bd0e7af64d3a02f1817aeffd44f4c553b01e858a8329e5b2969524f
+SHA512: 8a32bd127bcc17204fd2fc98a622cccbca18bce90b9c9d0b17c9d98131854b16ead85e977ca7f048771f0720483bda3f20b942321cb3ef85fe6b42ee70a6518b
 Description: debug symbols for dde-dock
-Build-Ids: 0eed69855cfce3257feb2f6e41a8c091fecae4bd 123d50678065b9b50d11b5e9d5bcbd656bd14f71 27aeb6b6228328e17f226c3e9106233473781fac 29b420a3fb54a860f95dfeacdb3a0e0d2b2e583a 300b1b97d43a6fa792ddf3668475fbc316d448ef 4f0fb9988c2f1a450d377ed659f7ade634d44ade 864dfb0e853a31906fec5e7c30192ab516557ca9 beaf55d100f482ca310a4bf98201d0b2c89ae440 bfde9f6435795df9db7d6c7ba62cfabfd53bb519 c4f362081cf8169eb285b8f590074d96eec9f9d2
+Build-Ids: 0eed69855cfce3257feb2f6e41a8c091fecae4bd 27aeb6b6228328e17f226c3e9106233473781fac 29b420a3fb54a860f95dfeacdb3a0e0d2b2e583a 300b1b97d43a6fa792ddf3668475fbc316d448ef 435f493a3e977ee64395144fcb5d9af79b9ad76a 4f0fb9988c2f1a450d377ed659f7ade634d44ade 65bc5cade4d8e128d624290ea748f27911f97187 9abbed18a860fa4b43e147cb51aa423b04cea8cf c4f362081cf8169eb285b8f590074d96eec9f9d2 d70657d8c29d05d1df806ab352b01cae7151ea03
+
+Package: dde-dock-dbgsym
+Architecture: amd64
+Version: 4.10.7-1+stable
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24616
+Depends: dde-dock (= 4.10.7-1+stable)
+Filename: ./d/dde-dock-dbgsym/dde-dock-dbgsym_4.10.7-1+stable_amd64.deb
+Size: 24502736
+MD5sum: 281e00283a43e97ac28e29b87b30d65b
+SHA1: ce83c9d0195d1b6c551970b2008f6c8e51f0057c
+SHA256: b59fdf7923501cef5eca465de225f41e40eb4275a94c6de4b6b01513e91014a2
+SHA512: 4b264ef5866d300962d106ce1b6c4d927191076ea6c0a1969c558dd992d7d363d228cf55ababbe6569e135ca1989ff776a41f2c1ea4b3186f9052d084e0cd050
+Description: debug symbols for dde-dock
+Build-Ids: 0c2319eb28eb5a35b8d73bd8df0a65ce3499ec82 1eb4e12d0b9a39d158669d2efa1fa5f14f1a8239 43eca0d7878fa6237e437527a5e07c05f43694a4 446b6eb430a32c9a92bb67d0ce284af6d3a25ce6 7a0e3089e9df3519392dd652afb6a867febd4c48 8274b2545083b339f6b78d96b0ab1c851f0fdd18 8a428e1c9c9d0cc5afba0fc0bb9e34d23bb7c11b a3f660097fccd73da784d664668e621e066bc299 c599e4be280d73fb89799665d28f2e666037dec0 e288a146c939adae62502a29648837ca50c4f0ac
+
+Package: deepin-music-dbgsym
+Architecture: amd64
+Version: 15.11~3.1.18-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-music
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 16995
+Depends: deepin-music (= 15.11~3.1.18-1+comsta)
+Filename: ./d/deepin-music-dbgsym/deepin-music-dbgsym_15.11~3.1.18-1+comsta_amd64.deb
+Size: 16907560
+MD5sum: 7ddbcdd9fc506de2b5c73018f0edb679
+SHA1: dbf63aaaf899ed915106a2b3dcd4b5e195356bb0
+SHA256: 5118caa0963565c25abd41cfd80e74f27722f8ffcd1b2529af2b8e2f8c3b5878
+SHA512: 0d8e91d276edb7d46c5305e0eeb378e101b890deef45c45f89b4c9f52b7b1c3edbcc78940e747ae87f181fd32160b5cf9c79cd2e2b75de3b1fd8bba102c4ba1e
+Description: debug symbols for deepin-music
+Build-Ids: 3d4b4008eb3ba92b301e9ec4ed6a1d38769505a7 5aafc932ab12e2ae6b8c0b7e02cd0ccc6f9f4a49 6313805d37828fa63cd137eecb962db4eb958431 864acbbd3e21644d7f42e690c4245bc3c25f3cdd
 
 Package: deepin-anything-libs-dbgsym
 Architecture: amd64
@@ -3605,6 +3988,43 @@ Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Deepin Go-lang bindings for dde-daemon
 
+Package: deepin-calculator
+Architecture: amd64
+Version: 15.11~1.0.12-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 982
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 4.2.1)
+Filename: ./d/deepin-calculator/deepin-calculator_15.11~1.0.12-1+comsta_amd64.deb
+Size: 268052
+MD5sum: 799560dbcc68ef6cb53ad8ec548fff98
+SHA1: cef17f49f3222bc37585c29679948a22b38b0fc6
+SHA256: 44b6d8f0de6e76ffa07fd7d693b55de4a0c645c0054f012909cf036933a9c22b
+SHA512: 21dde78b40a5c44a3eaee5571b81d3d470b31a36cfa87d1f3c823f0b784f342e466409429d5a1f3a68c7983907c912d47e2f4ded3368b64a49b63c87351eaf73
+Homepage: http://www.deepin.org
+Description: Calculator for deepin
+ deepin calculator tool.
+
+Package: dde-dock-onboard-plugin-dbgsym
+Architecture: amd64
+Version: 4.10.7-1+stable
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 854
+Depends: dde-dock-onboard-plugin (= 4.10.7-1+stable)
+Filename: ./d/dde-dock-onboard-plugin-dbgsym/dde-dock-onboard-plugin-dbgsym_4.10.7-1+stable_amd64.deb
+Size: 842084
+MD5sum: 957e6bf8ed0d2083559c997ca0c1b5a2
+SHA1: 296883a06f3455f0aab264c75f4851249c821e9d
+SHA256: b861f2e56da6e2167e8400ffe5b9720a86b4f2627f99a78501469fea17b43f58
+SHA512: 4d465965cae4c6ce0f0f4b2b734442b651e4c3383775cd6ccf697b54a2facbfd9a8c45d7ee0c6d73b696a0961119d55e8d277b63e0982827206f2c8651fe8854
+Description: debug symbols for dde-dock-onboard-plugin
+Build-Ids: d95e37b4aed7e66c4ca2aeea5df8611e83820a66
+
 Package: dde-dock-onboard-plugin-dbgsym
 Architecture: amd64
 Version: 4.10.8+c1-1+comsta
@@ -3623,6 +4043,60 @@ SHA256: 6cb815023d533037d5cd31ad21f7a13b4699595d8a613c32fdb5da10312b0d64
 SHA512: a66ea9af5bcecfd36a10ac7824ac8003528b07554da9f803a07448c14da96ff8a91196bf1ea1d3f068130c515eb0c7bacc586e544ee3254717f80d6387a3568c
 Description: debug symbols for dde-dock-onboard-plugin
 Build-Ids: fcaafc8c25caf6fb621fb9b81449225c36d44a0a
+
+Package: deepin-menu
+Architecture: amd64
+Version: 15.11~3.4.8-1+comsta
+Priority: extra
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 132
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 4.1.1)
+Filename: ./d/deepin-menu/deepin-menu_15.11~3.4.8-1+comsta_amd64.deb
+Size: 39848
+MD5sum: afb5c8d147cef626bf91c7a9958e0a8c
+SHA1: 33692a2eeaca50b0f8c154d4c0e07e8e2407f535
+SHA256: 3575add40a0623d740e727e9369e8db1b29e79414cd158a2d096d054111d38ac
+SHA512: 978b92824988d90e4d23cfa4fba044f1acefa8fb3765bbcbbf567c7fd3fd761d0156299dc0a72060008dd53535e6cfa30eed4611097f10cff1a7af995dc34efa
+Homepage: https://github.com/linuxdeepin/deepin-menu
+Description: Deepin menu service
+ Deepin menu service for building beautiful menus.
+
+Package: deepin-editor
+Architecture: amd64
+Version: 1.2.9.1-1+comsta
+Priority: optional
+Section: editors
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 2160
+Depends: libc6 (>= 2.29), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.28.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5.2), qtbase-abi-5-15-2
+Filename: ./d/deepin-editor/deepin-editor_1.2.9.1-1+comsta_amd64.deb
+Size: 1261680
+MD5sum: 66054b99ea155bfada73459b5ec38783
+SHA1: 26c006bd180b0f4822b8ea09888cd0d3af00fef0
+SHA256: 07c77ac608cfa5e483a501da23e63e5d74fbb927206d48025b385260c7402f1b
+SHA512: 54b58ac56674d102d48036e7e50ca176594e5129217eebba825fcc01c2ef46efb69da8cdb4a8e655b0345abe6bb0862d1a71707119ffbd609a82574524ca11b1
+Homepage: https://www.deepin.org
+Description: dtk based text editor
+ Advanced text editor based on dtk.
+
+Package: dde-calendar
+Architecture: amd64
+Version: 15.11~1.2.11-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 311
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), dde-api
+Filename: ./d/dde-calendar/dde-calendar_15.11~1.2.11-1+comsta_amd64.deb
+Size: 74244
+MD5sum: 52581331c01b3b01c94983efaf5f3dd6
+SHA1: a96e065994bba938d6b40b9ba1dad8879666d635
+SHA256: 02e596779c25ab53b6aa0e8db647b9195756249058d9ab5b4e4282658d00ee3e
+SHA512: 5390740b1bbb23a6bfab431019c9872637bf79e8de1432e59db1f7eaf9f560394dc06e487458ed6bfab63199617b17a8ca6c79c05da3bb7c65ce499bad2e2b6d
+Homepage: http://www.deepin.org
+Description: Calendar software for Deepin OS
+ Calendar for Deepin Desktop Environment.
 
 Package: deepin-installer-oem-dbgsym
 Architecture: amd64
@@ -3652,11 +4126,29 @@ Source: dde-dock
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 46
 Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.8+c1-1+comsta_all.deb
-Size: 19788
-MD5sum: 1542339d4e6fa699e3ff86c61a096f79
-SHA1: 79d977d582b50160bc53e36ac020ba79cde19979
-SHA256: 17b4a82dd0c37760735fd095c9d220a26cd26f9330a3f957173dd3c030c4873b
-SHA512: 864e8c7bc71936e82dc0e0bdd6a033a16fd85326763506eea3e9020281bada51ebcf9532b9873f6c67c84abce6f83fa62baf2e64576c7e4379922c5a9cbcb3f7
+Size: 19784
+MD5sum: fa4d41c15948db6d179eba7b2c4045d7
+SHA1: 7ac7802560db777c3471ba7f4cb08269c566800f
+SHA256: 2e4062d5089b12df10d15a5f31999df27f4fc91be94d376e8412d3680bc178cf
+SHA512: 6534a7605070be808f1191fff349cb599d66f30f1c9b57f510216f6458f2b3176fe54990d32e70c3f91d606caecbf4ec1d9e032792e93313742c8965a98fe8e4
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module development files
+ Deepin desktop environment - dock module development files.
+
+Package: dde-dock-dev
+Architecture: all
+Version: 4.10.7-1+stable
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46
+Filename: ./d/dde-dock-dev/dde-dock-dev_4.10.7-1+stable_all.deb
+Size: 19780
+MD5sum: 9ea678402df752d37e46877016ae1549
+SHA1: a0612bffe26ce1bf1afea53d718e3ce73c6e6280
+SHA256: 4b2a051c81a486327a7d231eb4744604aa6e964cfa26bc7bd9fae9f5cc922315
+SHA512: 54d3701090b1b2577e1f99be5cb62717f7d8f43b676e015172787ca66c4fb38bf60d8e38ade631bbd7fda16487a8749179844a399c580a076da61257069cbc88
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module development files
  Deepin desktop environment - dock module development files.
@@ -3720,6 +4212,43 @@ SHA512: 6423e82540bfb646924faa58ac2d48a8c39e915b2610c6011c3c1bc93740dc2d70c993b7
 Homepage: http://www.deepin.org
 Description: Release version of deepin installer
  New version of deepin-installer, rewritten with Qt5.
+
+Package: deepin-repair-tools-dev
+Architecture: amd64
+Version: 1.0.14.1-1+comsta
+Priority: optional
+Section: utils
+Source: deepin-repair-tools
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 14
+Filename: ./d/deepin-repair-tools-dev/deepin-repair-tools-dev_1.0.14.1-1+comsta_amd64.deb
+Size: 3168
+MD5sum: 4a41700b935dff77cf19cabdf824d179
+SHA1: 1f2fd4a4a06447685629ddede6925aaaed125660
+SHA256: 9e24f24375537e732e2a64d110909bdec88984fea4aa9a0fb04cdf2da092206b
+SHA512: e2e4cadfd8baa36a9993afc11a8e6ccb8850c00b45d5ba55eae5a7ea94e7c6adb9b547355c8eb92f7d4cba22afc93a8ded35eeaee632b2d2c969c88ab35ac308
+Homepage: https://www.deepin.com/
+Description: deepin system repair tools - dev files
+ Deepin Repair Tools is a useful tools for system repair & clean.
+
+Package: deepin-font-installer-dbgsym
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-font-installer
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 3193
+Depends: deepin-font-installer (= 1.1.5.1-1+comsta)
+Filename: ./d/deepin-font-installer-dbgsym/deepin-font-installer-dbgsym_1.1.5.1-1+comsta_amd64.deb
+Size: 3185024
+MD5sum: 0c5a6c7344a14a478c2f80fc1469609e
+SHA1: 162da816a4e420d4d016db7f8a1aa11f598bc962
+SHA256: 9fee90d49d4009d694612c95ed4521b76ffbaf414e821408509c95c15170f5c1
+SHA512: cbcbd91e39f27378e0b3065a770bb9bbdf673a9e36b7aa701913cfd8c95211348649ec480280e7dfdd1bd89a28db7a3e0b2d05ed235cb62c21174b4aa85c549d
+Description: debug symbols for deepin-font-installer
+Build-Ids: 1ab4900bbb630c155cce6a892a65501051ce6237 308e201b2c8988e3790d7d421e259c2702f13b60 3e7b16b714fa392448e415d2af74b79c23a6a95a d8f83f1e188aa7d84aab454ccbe7d7eed5214768
 
 Package: dde-polkit-agent-dbgsym
 Architecture: amd64
@@ -3814,6 +4343,24 @@ Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package
 
+Package: deepin-repair-tools
+Architecture: amd64
+Version: 1.0.14.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 848
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), os-prober
+Filename: ./d/deepin-repair-tools/deepin-repair-tools_1.0.14.1-1+comsta_amd64.deb
+Size: 170608
+MD5sum: 84c56c2a9f1800c3909a7d65045cbfd4
+SHA1: eb321a01b336c0b01ac2294915b15fa1ed71026c
+SHA256: b35e6123772491a350af1c0c5f37c19aa9f59cbbfd7f87d9e3b8d8d0aa29e2d3
+SHA512: c7b612ad6c30dcb30a8cdd913608ae1396329ab788351d421a5978cf40d322d5f49d90beefd5bf12808e26f522724a96d92878dccef8f58d0f46f531336da7e0
+Homepage: https://www.deepin.com/
+Description: deepin system repair tools
+ Deepin Repair Tools is a useful tools for system repair & clean.
+
 Package: deepin-screensaver-xscreensaver-data
 Architecture: amd64
 Version: 0.0.10-1+comsta
@@ -3842,11 +4389,30 @@ Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 98
 Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
 Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.8+c1-1+comsta_amd64.deb
-Size: 35516
-MD5sum: dcef16e0d026eff5ddbcc45f224ad694
-SHA1: 9e10db5ad4933334bda7ffbe2002a5e58beed9a4
-SHA256: ff6e3d17e5c630af8fa7167af8eb5eb2b0e8c2d63e1fe35351bceb3ef9acadf5
-SHA512: 3d376fbb4c2601c1ad378c58c91f18e0358070f88f675d7964f522b6f1bc9ab32b86cdce0fb14ab5e2792773c71a59be1d40de997d19241018e5525600fd45f1
+Size: 35512
+MD5sum: d7d8d350e473dd9ab53884edc1be16e1
+SHA1: e168061f71935bbd196586f00927e8eea7670030
+SHA256: 0cfa1ee67390b02e6079a5a80ca426e090114b2b7847833a5ead7f749f587dbd
+SHA512: 54ee89b744703df34fdc8de4887b2324e21be1331d3b46db791810fc18517e2c3c266c5db8a3d45d2434fdeeecf13733eaf1bdb082267ef18335c0bb0dee3adb
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock plugin
+ Deepin desktop environment - dock plugin for onboard
+
+Package: dde-dock-onboard-plugin
+Architecture: amd64
+Version: 4.10.7-1+stable
+Priority: optional
+Section: x11
+Source: dde-dock
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 98
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), onboard
+Filename: ./d/dde-dock-onboard-plugin/dde-dock-onboard-plugin_4.10.7-1+stable_amd64.deb
+Size: 35492
+MD5sum: 81af446fb3d76396a00bd1cd95ae45f8
+SHA1: 17b5344b9810d9ade81ed3d256c4d196e668c01c
+SHA256: 8cc51f4dc69cc1a3a88268473e2f8cb7084dd36416082d2afe807b78061afa5f
+SHA512: 3983e65d04b7b0b40574007a817453de29ec25bffc69c71a44972547ac6041cbe0c8a8cfd10c45d423d6ea48d71e57b29e493ad47c3476c688803018b9f712fa
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock plugin
  Deepin desktop environment - dock plugin for onboard
@@ -3906,6 +4472,65 @@ SHA512: 3eddac6989bbf05b332a53a9ae0fdcaf5ed56d3c68ae284fbecf139bea2954dda798977e
 Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Go-lang bindings for dde-daemon -- dev file
+
+Package: deepin-graphics-driver-manager-dbgsym
+Architecture: amd64
+Version: 1.1.10-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-graphics-driver-manager
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1851
+Depends: deepin-graphics-driver-manager (= 1.1.10-1+comsta)
+Filename: ./d/deepin-graphics-driver-manager-dbgsym/deepin-graphics-driver-manager-dbgsym_1.1.10-1+comsta_amd64.deb
+Size: 1819272
+MD5sum: a09cea6a875cedd2bbf968d50cbb1bd1
+SHA1: 1d09b281caf942906ab315baba5bd4c0bb426dfe
+SHA256: 117052c82ca1eec9ab3a458c84b681391a22bb16147b0431b4256097b25fcc55
+SHA512: 28fa2e5ab04b13ddfc13bb1c5d5ed9806db0492edc2b1c4ab8c5b880a7f652296c4dd09cbf4d919fdb3cc1d31bc6eb8a73a036c558d95f30d4c4744e7a0d6122
+Description: debug symbols for deepin-graphics-driver-manager
+Build-Ids: 593566fb50756c37f4d0a3ffa86fe15addf28c51 ed2d7c9b28593ed5b50b2eab5cb9fbf30c9b2df7 f2e97c6d03963971ade06b544ab1f14b897a0ab8
+
+Package: deepin-voice-recorder
+Architecture: amd64
+Version: 15.11~1.4.2-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 775
+Depends: libavformat58 (>= 7:4.1), libc6 (>= 2.29), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libqt5multimedia5-plugins
+Filename: ./d/deepin-voice-recorder/deepin-voice-recorder_15.11~1.4.2-1+comsta_amd64.deb
+Size: 393428
+MD5sum: 57e85f827dfae9cee50e68885f614e44
+SHA1: 5977ceba801aac739219319ebb04f38b1aa4cd36
+SHA256: 64137dc1987e367d4506a882629e33f44268b538334d19cdee06337bfd6f7da4
+SHA512: 8d8b2cedcdd27c376d0b2bd328f700cf9f0c40e8c0c616af5c9e14c8d93623ca8860796eb49438712dd4512118b59fe282b44b59123861c967ee3ec693b1398b
+Homepage: https://github.com/linuxdeepin/deepin-voice-recorder
+Description: Voice recorder application for deepin
+ deepin voice recorder tool.
+
+Package: deepin-music
+Architecture: amd64
+Version: 15.11~3.1.18-1+comsta
+Priority: extra
+Section: sound
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3589
+Depends: libavformat58 (>= 7:4.1), libc6 (>= 2.14), libcue2, libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, libqt5sql5-sqlite, libqt5multimedia5-plugins, gstreamer1.0-fluendo-mp3, gvfs-bin
+Filename: ./d/deepin-music/deepin-music_15.11~3.1.18-1+comsta_amd64.deb
+Size: 1663308
+MD5sum: 0160a5588624b4709129aecb22539c94
+SHA1: a3b46c3ded6c7d87c467836f7462829bb537ac6a
+SHA256: c982cdb4dc54cc3ce9da161817dbd3e1c16011a6f28042a0a9f38bab48d59829
+SHA512: 6fede66b86fe993b0d2339c6d48c4685585214ecfd4a484eeaebb5c6a38463bdb7dfcb1b0897d3ea64f76987d25521d9971759903f35730128a20463d68c9743
+Homepage: http://www.deepin.org/
+Description: Awesome music player with brilliant and tweakful UI
+ Deepin-UI based, gstreamer front-end, with features likes search music
+ by pinyin,quanpin, colorful lyrics supports, and more powerful
+ functions you will found.
+ .
+ Just enjoy it! have fun!
 
 Package: dpa-ext-gnomekeyring-dbgsym
 Architecture: amd64
@@ -3969,6 +4594,25 @@ Homepage: http://www.deepin.org
 Description: deepin desktop-environment - desktop module
  Deepin Desktop Environment (DDE) - desktop module.
 
+Package: deepin-editor-dbgsym
+Architecture: amd64
+Version: 1.2.9.1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-editor
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 5889
+Depends: deepin-editor (= 1.2.9.1-1+comsta)
+Filename: ./d/deepin-editor-dbgsym/deepin-editor-dbgsym_1.2.9.1-1+comsta_amd64.deb
+Size: 5837560
+MD5sum: a332b2c4e3067064003e61afc5862d51
+SHA1: 548171951eb02a33d704caa860b66b1d9124ba44
+SHA256: 26b96759859cea4a36099398f355db1f7a6d9292418a43f376db1d893502e21b
+SHA512: 531fb50cc5fcf09499b376653dcb664f1f8486ac67b9aefb484703abb940e8fb55e700f3fe71ccd1eb1ba3a09360246db8e1bc018ed792670b7133867c310288
+Description: debug symbols for deepin-editor
+Build-Ids: 3872aa6e01ecb264f8ced3b1aec744c6c0c65eb9 80173c9cf37249329e270769616e62a43bbfe63d
+
 Package: dde-introduction-dbgsym
 Architecture: amd64
 Version: 1.1.10-1+comsta
@@ -4007,6 +4651,44 @@ Homepage: http://www.deepin.org
 Description: OEM tool
  OEM tool for deepin-installer
 
+Package: deepin-image-viewer-dbgsym
+Architecture: amd64
+Version: 15.11~1.3.18-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-image-viewer
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 13689
+Depends: deepin-image-viewer (= 15.11~1.3.18-1+comsta)
+Filename: ./d/deepin-image-viewer-dbgsym/deepin-image-viewer-dbgsym_15.11~1.3.18-1+comsta_amd64.deb
+Size: 13663148
+MD5sum: a803a84756ce33c208a3ade954b39379
+SHA1: e35089e6f814b23d55af3081af5782dba962ef66
+SHA256: 30c6656c9f0b9a14c1ddc99eb9b3524bbceb22c4a41adde83aa6465ad240588d
+SHA512: 69c9571e6ff1566ce392d36d0915db938cef3b8b3c4c6989e22bcde8ceeec9476cab7865f8678d87cacfea4cb36a80adf7371a0953511e6eee825af9e794cdb3
+Description: debug symbols for deepin-image-viewer
+Build-Ids: 6f604787b5f2b7f99e75f3e9d111b99082b89ade de6dd5b8c9fa88a2f5d0bbf5fdd5bc78eff423e5
+
+Package: deepin-repair-tools-dbgsym
+Architecture: amd64
+Version: 1.0.14.1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-repair-tools
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 5204
+Depends: deepin-repair-tools (= 1.0.14.1-1+comsta)
+Filename: ./d/deepin-repair-tools-dbgsym/deepin-repair-tools-dbgsym_1.0.14.1-1+comsta_amd64.deb
+Size: 5147588
+MD5sum: bb36d06f54dc3401955f46e436dbe775
+SHA1: 258b1adf9bd601d2f792749054ab58c3b4ee2140
+SHA256: 2a145274ea50f8f3b7b9cc7624ccb5a274ef45306672bfa3a91edfe3177c44cb
+SHA512: 475919f48b57624061924b31f88a4df3f02ce36a7f28361b3e598a446302fce6fa1fc0b4f24278636b984f6bed5eae065d1109ea03d46fa74dceab0d5bc950ce
+Description: debug symbols for deepin-repair-tools
+Build-Ids: 078096fa266787f2a24da80b1030419f1ef5e53c 0b382065c214f13ae15d1a93848a03649d1ffc56 47c66b9df076f4591c7917336c5e924f05b531e0 51c4b6b32aaa689d74cee60d970e06b5fa7bd67f 7aaf1c00a7161fcd0e0eda256bae585052c1cb2e e2e2b7eb5598e9a09ea7ea85dd88179250ecc08a
+
 Package: dde-launcher-dbgsym
 Architecture: amd64
 Version: 4.6.14+c1-1+comsta
@@ -4025,6 +4707,25 @@ SHA256: bec31b1c182c8bd48669969d5361596e33a136a3f404c849d399340318ac1c82
 SHA512: 7c9e5107b65c2f322e41a7065394934516d91676575c3383387e6899d75092a14f28d898dece5f77a32d3633a5ac31984bd857028f6b5174d915edf8d692654a
 Description: debug symbols for dde-launcher
 Build-Ids: 81f29109ae479f45146810062065a4d4a09cb3b9
+
+Package: dde-calendar-dbgsym
+Architecture: amd64
+Version: 15.11~1.2.11-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dde-calendar
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2050
+Depends: dde-calendar (= 15.11~1.2.11-1+comsta)
+Filename: ./d/dde-calendar-dbgsym/dde-calendar-dbgsym_15.11~1.2.11-1+comsta_amd64.deb
+Size: 2030156
+MD5sum: c501518894efba68ec1c23c163a1b262
+SHA1: c3e28cdbadb4e855d57a716c1b8d68f43c66b7a0
+SHA256: 6948ed0efb8b7582ce5adfadfa205288210552372d06c535fa0d538200e0151b
+SHA512: 41eac1095961c900a59e5987d1e41c2776c4d8e58c3817c7eaf3eaeda3f6dee6c53b4a141e24b2191932931afcd0e2f2317ce89bb408c77fd0b9827ae1c4042e
+Description: debug symbols for dde-calendar
+Build-Ids: e672d59238042d2e97a9df7e0bb8655c998fab05
 
 Package: deepin-installer-timezones
 Architecture: all
@@ -4144,21 +4845,42 @@ Description: deepin desktop-environment - launcher module
 
 Package: dde-dock
 Architecture: amd64
+Version: 4.10.7-1+stable
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3261
+Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2, libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
+Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
+Replaces: dde-dock-applets, dde-trash-plugin
+Filename: ./d/dde-dock/dde-dock_4.10.7-1+stable_amd64.deb
+Size: 652556
+MD5sum: ca97a4fcc0c9d59e4c09ed3ee1ce989f
+SHA1: cc84fd4429506591e6593b9f6c223d6d3655d306
+SHA256: 9857904321ba3c0ffd5b0c17be7f5fb20f8bce39b9a78cb11744d1da490aa185
+SHA512: 7fce87927137bf6d322fbe51241dd6d3d32e032f6732db9e97a8f31e31d5be4a518b215189c53dbf95915f9e407429aab22d14578137540c3397a8e98ad4085b
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dock module
+ Deepin desktop environment - dock module.
+
+Package: dde-dock
+Architecture: amd64
 Version: 4.10.8+c1-1+comsta
 Priority: optional
 Section: x11
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3272
-Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.2.0.3), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2, libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_4.10.8+c1-1+comsta_amd64.deb
-Size: 654944
-MD5sum: 47f2cacaa801de0cdd573cb41e757754
-SHA1: c30ea691add54aebfad0e86b92876124a5124067
-SHA256: b77a3ac73f5d9b69f665ddbf1695562e30ca63c63c78e417ccdc1ccb92264c56
-SHA512: 34934ac7d8cef0b44d29c3ce6bce02474252162200a1b533efde40a53b74d981482adb69459b6d14bb0d1aa34bcc722a4d0d8c17f1b4fb138df49de823b2692a
+Size: 655328
+MD5sum: ed89299afa143b08d1cbba38d5a6d664
+SHA1: 938c670a04257f29a47f3a273ea62b07597293a6
+SHA256: 40aabbb7f8c5fa1e6af57299871c419601b7a8233b741c399218aac4cdfd7030
+SHA512: ec5984e0904f7f2d1c6186c930b5dd5aaf041c8ab241096eed6c382b6b132ffe95bcfe0e29d39d3fef57a63c0900d042141f9bb8e3a01702977a5a85bbd6af29
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.
@@ -4277,6 +4999,25 @@ Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for dde
 
+Package: deepin-image-viewer
+Architecture: amd64
+Version: 15.11~1.3.18-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 5579
+Depends: libc6 (>= 2.29), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libexif12 (>= 0.6.21-1~), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libraw20 (>= 0.16.0), libstdc++6 (>= 4.5), libqt5sql5-sqlite, qt5-image-formats-plugins
+Recommends: libqt5libqgtk2, kimageformat-plugins
+Filename: ./d/deepin-image-viewer/deepin-image-viewer_15.11~1.3.18-1+comsta_amd64.deb
+Size: 3847664
+MD5sum: b528c99801de5d94e674a8bad4257b22
+SHA1: 5ce39c4968e21f096882fb3930bbcd625f361e1c
+SHA256: 3c6d9b3727d450223b75ced495970b883be20516381f26a6e417c5357ac2c829
+SHA512: fe50d007623a458cf77bc3b842f0bd75964a1880a33a51aa9a7e576aaa33ae3a744a09069018babc3449869eab72a04d1fe7c8c20adc1b9d0452e5aad03b804c
+Homepage: http://www.deepin.org
+Description: Image Viewer for Deepin Desktop Environment
+ Deepin Image Viewer is Deepin Desktop Environment Image Viewer.
+
 Package: deepin-anything-dev-dbgsym
 Architecture: amd64
 Version: 0.1.0-1+comsta
@@ -4354,6 +5095,44 @@ Homepage: http://www.deepin.org/
 Description: GSettings deepin desktop-wide schemas
  deepin-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.
+
+Package: deepin-voice-recorder-dbgsym
+Architecture: amd64
+Version: 15.11~1.4.2-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-voice-recorder
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3787
+Depends: deepin-voice-recorder (= 15.11~1.4.2-1+comsta)
+Filename: ./d/deepin-voice-recorder-dbgsym/deepin-voice-recorder-dbgsym_15.11~1.4.2-1+comsta_amd64.deb
+Size: 3807692
+MD5sum: 40acee7ccd34bb3482198c64b03595b3
+SHA1: bc490c9f2c212010c04a2d019260788afe959b7d
+SHA256: eb7e623c8bfa23a42a8e4a5893166ec86992524259a4fe64338d9d5ea296b6b6
+SHA512: db8b543a2619de96b641c4e087de4f5cede5b45f37f1c123d4713620a5bfcde4698680b25dc4045a1eabcb0fadce09afecac4a1338c664884944da07ecfe80bf
+Description: debug symbols for deepin-voice-recorder
+Build-Ids: 7c9cffa974258a89daabfad76af5b1507c40f43f
+
+Package: ttf-deepin-opensymbol
+Architecture: all
+Version: 2.2
+Priority: extra
+Section: fonts
+Maintainer: lilongyu <lilongyu@deepin.com>
+Installed-Size: 417
+Filename: ./t/ttf-deepin-opensymbol/ttf-deepin-opensymbol_2.2_all.deb
+Size: 135320
+MD5sum: dba4febf0a72100acecba7f856e79316
+SHA1: f37a130f00305f931c4c95402ed22914f739c7eb
+SHA256: c3a4811e7714aae0abb24015d580fb2b48cc086637428b38f22c8c5876fb06fc
+SHA512: f6ef26c34a8596d6ae80f6ac41ca327a3547f7f23f311e769e6849840b80b842976cd4f8b12f998ef2798463a085a17136ffe68ae47b66547456ceae4bfba2c4
+Homepage: https://www.deepin.org/font.html
+Description: Allows you to seamlessly transit from Wingdings to Deepin OpenSymbol.
+ It is a substitution for Wingdings, which can perfectly solve the issue of displaying symbols in WPS.
+ .
+ It allows you to seamlessly transit from Wingdings to Deepin OpenSymbol.
 
 Package: blur-effect
 Architecture: mips64el
@@ -4514,4 +5293,103 @@ SHA512: d93dc5e4a7394c4871fcda381c899e42285c7e99e400798ad56ca37afabd918edf81db84
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
+
+Package: cloud-initramfs-copymods
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 22
+Depends: initramfs-tools
+Filename: ./c/cloud-initramfs-copymods/cloud-initramfs-copymods_0.27deepin1.4_all.deb
+Size: 6256
+MD5sum: e135f3f759e8fe249eba991a825a36d3
+SHA1: b3a1391ea5c3f6c50377e41fb7263823e11e38bc
+SHA256: 7e60184c1ef76291dc76a3561f314aa81a64204864efa94d39874446c5ce3c4e
+SHA512: 4d202a6e172fcb93411aef3580c9a83fb2cc2aca151bc47bcb4fb5b4fd3c592bd90e616118036262e340453b0f9e75f2e383aecc67ea860c52e37cd7f8074fd1
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: copy initramfs modules into root filesystem for later use
+ When booting with an external-to-root kernel and initramfs, you need
+ to ensure that /lib/modules contains any necessary modules not already
+ loaded.
+ .
+ This package arranges for the modules in the initramfs to be placed
+ into /lib/modules after the switchroot is done.
+
+Package: cloud-initramfs-rescuevol
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 24
+Depends: initramfs-tools
+Filename: ./c/cloud-initramfs-rescuevol/cloud-initramfs-rescuevol_0.27deepin1.4_all.deb
+Size: 7736
+MD5sum: a6e890fefd5649bebe59cf05d4ab286c
+SHA1: 3406a9a93f49a4be3de431f40494db1f0dc43e66
+SHA256: 0d1a68192b7c9bed8489404ec410b65f8aa5114c7a70adcb3853b9af6608480c
+SHA512: da108b61ebcd547d8e50731bb4c7dbb0c2f4959b34b904f2bd2e423f98f114985c1802470ee28e5eac365a61431a6f10be3e24852e14e45177a61f9b84db95ca
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: boot off a rescue volume rather than root filesystem
+ This package adds functionality to an initramfs built by initramfs-tools.
+ When installed the initramfs will check to see if any partitions
+ with a label of 'RESCUE_VOL' are attached.  If such a volume is attached,
+ it will boot off that volume rather than the root volume.
+ .
+ This is useful in a cloud environment, when the user is able to attach
+ and detach volumes to a running system, but has no other mechanism
+ for interupting of fixing a failed boot.  It is analogous to inserting
+ a rescue CD into a system to recover from failure.
+
+Package: cloud-initramfs-growroot
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 23
+Depends: cloud-utils (>= 0.21) | cloud-guest-utils, initramfs-tools, util-linux (>= 2.17.2)
+Filename: ./c/cloud-initramfs-growroot/cloud-initramfs-growroot_0.27deepin1.4_all.deb
+Size: 7428
+MD5sum: 4526355e0ffe34cf5268943e9b03cb86
+SHA1: f00331a7d5612bc4f32f38a4fd21e35cb4be3e69
+SHA256: 57ba375a17f32e809ef2b35254f3c573427201dcb0a4c35fd8bfd6c6683f64a5
+SHA512: f9b50a5b49fac100720a4d8e9a916f2508daa68125fc788f5c17ed834d92f30027bfae8b09029a18c6c34664d80c44bf9ffa2d803c0ae8b3ebd82587f237f055
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: automatically resize the root partition on first boot
+ This package adds functionality to an initramfs built by initramfs-tools.
+ When installed, the initramfs will repartition a disk to make the
+ root volume consume all space that follows it.
+ .
+ You most likely do not want this package unless you know what you are
+ doing.  It is primarily interesting in a virtualized environment when
+ a disk can provisioned with a size larger than its original size.
+ In this case, with this package installed, you can automatically use
+ the new space without requiring a reboot to re-read the partition table.
+
+Package: cloud-initramfs-dyn-netconf
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 29
+Depends: initramfs-tools
+Filename: ./c/cloud-initramfs-dyn-netconf/cloud-initramfs-dyn-netconf_0.27deepin1.4_all.deb
+Size: 8768
+MD5sum: 154f60bf3c16da367affe42425bcebab
+SHA1: 6b76fa94884a3212d4ec89b8b12b4e6f87c34225
+SHA256: cd793c463d9021c238bab7ac00154237383527ae19393dbc5fa64b8a90063dbe
+SHA512: cae9cf49e1235b4191794f885bad92778e23b84075038fb3ac82f26ec07a5972db33c249f0128464587ae5e4a82ce58aee0e2dbaa8b872b10031d1cf31795085
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: write a network interface file in /run for BOOTIF
+ This package provides an initramfs module that will write a simple
+ network interfaces formated file to /run/network/interfaces with
+ entries for any devices that were configured during initramfs.
 

@@ -1,0 +1,20 @@
+Package: libdeepin-font-installer-dbgsym
+Architecture: amd64
+Version: 1.1.5.1-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: deepin-font-installer
+Maintainer: Rekols <rekols@foxmail.com>
+Installed-Size: 1094
+Depends: libdeepin-font-installer (= 1.1.5.1-1+comsta)
+Filename: ./l/libdeepin-font-installer-dbgsym/libdeepin-font-installer-dbgsym_1.1.5.1-1+comsta_amd64.deb
+Size: 1086564
+MD5sum: ca6350219ef29ca8652dfbcea2413f89
+SHA1: c2c899b3c72fe82ce2f717d1c295c86ecdec1395
+SHA256: 050e518da8fb01b69861a3ef3c6a22999f49d52084652dc52d0d0781cff1eff2
+SHA512: 06c1853131452221daf4fa1e486fc81fff78c4c26d2e729ae8dfb05340bef5eaffcccde42bc33b68afb4b788ca3bfa649506e7f34daed887676525eee15f08e8
+Description: debug symbols for libdeepin-font-installer
+Build-Ids: b7ce401370b726c739687783b53b5e806c61c8ca
+

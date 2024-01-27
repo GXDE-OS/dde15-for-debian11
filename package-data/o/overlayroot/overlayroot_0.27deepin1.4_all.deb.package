@@ -1,0 +1,26 @@
+Package: overlayroot
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 63
+Depends: cryptsetup, cryptsetup-bin, initramfs-tools
+Suggests: haveged
+Filename: ./o/overlayroot/overlayroot_0.27deepin1.4_all.deb
+Size: 16948
+MD5sum: c8fa0ae660f0cc77323d4af1a607799a
+SHA1: 990c9caf8bcf3eb9b5f01683004cd25b5c77da8d
+SHA256: 05c3e7156916b446a86ea5104a40fbf7fb037249aca136435ace1d4b5916984d
+SHA512: a2001f7596833ab95b9a39bd282a9620259cc7eb1fee3d0b8a240e4b019cec40b7ab1047a08127135a7396b7214e93f10ede2315ee3c79f766372d3a568cdf61
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: use an overlayfs on top of a read-only root filesystem
+ This package adds functionality to an initramfs built by initramfs-tools.
+ When installed and configured, the initramfs will mount an overlayfs
+ filesystem on top of a read-only root volume.
+ .
+ The changes can be written to a in-memory temporary filesystem, a
+ filesystem on an existing block device, or a dmcrypt encrypted block
+ device.
+

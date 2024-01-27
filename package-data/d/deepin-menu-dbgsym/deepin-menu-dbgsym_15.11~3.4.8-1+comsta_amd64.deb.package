@@ -1,0 +1,19 @@
+Package: deepin-menu-dbgsym
+Architecture: amd64
+Version: 15.11~3.4.8-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-menu
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2610
+Depends: deepin-menu (= 15.11~3.4.8-1+comsta)
+Filename: ./d/deepin-menu-dbgsym/deepin-menu-dbgsym_15.11~3.4.8-1+comsta_amd64.deb
+Size: 2626124
+MD5sum: 038d7b6b5bbd97029771c0c92b3140ac
+SHA1: fd66467859a5e7df43b6741cccd3a66f30eac92d
+SHA256: 812d7364c8d10b78ddbb23511e78e19d9c87f03a79b984a205bb74136ae1ec74
+SHA512: 30110eb9695a4dbff6fc62f81ed144909f507fccc76e4f3b0e909d772a3a4f564717f059cf6e682fd06baef98c2813f42ff7738c263dc75ab1864e49924df44c
+Description: debug symbols for deepin-menu
+Build-Ids: e59963d27f88c2b0997ad250196ddc06fe15cd85
+

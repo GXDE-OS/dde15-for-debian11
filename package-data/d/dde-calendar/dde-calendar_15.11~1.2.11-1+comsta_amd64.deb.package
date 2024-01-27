@@ -1,0 +1,18 @@
+Package: dde-calendar
+Architecture: amd64
+Version: 15.11~1.2.11-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 311
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), dde-api
+Filename: ./d/dde-calendar/dde-calendar_15.11~1.2.11-1+comsta_amd64.deb
+Size: 74244
+MD5sum: 52581331c01b3b01c94983efaf5f3dd6
+SHA1: a96e065994bba938d6b40b9ba1dad8879666d635
+SHA256: 02e596779c25ab53b6aa0e8db647b9195756249058d9ab5b4e4282658d00ee3e
+SHA512: 5390740b1bbb23a6bfab431019c9872637bf79e8de1432e59db1f7eaf9f560394dc06e487458ed6bfab63199617b17a8ca6c79c05da3bb7c65ce499bad2e2b6d
+Homepage: http://www.deepin.org
+Description: Calendar software for Deepin OS
+ Calendar for Deepin Desktop Environment.
+

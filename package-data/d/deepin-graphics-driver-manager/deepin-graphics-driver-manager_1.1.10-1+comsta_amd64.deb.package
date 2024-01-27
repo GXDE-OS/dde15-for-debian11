@@ -1,0 +1,17 @@
+Package: deepin-graphics-driver-manager
+Architecture: amd64
+Version: 1.1.10-1+comsta
+Priority: optional
+Section: misc
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 668
+Depends: freeglut3 (>= 2.8.1), libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libgl1, libpci3 (>= 1:3.5.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.4.0), libstdc++6 (>= 5.2), dialog, overlayroot, rsync, sed, qdbus-qt5
+Filename: ./d/deepin-graphics-driver-manager/deepin-graphics-driver-manager_1.1.10-1+comsta_amd64.deb
+Size: 122612
+MD5sum: 93f89d3448e9371164813615bc8bc153
+SHA1: f816b8625068c7a1b5bf3791d8c732512ec33d48
+SHA256: e5e1785c7702d293bb142de64d6239bc7b192d195002c26d8a17fa8872a7ae12
+SHA512: 6b8093df2297b9889967d6ed124945e2d26d4a2c455c9cadaae1b7a24e533dcbe2604ebc5e3d42dca780bb20e9ac541a68d028c7d6d649891112b1c7412128bb
+Homepage: https://www.deepin.org
+Description: deepin driver manager
+

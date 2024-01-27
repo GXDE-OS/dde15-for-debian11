@@ -1,0 +1,19 @@
+Package: libdtkwm-dev
+Architecture: amd64
+Version: 15.11~2.0.11.1-1+comsta
+Priority: optional
+Section: libdevel
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 31
+Depends: libdtkwm2 (= 15.11~2.0.11.1-1+comsta), libqt5x11extras5-dev, libdtkcore-dev
+Filename: ./l/libdtkwm-dev/libdtkwm-dev_15.11~2.0.11.1-1+comsta_amd64.deb
+Size: 4624
+MD5sum: 75f2f548127ca547f1d5fdf54ffc40e0
+SHA1: 7783d8a4a8cc39ee5fde68415bfc85a6354144fb
+SHA256: 1a6e003433fd201309772272e5bd798a04e9d5da7e77c8381c734c01ec811ccc
+SHA512: 4c4f8916c4552033ed62f0ebefa8945126da724c4462721a938edccea4a31aeae14ee73238e3c253f05bded0ca05cbf6455d073c61e8499ca7c8f54882a0930b
+Description: Deepin graphical user interface library
+ DtkWm is used to handle double screen for deepin desktop development.
+ This package contains the shared libraries.
+

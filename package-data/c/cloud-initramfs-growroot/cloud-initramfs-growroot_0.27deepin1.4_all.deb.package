@@ -1,0 +1,27 @@
+Package: cloud-initramfs-growroot
+Architecture: all
+Version: 0.27deepin1.4
+Priority: extra
+Section: admin
+Source: cloud-initramfs-tools
+Maintainer: Scott Moser <scott@ubuntu.com>
+Installed-Size: 23
+Depends: cloud-utils (>= 0.21) | cloud-guest-utils, initramfs-tools, util-linux (>= 2.17.2)
+Filename: ./c/cloud-initramfs-growroot/cloud-initramfs-growroot_0.27deepin1.4_all.deb
+Size: 7428
+MD5sum: 4526355e0ffe34cf5268943e9b03cb86
+SHA1: f00331a7d5612bc4f32f38a4fd21e35cb4be3e69
+SHA256: 57ba375a17f32e809ef2b35254f3c573427201dcb0a4c35fd8bfd6c6683f64a5
+SHA512: f9b50a5b49fac100720a4d8e9a916f2508daa68125fc788f5c17ed834d92f30027bfae8b09029a18c6c34664d80c44bf9ffa2d803c0ae8b3ebd82587f237f055
+Homepage: http://launchpad.net/cloud-initramfs-tools
+Description: automatically resize the root partition on first boot
+ This package adds functionality to an initramfs built by initramfs-tools.
+ When installed, the initramfs will repartition a disk to make the
+ root volume consume all space that follows it.
+ .
+ You most likely do not want this package unless you know what you are
+ doing.  It is primarily interesting in a virtualized environment when
+ a disk can provisioned with a size larger than its original size.
+ In this case, with this package installed, you can automatically use
+ the new space without requiring a reboot to re-read the partition table.
+

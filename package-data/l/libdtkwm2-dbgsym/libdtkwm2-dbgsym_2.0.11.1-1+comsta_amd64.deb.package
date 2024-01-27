@@ -1,0 +1,20 @@
+Package: libdtkwm2-dbgsym
+Architecture: amd64
+Version: 2.0.11.1-1+comsta
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkwm
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 516
+Depends: libdtkwm2 (= 2.0.11.1-1+comsta)
+Filename: ./l/libdtkwm2-dbgsym/libdtkwm2-dbgsym_2.0.11.1-1+comsta_amd64.deb
+Size: 503732
+MD5sum: f9759a91d8179396efeff3614172335c
+SHA1: e8fbd2b990076af4680cd341eaa49fdfbf18cddf
+SHA256: 2c4c7701a00d23ad071c6bbdf8e8a08e75d8182ffa33e0cb17cdc1c8243763aa
+SHA512: 60200a13fb1c228c6c98c87845f7742430754e853a1e156573a71a42bb0ba62164d89d0fee607dbfa2b96d3558c30dea1d3ebf8142a6ecaa1b010ce968f87cdb
+Description: debug symbols for libdtkwm2
+Build-Ids: 41a0c306ca1b932a8df4c483cde155a4828a5a7c
+

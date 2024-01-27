@@ -5,16 +5,16 @@ Priority: optional
 Section: x11
 Maintainer: Deepin Packages Builder <packages@deepin.com>
 Installed-Size: 3272
-Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2 (>= 5.2.0.3), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
+Depends: libc6 (>= 2.14), libdbusmenu-qt5-2 (>= 0.9.3+14.10.20140619), libdde-network-utils, libdframeworkdbus2, libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.6.0~beta), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 6), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.1), libxcb-image0 (>= 0.2), libxcb1, libxtst6, deepin-menu
 Recommends: dde-disk-mount-plugin, dde-dock-onboard-plugin
 Conflicts: dde-dock-applets, dde-trash-plugin, dde-workspace (<< 2.90.5)
 Replaces: dde-dock-applets, dde-trash-plugin
 Filename: ./d/dde-dock/dde-dock_4.10.8+c1-1+comsta_amd64.deb
-Size: 654944
-MD5sum: 47f2cacaa801de0cdd573cb41e757754
-SHA1: c30ea691add54aebfad0e86b92876124a5124067
-SHA256: b77a3ac73f5d9b69f665ddbf1695562e30ca63c63c78e417ccdc1ccb92264c56
-SHA512: 34934ac7d8cef0b44d29c3ce6bce02474252162200a1b533efde40a53b74d981482adb69459b6d14bb0d1aa34bcc722a4d0d8c17f1b4fb138df49de823b2692a
+Size: 655328
+MD5sum: ed89299afa143b08d1cbba38d5a6d664
+SHA1: 938c670a04257f29a47f3a273ea62b07597293a6
+SHA256: 40aabbb7f8c5fa1e6af57299871c419601b7a8233b741c399218aac4cdfd7030
+SHA512: ec5984e0904f7f2d1c6186c930b5dd5aaf041c8ab241096eed6c382b6b132ffe95bcfe0e29d39d3fef57a63c0900d042141f9bb8e3a01702977a5a85bbd6af29
 Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.

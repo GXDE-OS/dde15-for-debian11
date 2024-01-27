@@ -1,0 +1,19 @@
+Package: deepin-repair-tools-dbgsym
+Architecture: amd64
+Version: 1.0.14.1-1+comsta
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: deepin-repair-tools
+Maintainer: 石博文 <sbw@sbw.so>
+Installed-Size: 5204
+Depends: deepin-repair-tools (= 1.0.14.1-1+comsta)
+Filename: ./d/deepin-repair-tools-dbgsym/deepin-repair-tools-dbgsym_1.0.14.1-1+comsta_amd64.deb
+Size: 5147588
+MD5sum: bb36d06f54dc3401955f46e436dbe775
+SHA1: 258b1adf9bd601d2f792749054ab58c3b4ee2140
+SHA256: 2a145274ea50f8f3b7b9cc7624ccb5a274ef45306672bfa3a91edfe3177c44cb
+SHA512: 475919f48b57624061924b31f88a4df3f02ce36a7f28361b3e598a446302fce6fa1fc0b4f24278636b984f6bed5eae065d1109ea03d46fa74dceab0d5bc950ce
+Description: debug symbols for deepin-repair-tools
+Build-Ids: 078096fa266787f2a24da80b1030419f1ef5e53c 0b382065c214f13ae15d1a93848a03649d1ffc56 47c66b9df076f4591c7917336c5e924f05b531e0 51c4b6b32aaa689d74cee60d970e06b5fa7bd67f 7aaf1c00a7161fcd0e0eda256bae585052c1cb2e e2e2b7eb5598e9a09ea7ea85dd88179250ecc08a
+

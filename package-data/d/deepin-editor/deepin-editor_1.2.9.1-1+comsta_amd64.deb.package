@@ -1,0 +1,18 @@
+Package: deepin-editor
+Architecture: amd64
+Version: 1.2.9.1-1+comsta
+Priority: optional
+Section: editors
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 2160
+Depends: libc6 (>= 2.29), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libkf5codecs5 (>= 4.96.0), libkf5syntaxhighlighting5 (>= 5.28.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~beta), libstdc++6 (>= 5.2), qtbase-abi-5-15-2
+Filename: ./d/deepin-editor/deepin-editor_1.2.9.1-1+comsta_amd64.deb
+Size: 1261680
+MD5sum: 66054b99ea155bfada73459b5ec38783
+SHA1: 26c006bd180b0f4822b8ea09888cd0d3af00fef0
+SHA256: 07c77ac608cfa5e483a501da23e63e5d74fbb927206d48025b385260c7402f1b
+SHA512: 54b58ac56674d102d48036e7e50ca176594e5129217eebba825fcc01c2ef46efb69da8cdb4a8e655b0345abe6bb0862d1a71707119ffbd609a82574524ca11b1
+Homepage: https://www.deepin.org
+Description: dtk based text editor
+ Advanced text editor based on dtk.
+

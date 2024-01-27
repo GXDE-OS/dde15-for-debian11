@@ -1,0 +1,22 @@
+Package: deepin-music
+Architecture: amd64
+Version: 15.11~3.1.18-1+comsta
+Priority: extra
+Section: sound
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3589
+Depends: libavformat58 (>= 7:4.1), libc6 (>= 2.14), libcue2, libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libicu67 (>= 67.1-1~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.3.0) | libqt5gui5-gles (>= 5.3.0), libqt5multimedia5 (>= 5.6.0~beta), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libtag1v5 (>= 1.9.1-2.2~), gstreamer1.0-libav, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, gstreamer1.0-pulseaudio, libqt5sql5-sqlite, libqt5multimedia5-plugins, gstreamer1.0-fluendo-mp3, gvfs-bin
+Filename: ./d/deepin-music/deepin-music_15.11~3.1.18-1+comsta_amd64.deb
+Size: 1663308
+MD5sum: 0160a5588624b4709129aecb22539c94
+SHA1: a3b46c3ded6c7d87c467836f7462829bb537ac6a
+SHA256: c982cdb4dc54cc3ce9da161817dbd3e1c16011a6f28042a0a9f38bab48d59829
+SHA512: 6fede66b86fe993b0d2339c6d48c4685585214ecfd4a484eeaebb5c6a38463bdb7dfcb1b0897d3ea64f76987d25521d9971759903f35730128a20463d68c9743
+Homepage: http://www.deepin.org/
+Description: Awesome music player with brilliant and tweakful UI
+ Deepin-UI based, gstreamer front-end, with features likes search music
+ by pinyin,quanpin, colorful lyrics supports, and more powerful
+ functions you will found.
+ .
+ Just enjoy it! have fun!
+
