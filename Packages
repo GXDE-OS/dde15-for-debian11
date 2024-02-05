@@ -1584,6 +1584,51 @@ Description: Deprecated GNOME 2 library - development files
  This package contains the static library and development headers for
  the deprecated GNOME 2 library functions.
 
+Package: libfreetype6
+Architecture: amd64
+Version: 2.12.1+dfsg-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: freetype
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Installed-Size: 906
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.14), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+Filename: ./l/libfreetype6/libfreetype6_2.12.1+dfsg-3_amd64.deb
+Size: 419216
+MD5sum: 221f3d6b198eedf80b405682c5915cd5
+SHA1: 351620f8b716b760e6d4051ac64581f0b4185299
+SHA256: 8afa7d97d0f23d31b2f50cd6b9696797410d836e6b79b533fa4fc5d04e1177c7
+SHA512: b315f998e9d85cb0f78b6533e64804e3b3166814f390c643c4634773e0b2f939af5b593b8704405397463184fcac6802fc77c8e7ea3e0098ac9d9cb9cc8df732
+Homepage: https://www.freetype.org
+Description: FreeType 2 font engine, shared library files
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ The FreeType 2 library is their new software font engine.  It has been
+ designed to provide the following important features:
+  * A universal and simple API to manage font files
+  * Support for several font formats through loadable modules
+  * High-quality anti-aliasing
+  * High portability & performance
+ .
+ Supported font formats include:
+  * TrueType files (.ttf) and collections (.ttc)
+  * Type 1 font files both in ASCII (.pfa) or binary (.pfb) format
+  * Type 1 Multiple Master fonts.  The FreeType 2 API also provides
+    routines to manage design instances easily
+  * Type 1 CID-keyed fonts
+  * OpenType/CFF (.otf) fonts
+  * CFF/Type 2 fonts
+  * Adobe CEF fonts (.cef), used to embed fonts in SVG documents with
+    the Adobe SVG viewer plugin.
+  * Windows FNT/FON bitmap fonts
+ .
+ This package contains the files needed to run programs that use the
+ FreeType 2 library.
+
 Package: liblogviewerplugin-dev
 Architecture: amd64
 Version: 6.0.7-1
@@ -3912,6 +3957,64 @@ Description: program options library for C++
  (name, value) pairs from the user, via conventional methods such as
  command line and config file.
 
+Package: libfreetype6-dev
+Architecture: amd64
+Version: 2.12.1+dfsg-3
+Multi-Arch: same
+Priority: optional
+Section: oldlibs
+Source: freetype
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Installed-Size: 92
+Depends: libfreetype-dev (= 2.12.1+dfsg-3)
+Filename: ./l/libfreetype6-dev/libfreetype6-dev_2.12.1+dfsg-3_amd64.deb
+Size: 70768
+MD5sum: f010ae3d76afcff42668a34b30f78b2d
+SHA1: bbb79093c23ad582736824bcc5b0cb2e6cd33e9a
+SHA256: 66b2f8c8b0e59efb65a63d2df0ebff59e5bb50874722efcba182de416e1550f4
+SHA512: 125be96060b7fbbe6e1328970fc3f8741a6be110144efbcf8b7b5eb39546c1679e074d8bd4ae2695cdd8fcbf740500b28341656562afa3c8667f76319b18e0dd
+Homepage: https://www.freetype.org
+Description: FreeType 2 font engine, development files (transitional package)
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains all of the supplementary files you need to develop your
+ own programs using the FreeType 2 library.
+ .
+ This is a transitional package. It can safely be removed.
+
+Package: libfreetype-dev
+Architecture: amd64
+Version: 2.12.1+dfsg-3
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: freetype
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Installed-Size: 2087
+Provides: libfreetype6-dev (= 2.12.1+dfsg-3)
+Depends: libfreetype6 (= 2.12.1+dfsg-3), libbrotli-dev, libc6-dev | libc-dev, libpng-dev, zlib1g-dev | libz-dev
+Suggests: freetype2-doc (= 2.12.1+dfsg-3)
+Breaks: libfreetype6-dev (<< 2.10.1)
+Replaces: libfreetype6-dev (<< 2.10.1)
+Filename: ./l/libfreetype-dev/libfreetype-dev_2.12.1+dfsg-3_amd64.deb
+Size: 587844
+MD5sum: 1264b4fb8d51db09f6b417ac62a5fdd6
+SHA1: 063ab2f49935b3d9f1ee1382707413241ae5ef6a
+SHA256: 11e44bf302ded0b18d0a5b0f154fe796e9f4fc6fca64a6cb2d21259915b52862
+SHA512: fa1555132c0be951b355764c5a2af72bb3ad56743f6dae5ff5e802286f1871a4feb2873f2beb39d5643ec4e03a68387933b2e7c46bbc5e598dae13eee98a3fd6
+Homepage: https://www.freetype.org
+Description: FreeType 2 font engine, development files
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains all of the supplementary files you need to develop your
+ own programs using the FreeType 2 library.
+
 Package: linux-headers-deepin-hwe-amd64
 Architecture: amd64
 Version: 6.1.32-hwe
@@ -6157,6 +6260,59 @@ Description: Allows you to seamlessly transit from Wingdings to Deepin OpenSymbo
  It is a substitution for Wingdings, which can perfectly solve the issue of displaying symbols in WPS.
  .
  It allows you to seamlessly transit from Wingdings to Deepin OpenSymbol.
+
+Package: freetype2-doc
+Architecture: all
+Version: 2.12.1+dfsg-3
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: freetype
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Installed-Size: 6602
+Recommends: fonts-dejavu-core, fonts-noto-core
+Breaks: libfreetype6-dev (<< 2.9.1)
+Replaces: libfreetype6-dev (<< 2.9.1)
+Filename: ./f/freetype2-doc/freetype2-doc_2.12.1+dfsg-3_all.deb
+Size: 2485424
+MD5sum: c99ffd21cd896cd182b387776769f8cb
+SHA1: 6791f85ea9877af85dc7487286ff5dd35aec260c
+SHA256: 82136ba1de906aa18f0c6b63d3ec46093edc2247f1738a0417c9d5b21a0dc529
+SHA512: 9333cbae0572ab145d29fd032df9a6cf0d767eb526a2bd358afe3e855f74de7b9711557cb9cbc18c74822a0718268df271ce12c03cbdeaf953bd915bccba1023
+Homepage: https://www.freetype.org
+Description: FreeType 2 font engine, development documentation
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains the FreeType 2 development documentation.
+
+Package: freetype2-demos
+Architecture: amd64
+Version: 2.12.1+dfsg-3
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: freetype
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Installed-Size: 1211
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.10.0), libfreetype6 (>= 2.12), libglib2.0-0 (>= 2.12.0), libpng16-16 (>= 1.6.2-1), librsvg2-2 (>= 2.46.0), libx11-6
+Filename: ./f/freetype2-demos/freetype2-demos_2.12.1+dfsg-3_amd64.deb
+Size: 209148
+MD5sum: 5db286edd32fb4474efc29c7f7254eeb
+SHA1: 1da0b6a007d36479a7eae6153802ce425cf126f3
+SHA256: c6aea15d6f0d0ef07490f0fa434d6538441157fa4ead26f81231fc10381d9843
+SHA512: a5fd26a53f424cd4aa3edee0064fac0323a8cf736227dd7fbb1d396751967b30e5f4ae4f94cab5369b37ef9ac975c73556ad8dea10f6f573a202ab565df64716
+Homepage: https://www.freetype.org
+Description: FreeType 2 demonstration programs
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains some demonstration programs and utilities
+ that showcase the features of the FreeType 2 font engine.
 
 Package: blur-effect
 Architecture: mips64el

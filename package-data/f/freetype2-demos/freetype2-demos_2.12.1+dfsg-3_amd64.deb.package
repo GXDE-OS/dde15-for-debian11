@@ -1,0 +1,26 @@
+Package: freetype2-demos
+Architecture: amd64
+Version: 2.12.1+dfsg-3
+Multi-Arch: foreign
+Priority: optional
+Section: utils
+Source: freetype
+Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+Installed-Size: 1211
+Depends: libc6 (>= 2.29), libcairo2 (>= 1.10.0), libfreetype6 (>= 2.12), libglib2.0-0 (>= 2.12.0), libpng16-16 (>= 1.6.2-1), librsvg2-2 (>= 2.46.0), libx11-6
+Filename: ./f/freetype2-demos/freetype2-demos_2.12.1+dfsg-3_amd64.deb
+Size: 209148
+MD5sum: 5db286edd32fb4474efc29c7f7254eeb
+SHA1: 1da0b6a007d36479a7eae6153802ce425cf126f3
+SHA256: c6aea15d6f0d0ef07490f0fa434d6538441157fa4ead26f81231fc10381d9843
+SHA512: a5fd26a53f424cd4aa3edee0064fac0323a8cf736227dd7fbb1d396751967b30e5f4ae4f94cab5369b37ef9ac975c73556ad8dea10f6f573a202ab565df64716
+Homepage: https://www.freetype.org
+Description: FreeType 2 demonstration programs
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains some demonstration programs and utilities
+ that showcase the features of the FreeType 2 font engine.
+
