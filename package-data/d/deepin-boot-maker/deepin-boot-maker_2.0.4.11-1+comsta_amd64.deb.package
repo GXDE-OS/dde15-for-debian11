@@ -1,0 +1,19 @@
+Package: deepin-boot-maker
+Architecture: amd64
+Version: 2.0.4.11-1+comsta
+Priority: extra
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@linuxdeepin.com>
+Installed-Size: 4233
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), p7zip-full, mtools, syslinux, syslinux-common
+Filename: ./d/deepin-boot-maker/deepin-boot-maker_2.0.4.11-1+comsta_amd64.deb
+Size: 837872
+MD5sum: e8c613d36f45cad16e6e04e6f84c1767
+SHA1: d3f7c093b6caa50a5acc701ec373f207934bd85f
+SHA256: 725b4d03f666ac723898be9dc0b562029204274239dcec81e3a73d7e7ddff17b
+SHA512: 92bec32182ae50baf6a0eb5d7097a188cce6ebbff08055a8be31abe22420c99c01111db7f306a00c7c7593ac6df4c50341418c80cb6c912c4a25ce9d252cc0f0
+Homepage: http://www.linuxdeepin.com/
+Description: Deepin Boot Maker is help for user to create a boot
+ usb stick quick and easy, it designed to support only deepin
+ install iso, but it can work for all ubuntu live install iso too.
+

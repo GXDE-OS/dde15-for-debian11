@@ -1,0 +1,18 @@
+Package: deepinwine-foxitreader5
+Architecture: all
+Version: 0.0.1
+Priority: extra
+Section: net
+Maintainer: Li Longyu <leaeasy@gmail.com>
+Installed-Size: 12899
+Depends: wine | wine-1.3, wine1.3-gecko, gzip, tar
+Filename: ./d/deepinwine-foxitreader5/deepinwine-foxitreader5_0.0.1_all.deb
+Size: 13099576
+MD5sum: 1e46a63a95c21778a1b97dfbad6ca596
+SHA1: 0cc9cd054a4ee4480e0a8bc7a18a6854d9286bf4
+SHA256: f1a2ebee50bcc21664e3dc1d14881d94a55390efc82fe85e99e4a8b1065a63e9
+SHA512: 95595f8cd1f4960f8d1db48a70e91499570bbd7460a2190738e46893b9a51d76d1cd15bff9d58edfef25c3cb227143363773aa35e91eb8020eac1d3611c1169e
+Homepage: http://www.linuxdeepin.com
+Description: WINE FoxitReader5
+ 借助wine可以运行于linux下的FoxitReader5
+

@@ -1,0 +1,26 @@
+Package: portaudio19-doc
+Architecture: all
+Version: 19.6.0-1+deb10u1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 2230
+Depends: libjs-jquery
+Filename: ./p/portaudio19-doc/portaudio19-doc_19.6.0-1+deb10u1_all.deb
+Size: 184372
+MD5sum: 5f04a62ac0096f354827d7fbcf1f63fb
+SHA1: 343f8e406b29fe8be7292c5c939d97be9368ce9f
+SHA256: 15f436adebf2bf68c883ba61fd7f08cd25e0f4c8d7404edbfede722a3ec42e01
+SHA512: f79ab34971cea9b974a40e44034ef3183a5baa4063bf0873904f1ea7eaf6ecb16f608b518df05c6bf7f4eaf93af97549cfd4b16414326fbc631e789a2e3cc649
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O - documentation
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the documentation.
+

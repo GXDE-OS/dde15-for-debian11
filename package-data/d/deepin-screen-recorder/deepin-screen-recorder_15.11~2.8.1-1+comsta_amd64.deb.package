@@ -1,0 +1,19 @@
+Package: deepin-screen-recorder
+Architecture: amd64
+Version: 15.11~2.8.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4269
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libdtkwm2 (>= 15.11~2.0.11.1), libgcc-s1 (>= 3.0), libprocps8 (>= 2:3.3.16-1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxtst6, byzanz, ffmpeg
+Recommends: dde-session-ui
+Filename: ./d/deepin-screen-recorder/deepin-screen-recorder_15.11~2.8.1-1+comsta_amd64.deb
+Size: 4124352
+MD5sum: cca6002d48d4c0c55868cc0cb621f678
+SHA1: 3ed5db26b4ce1fc6cf075d487429395ae216b129
+SHA256: ee1e5528ca4a6ef9c48a97ac21e6c5779b2692929be18c8ad64c2ec9c18db647
+SHA512: 759763e290001ea1d685d837f044b16dfb1e7190940753c88c8eefcb704055e0cd084e80a4b83cd04fb71fe752b716cfeba6e78756969b040992655e5ae441f8
+Homepage: https://github.com/linuxdeepin/deepin-screen-recorder
+Description: Simple recorder tools for deepin
+ A simple recorder tools for deepin.
+

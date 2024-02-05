@@ -1,0 +1,26 @@
+Package: libportaudiocpp0
+Architecture: amd64
+Version: 19.6.0-1+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libportaudio2, libstdc++6 (>= 5)
+Filename: ./l/libportaudiocpp0/libportaudiocpp0_19.6.0-1+deb10u1_amd64.deb
+Size: 19956
+MD5sum: 32c2ab6adf9b27d2cbd9cf2529bac33a
+SHA1: a47573ce9a7ff7322ed63c27999ba4251de44bb6
+SHA256: 5ee522c30b9d85a08263e5be6c9ff7fa74ee6911ead373e6d4efe799c501b3dd
+SHA512: e6e09746babf9e877aca05899aca4d77a7a573a6aaaafb75f2022ea9e13bba894212cab349e51c2736fa71cf024c6456eaa79963ca391b4a2753c0aee6d778a2
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O C++ bindings - shared library
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the shared library of the C++ bindings.
+

@@ -1,0 +1,22 @@
+Package: libdtkdeclarative5
+Architecture: amd64
+Version: 5.6.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2563
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.8), qtbase-abi-5-15-2, qtdeclarative-abi-5-15-2
+Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.0-1_amd64.deb
+Size: 615116
+MD5sum: c4bbffce78952204adbdf936ca5a0fb6
+SHA1: eb40616eaf3a2e39ec9cc6415e5c36d8481a3284
+SHA256: 25667dbf4dc73f0a63ef4a5817e1a69067198c80e8810321f0253466d7d28671
+SHA512: b7d18a3962e9d6d3cf2f62f208032240fcda3027c785216b79c1935a6e2103c3905041dc61b657940721e595a8e453d96bc66aab98dd7e07fdcfad7c811d8dc9
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the shared libraries.
+

@@ -159,29 +159,6 @@ SHA512: 15234b5a9862570c2f5b94390150150f3321e3a7a5ad95b51685fd92746819ba1393b66d
 Homepage: https://github.com/linuxdeepin/go-dbus-factory
 Description: mirrored from https://cr.deepin.io/#/admin/projects/go-dbus-factory
 
-Package: gstreamer1.0-fluendo-mp3-dbgsym
-Architecture: amd64
-Version: 0.10.32.debian-1
-Auto-Built-Package: debug-symbols
-Multi-Arch: same
-Priority: optional
-Section: debug
-Source: gst-fluendo-mp3
-Maintainer: Maintainers of GStreamer packages <pkg-gstreamer-maintainers@lists.alioth.debian.org>
-Installed-Size: 132
-Depends: gstreamer1.0-fluendo-mp3 (= 0.10.32.debian-1)
-Filename: ./g/gstreamer1.0-fluendo-mp3-dbgsym/gstreamer1.0-fluendo-mp3-dbgsym_0.10.32.debian-1_amd64.deb
-Size: 116324
-MD5sum: fe68318aca29c11bd0ff157363aec1e4
-SHA1: 8fbeee0298131c56278d1b18dc69ac4d3b3d416d
-SHA256: 805d62e7a20819b72c480ea7b01668a00a99d9850027f9a57a990f422ea06b53
-SHA512: dc8a00c47e88c3608fc04108c3a504c02b7fab959fb32f4d8e8f339d44cf4eab783e7b0ef7262e5b31e90dbe12e1f46097feb871ae2f8a6fd22a8be4caf045b2
-Description: debug symbols for gstreamer1.0-fluendo-mp3
-Build-Ids: 48c19e3a660ea1ebaeec09fac7f6374b45596e60
-Gstreamer-Decoders: audio/mpeg, mpegversion=(int)1, layer=(int)[ 1, 3 ]
-Gstreamer-Elements: flump3dec
-Gstreamer-Version: 1.18
-
 Package: libgnomevfs2-common
 Architecture: all
 Version: 1:2.24.4-6.1
@@ -208,6 +185,46 @@ Description: GNOME Virtual File System (common files)
  .
  This package contains the documentation, data files and locales.
 
+Package: linux-image-6.1.32-amd64-desktop-hwe
+Architecture: amd64
+Version: 23.01.00.20-1
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: deepin <deepin@v23.deepinci-amd4>
+Installed-Size: 362880
+Filename: ./l/linux-image-6.1.32-amd64-desktop-hwe/linux-image-6.1.32-amd64-desktop-hwe_23.01.00.20-1_amd64.deb
+Size: 74809136
+MD5sum: ecd8fbbbf564dbc88a760474ba2f80cb
+SHA1: e3c015f64948551a77e92c5ec17674f6d630b6d2
+SHA256: 3e8e5358eb22b0f268da9a9bbab06f2e02f204010380792966b1b17843879c57
+SHA512: 2fce3c136eff1b67f9f0d2571ca3e92a8adaa8e748319d4af59d65765bb9c9fe0bd2ecc6bb2cb3890db9ab3fb66b7ab747a0d87b3b88c152c1b9af1f1dcac57e
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 6.1.32-amd64-desktop-hwe
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 6.1.32-amd64-desktop-hwe.
+
+Package: libdtkwidget-dev
+Architecture: amd64
+Version: 5.4.20
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 514
+Depends: libdtkwidget5 (= 5.4.20), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev, libdtkgui-dev, libcups2-dev
+Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_5.4.20_amd64.deb
+Size: 50628
+MD5sum: c98fc7320aa617fc75ae2a9b4548c9fc
+SHA1: e9ec165e3ec7af44f4da6a1c36e4d146363c8b96
+SHA256: 3e6467ea9f8bd365d86362c2e230745923b192474bf378aab5bfe83237da6083
+SHA512: df714b79d22f8e488424cd4ce9de84d1035a79216e8373456f5035a5035a60a568b19be0fdc24fe12b5a3418cf0cb602f4c85b4e99ebe0b1124d42deb57325dc
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing Deepin applications.
+
 Package: libdtkwidget-dev
 Architecture: amd64
 Version: 15.11~2.0.16.1-1+comsta
@@ -228,6 +245,112 @@ Description: Deepin graphical user interface library
  .
  This package contains the header files and static libraries which are
  needed for developing Deepin applications.
+
+Package: libdtkwidget-dev
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 513
+Depends: libdtkwidget5 (= 5.6.12-1), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev, libdtkgui-dev, libcups2-dev
+Filename: ./l/libdtkwidget-dev/libdtkwidget-dev_5.6.12-1_amd64.deb
+Size: 70252
+MD5sum: 7b595f4e05b7dc5e6572fcca6ef6d0dd
+SHA1: 2c612024b4c490c0287bc2cdd1a52e7d90b54ade
+SHA256: 65e9dd1b5ddf8c7bd201a977b3e2f7cfd0e5b973f30af250f5b8b119bb2c5898
+SHA512: b7a31fc4c6d0fec3acf19dd6da6996e35807dbdd5fae5e879195eb63f2bbc1e9992446c90b488f3ba84a387836d0c7f251cab44abb509ef1a69a2b0dcce6a4fa
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing Deepin applications.
+
+Package: libboost-iostreams1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2118
+Depends: libbz2-1.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Filename: ./l/libboost-iostreams1.67.0/libboost-iostreams1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 249152
+MD5sum: d90021867f922cc4b5dc3053316e6937
+SHA1: 131bfdae468f58cc96699d5a2d93914a3ed12a6a
+SHA256: ba123f41ed6865c6fcbbd7cb086e8a24bac9d04a367d0915053865696a40978c
+SHA512: 484ef44d7964c4869db5c6a45a7bff1bc33b3b9a211dee96df9e52451d686270d1f95361195e6e66c7a3ed43d5f8af0b1db0efd8a1cbda1fd4d2ef6aa60fdafe
+Homepage: http://www.boost.org/libs/iostreams/
+Description: Boost.Iostreams Library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Boost.Iostreams are a collection of concepts and a set of templates
+ which turn models of these concepts into C++ standard library streams
+ and stream buffers.
+
+Package: libdtkwidget5-bin
+Architecture: amd64
+Version: 5.4.20
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 36
+Depends: libc6 (>= 2.4), libdtkgui5 (>= 5.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 4.1.1), libdtkwidget5 (= 5.4.20), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget5-bin/libdtkwidget5-bin_5.4.20_amd64.deb
+Size: 8484
+MD5sum: 4b8a8fe59bdeee8485f5f94771d8bc95
+SHA1: b9516193f4787775954e2373cb62f83c30398436
+SHA256: ecefbd2854b0cca3ca819bb29ad6fb465a38cb9535fb73b3da2978ead944e151
+SHA512: 9c0f188298b6b8ec734ce4a2117bfa73a1ec78eaa92d9360b39a24fc8f8edac0c136373f4e1a4015cfd68eada1ee4a26db802a5e1a6d7009a1d3db6d326cbc64
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+
+Package: libdtkwidget5-bin
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 48
+Depends: libc6 (>= 2.4), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 4.1.1), libdtkwidget5 (= 5.6.12-1), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
+Filename: ./l/libdtkwidget5-bin/libdtkwidget5-bin_5.6.12-1_amd64.deb
+Size: 21444
+MD5sum: ba3f937a4a718c1a66c87f63c42599ab
+SHA1: 9f040bbaed7ae059f27f2ef7543daa6a720b4639
+SHA256: 3a8409d72450d1f52150b0e216796ad85ac8d454eab7eca006fc7d074f5f4de5
+SHA512: f39df7361643df7436ab731526d10f74002088b572417b02c33797bddcfd022387dafc5ceb1173e1c08387f8f2480a5a33c8826f7f62398af5f1e2d1c9891c94
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+
+Package: libncnn
+Architecture: amd64
+Version: 1.0.20221128-deepin1
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14510
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 5.2), libvulkan1 (>= 1.2.131.2)
+Filename: ./l/libncnn/libncnn_1.0.20221128-deepin1_amd64.deb
+Size: 3070940
+MD5sum: 7e284c2297f320f7f264f9164a52b262
+SHA1: 2a7698241c74b8380292d0160f0906b9bd4df2be
+SHA256: 3a09965e00390656444cfa7274ad3a96db993be532e0ab8cfb9ec0944bf5a379
+SHA512: 0fbe4ef76d46c066ffc45367499095d233a1243aa45bd86d8fdd34c7d73003a521418587a91d86708ab36762affecd66cb1f2fb8e3f9690837b10598440afe71
+Homepage: https://github.com/Tencent/ncnn
+Description: Neural network inference framework.
+ ncnn is a high-performance neural network inference framework optimized for the mobile platform.
 
 Package: lastore-daemon
 Architecture: amd64
@@ -415,63 +538,68 @@ Description: Perl interface to the 2.x series of the Gimp Toolkit library
  from small one-off tools to complete application suites. Find out more about
  Gtk+ at http://www.gtk.org.
 
-Package: libdtkcore-bin-dbgsym
+Package: liblogviewerplugin
 Architecture: amd64
-Version: 15.11~2.0.16.1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 6.0.7-1
 Priority: optional
-Section: debug
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 640
-Depends: libdtkcore-bin (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore-bin-dbgsym/libdtkcore-bin-dbgsym_15.11~2.0.16.1-1+comsta_amd64.deb
-Size: 616148
-MD5sum: 89de42f50df55f4d45445206c885eaec
-SHA1: 18c7a68b89a9b3ac8fe933236d4b177c66fd55d6
-SHA256: 8555efb5104e8cd1b6811a67cb4f95c6fe0c377a3480c5a0ea5dc6adbb33a46b
-SHA512: 96451080ac9b9bbe9de09805edeebbe382a0bc9b1b3af26017156405509f48b1e9a9bf76a98e453ea13dbef9ebaf23385b284b98ca7049380dcd53dd8ab78444
-Description: debug symbols for libdtkcore-bin
-Build-Ids: 8301b4dd1af8bbfcad1c2e58cc65ae5bceffab17 a1fde8188918cfb086af434e20c96903ad6d47c9
+Section: utils
+Source: deepin-log-viewer
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 954
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0
+Recommends: libqt5libqgtk2
+Conflicts: liblog-viewer-plugin
+Replaces: liblog-viewer-plugin
+Filename: ./l/liblogviewerplugin/liblogviewerplugin_6.0.7-1_amd64.deb
+Size: 268720
+MD5sum: 3e17631f0a6e170c87c30caf3e893e6d
+SHA1: cda416deaf70e9d4d0a93a4f7fcadcf96b5f5006
+SHA256: c593838188970c4b4dae1e3f5df28459cdfb015e3efeee70a8bb9af561a214ee
+SHA512: f66ae49ef17d503260ddbbfa1af74538738bd705caf2f6ec30421ff6dfa2fd527b486cfabca958450e1548c3e2008b5549c5cfd66ac1f9b217e3517438d55b46
+Description: Log Viewer Plugin library.
+ Deepin Log Viewer Plugin library.
 
-Package: libdtkcore-bin-dbgsym
+Package: libdtkwidget5
 Architecture: amd64
-Version: 2.0.16.1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dtkcore
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 638
-Depends: libdtkcore-bin (= 2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore-bin-dbgsym/libdtkcore-bin-dbgsym_2.0.16.1-1+comsta_amd64.deb
-Size: 616116
-MD5sum: 0abda8b4ec7aa7887a164dcb35d4e1e5
-SHA1: 3fa8e7cd4e87d70f1fdc0acafbf04b5223f2c518
-SHA256: 26729b11ced3fcadbb5357513a0ba6d34d15506457192819a9bddd5bd1e8526a
-SHA512: 345bf478ff5e94f22f784af7c3bc9d6304f3ed0414b8181c509746a0e31bb197985cde6fbd54b86aa7235cf316241df253fe529cc4617753324b2ae4a0b6a2a7
-Description: debug symbols for libdtkcore-bin
-Build-Ids: 8301b4dd1af8bbfcad1c2e58cc65ae5bceffab17 a1fde8188918cfb086af434e20c96903ad6d47c9
-
-Package: libcroco3-dbgsym
-Architecture: amd64
-Version: 0.6.11-3
-Auto-Built-Package: debug-symbols
+Version: 5.4.20
 Multi-Arch: same
 Priority: optional
-Section: debug
-Source: libcroco
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 308
-Depends: libcroco3 (= 0.6.11-3)
-Filename: ./l/libcroco3-dbgsym/libcroco3-dbgsym_0.6.11-3_amd64.deb
-Size: 266712
-MD5sum: c3295e0ec02d0616b25934ea0bb5e830
-SHA1: f69545fcc0871c545456e03d10b89e25baa9dad6
-SHA256: e61f2291f160d4bb3c944021d855e8c08729474d549be4dac405793b37fd7467
-SHA512: c753fb05bc52b908825cc3f83fee9512b7472663c197dc1e00f23d14174bc533fc8e64f9da2949816accbffb6323691aae64b04fff7535df60bf2cdefa1e8192
-Description: debug symbols for libcroco3
-Build-Ids: 1ed0966311ac0fe9d78f1c0f6c248096efebfd36
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3138
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-2, libdtkcommon
+Filename: ./l/libdtkwidget5/libdtkwidget5_5.4.20_amd64.deb
+Size: 741764
+MD5sum: 32527ccefc4b3de89ce0e48a1a4d265e
+SHA1: 44723ce40c52db05348c2af5fda0f94909968812
+SHA256: c4f91fc3da6f4758e734c7b099cb433e26aae201ea7b7d09a63b97e72932f36e
+SHA512: 0975aa8dd442e9839afb51489de1f73ed3e8a2fe021bfd50256b0c8a15f77db60d5bc03c5b1cd768ed9910a93cee2bd4e9eab139dbf34a9d8ea6b584643e0671
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkwidget5
+Architecture: amd64
+Version: 5.6.12-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4099
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-2, libdtkcommon
+Filename: ./l/libdtkwidget5/libdtkwidget5_5.6.12-1_amd64.deb
+Size: 978056
+MD5sum: 07782cb13c667402e65da47fe296b283
+SHA1: 590352dacfa66bb912cf4b8f4f02c58fdcd47f9e
+SHA256: 9fcd8b02d5ae1cb798835d917285bc18231b14d3e4fd75ca19b37b7c17f610fb
+SHA512: 846d03550435b01fee2b9b4c27063ef17add805dcc204d82c771a0d9d540f2486ecbce1876d8d6a50c8e44885abbab61fcaeeb24415763c5d8e0d78a9b6835d4
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
 
 Package: libdde-file-manager-dev
 Architecture: amd64
@@ -492,6 +620,24 @@ Homepage: http://www.deepin.org
 Description: DDE File Manager Devel library
  This package contains the header files and static libraries
  of libdde-file-manager
+
+Package: libdtkdata
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12
+Filename: ./l/libdtkdata/libdtkdata_5.6.12-1_amd64.deb
+Size: 2760
+MD5sum: b47c34d8310378501c78739830bd9457
+SHA1: d88738f3fff989431d61e2005adb87c42e8052fd
+SHA256: d66856dc4b6ef202da08fafddc126ed125aa9ed7ee9b45c06837fd4af9a8d3dc
+SHA512: 14b84f417e653fe89d0a84da36963852074367845629834c9f493cec8d1c418c93145ed2298d187425e5a48c7b71d5c8d63763ec23395375035bcd3907893762
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
 
 Package: libgtk2-perl-doc
 Architecture: all
@@ -521,6 +667,30 @@ Description: Perl interface to the Gtk 2.x series (documentation files)
  .
  This package contains the documentation for the Gtk2 perl modules and some
  examples.
+
+Package: libicu63
+Architecture: amd64
+Version: 63.1.2+dde
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: icu
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 31682
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Breaks: libiculx63 (<< 63.1-5), openttd (<< 1.8.0-2~)
+Replaces: libiculx63 (<< 63.1-5)
+Filename: ./l/libicu63/libicu63_63.1.2+dde_amd64.deb
+Size: 8296764
+MD5sum: 118be726f9ef8672c7f5be303d115f6f
+SHA1: a4c6c38e9cf503e122a4f43ff397e307506420bc
+SHA256: a6b6b2cb7483e4f89fa69ab6bdf8bde23b976eff2b7b9b46dad9e208c3294015
+SHA512: e8a3affa1bceca5cdb3354327b91103a180bc999013aa6dd1c52dccbe2d68963445635b9f030463dfd9991f33289520312f6be97a56035e6f4fcce1c8efa3fbb
+Homepage: http://www.icu-project.org
+Description: International Components for Unicode
+ ICU is a C++ and C library that provides robust and full-featured
+ Unicode and locale support.  This package contains the runtime
+ libraries for ICU.
 
 Package: libgnome2-bin
 Architecture: arm64
@@ -609,6 +779,29 @@ SHA512: 7ebe747331071244fc4c12cebfc0c7279a0e988c49e1fae38e407bafdb371dd7e5a69485
 Description: Deprecated GNOME 2 library - binary files
  This package contains gnome-open, a utility that exposes functionality from
  the deprecated GNOME 2 library.
+
+Package: libboost-date-time1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2078
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-date-time1.67.0/libboost-date-time1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 238776
+MD5sum: 3a5e745ec59c6d97d897156f67f36e32
+SHA1: dcc6e0a05dd9c96280df82d47c2097527d72bb94
+SHA256: 60da755429be76252d7e02c664ee999156f3e1e61ae3ab1f8b949dc9bec63082
+SHA512: 91b73ba1de6f92de935da142cc744cbbfa092bbaa5c8f64aa79fd98942804e3797c3a6d274d69738d73aecd8154f4a52eba914b37842d54ae4a8f109cad649fb
+Homepage: http://www.boost.org/libs/date_time/
+Description: set of date-time libraries based on generic programming concepts
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ These libraries are intended to make programming with dates and times
+ almost as simple and natural as programming with strings and integers.
 
 Package: libdtkwm2
 Architecture: amd64
@@ -757,6 +950,28 @@ Description: GNOME Virtual File System (support binaries)
  .
  This package contains some example binaries using the GNOME VFS
  library.
+
+Package: libdtkdeclarative5
+Architecture: amd64
+Version: 5.6.0-1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2563
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgl1, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.14.1), libqt5qmlmodels5 (>= 5.14.1), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libstdc++6 (>= 4.8), qtbase-abi-5-15-2, qtdeclarative-abi-5-15-2
+Filename: ./l/libdtkdeclarative5/libdtkdeclarative5_5.6.0-1_amd64.deb
+Size: 615116
+MD5sum: c4bbffce78952204adbdf936ca5a0fb6
+SHA1: eb40616eaf3a2e39ec9cc6415e5c36d8481a3284
+SHA256: 25667dbf4dc73f0a63ef4a5817e1a69067198c80e8810321f0253466d7d28671
+SHA512: b7d18a3962e9d6d3cf2f62f208032240fcda3027c785216b79c1935a6e2103c3905041dc61b657940721e595a8e453d96bc66aab98dd7e07fdcfad7c811d8dc9
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the shared libraries.
 
 Package: liborbit-2-0
 Architecture: arm64
@@ -986,6 +1201,59 @@ Description: GNOME Virtual File System (runtime libraries)
  .
  This package contains the runtime libraries and the default modules.
 
+Package: libboost-serialization1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2437
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-serialization1.67.0/libboost-serialization1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 318956
+MD5sum: f33c8832ff954c2ea8da0a74adeb4b45
+SHA1: f5cbe70f7f610e7eade497c6700c80ffc3254ddd
+SHA256: db01e855574444ddad3a2993889349d5556c49a032c2c18d6716f87aa7df7281
+SHA512: c9833e867b24417d7ad278bf8ddd49491ac9d7b0da707603a94bd180689129abf7231d8ae945d61b0ec1701f4ebdda33cf31a92bf240e5c60d92bc62028bae12
+Homepage: http://www.boost.org/libs/serialization/
+Description: serialization library for C++
+ This package forms part of the Boost C++ Libraries collection,
+ containing the following functionalities:
+ .
+  * proper restoration of pointers to shared data
+  * serialization of STL containers and other commonly used templates
+  * data portability - streams of bytes created on one platform should
+    be readable on any other
+  * archive interface must be rich enough to permit the creation of an
+    archive that presents serialized data as XML in a useful manner
+ .
+ Here, "serialization" means the reversible deconstruction of an
+ arbitrary set of C++ data structures to a sequence of bytes.
+ archive: to refer to a specific rendering of this stream of bytes.
+
+Package: libdtkcommon
+Architecture: amd64
+Version: 5.5.17
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 11
+Depends: dconf-gsettings-backend | gsettings-backend
+Conflicts: libdtkcore5 (<< 5.4.10), libdtkgui5 (<< 5.4.10)
+Replaces: libdtkcore5 (<< 5.4.10), libdtkgui5 (<< 5.4.10)
+Filename: ./l/libdtkcommon/libdtkcommon_5.5.17_amd64.deb
+Size: 2132
+MD5sum: a42a907782f8e99e685fe542eb2213c4
+SHA1: 7c51afdf90181c7786bba4d67439d54ca08b0bf4
+SHA256: e9002cd9a4ffccd04b4f8c57d9a6654379fae8873ecff47ec0e3943767bef85d
+SHA512: 13bb7db069d4b860e71d231fa4c3ce8a9f17a3fb514ca65211d2c690ae14ac94d1ff27ddb3c611ad8f1c9280de0fdaace18ac5152301bf7e2cca83d352e82953
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
+
 Package: libbonobo2-dev
 Architecture: i386
 Version: 2.32.1-3+b1
@@ -1110,6 +1378,128 @@ Description: Bonobo CORBA interfaces library -- development files
  This package contains the headers and development libraries needed to
  build applications using Bonobo.
 
+Package: libdtkcore5
+Architecture: amd64
+Version: 5.4.20
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 793
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.11.3), libstdc++6 (>= 5.2), lshw, libdtkcommon
+Filename: ./l/libdtkcore5/libdtkcore5_5.4.20_amd64.deb
+Size: 232184
+MD5sum: 6c5519b5cf574d01fd72ec2551243cb9
+SHA1: 3b8d45d60f4cb6ee3f653637c53c6a94c55d0185
+SHA256: a319ae648dc6c0eaa6ad4221d6ad9c5ddbe25839ef3933679832529c1d955101
+SHA512: ff5d11d35f22c2ad327d7692d3880efe166edc159812f94cb4de313162e359e170f9bb5773bd845fc6bfb5a605ef26ea0fe5e3acc8797045eb734551d097be1a
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcore5
+Architecture: amd64
+Version: 5.6.12-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1666
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libsystemd0, qtbase-abi-5-15-2, lshw, libdtkcommon
+Filename: ./l/libdtkcore5/libdtkcore5_5.6.12-1_amd64.deb
+Size: 441680
+MD5sum: 69de53908633c2058f59d45d52aaa0c1
+SHA1: 44c74cab90f6e4de358cd627d4416b29689f74a9
+SHA256: f9fd273c31bd47b8e177587b2d31d5dfeec0a096a0818700a346f76fa9d8f83d
+SHA512: 410d739da5f63f0bb4601da2406a0e0c27db4719e1f5887c624d61c5a9f19e262a68f4f52ee7b010a5bf63c24b138306d65db81ea925b6a39c636995502ef95f
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libimageeditor-dev
+Architecture: amd64
+Version: 1.0.39-1
+Priority: optional
+Section: utils
+Source: image-editor
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 38
+Depends: libimageeditor (= 1.0.39-1)
+Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr
+Conflicts: libimage-viewer-dev
+Replaces: libimage-viewer-dev
+Filename: ./l/libimageeditor-dev/libimageeditor-dev_1.0.39-1_amd64.deb
+Size: 9568
+MD5sum: 8fa34354b74be54cd96d8934fbaeef1f
+SHA1: 680b80326b58b8ab82c7da855d6ef9a01636583a
+SHA256: 80e622fd4d8ce7bb1b4cd7c42a14b0287fccd47b23179cc6cdfa0b10a38cf71e
+SHA512: acee0cdf1b86f8e664572d16c3b0305476e8ce2649f67c9c8a5207b937f3be6415371ee4102217ad6ad2883ed17ba77a0d01ab7b4ae8fcd4d8ae2abeb88690b1
+Homepage: http://www.deepin.org
+Description: Image Viewer library development headers.
+ Deepin Image Viewer library development headers.
+
+Package: libprotobuf-lite17
+Architecture: amd64
+Version: 3.6.1.3-2
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: protobuf
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 508
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Filename: ./l/libprotobuf-lite17/libprotobuf-lite17_3.6.1.3-2_amd64.deb
+Size: 166928
+MD5sum: 8bc0324e0500fce9e493110c97c0e7dd
+SHA1: 1c7891802a225fc122b5e806dac1574edd47525b
+SHA256: d901aae9a5df2bf31eff505a53cd448f2f27b8c86961d9a805e764ba3066696a
+SHA512: 9554d066aebb8ac589b9f12b9a81fde76d3dfa50a4dc322e8445b1cc52c0677ed04e57d0a617c0b08021ad0f732ae3f97d91396fb7fc569e7b918ae2b4a19a8b
+Homepage: https://github.com/google/protobuf/
+Description: protocol buffers C++ library (lite version)
+ Protocol buffers are a flexible, efficient, automated mechanism for
+ serializing structured data - similar to XML, but smaller, faster, and
+ simpler. You define how you want your data to be structured once, then you can
+ use special generated source code to easily write and read your structured
+ data to and from a variety of data streams and using a variety of languages.
+ You can even update your data structure without breaking deployed programs
+ that are compiled against the "old" format.
+ .
+ Google uses Protocol Buffers for almost all of its internal RPC protocols and
+ file formats.
+ .
+ This package contains the runtime library needed for C++ applications whose
+ message definitions have the "lite runtime" optimization setting.
+
+Package: libportaudiocpp0
+Architecture: amd64
+Version: 19.6.0-1+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 77
+Depends: libc6 (>= 2.2.5), libgcc-s1 (>= 3.0), libportaudio2, libstdc++6 (>= 5)
+Filename: ./l/libportaudiocpp0/libportaudiocpp0_19.6.0-1+deb10u1_amd64.deb
+Size: 19956
+MD5sum: 32c2ab6adf9b27d2cbd9cf2529bac33a
+SHA1: a47573ce9a7ff7322ed63c27999ba4251de44bb6
+SHA256: 5ee522c30b9d85a08263e5be6c9ff7fa74ee6911ead373e6d4efe799c501b3dd
+SHA512: e6e09746babf9e877aca05899aca4d77a7a573a6aaaafb75f2022ea9e13bba894212cab349e51c2736fa71cf024c6456eaa79963ca391b4a2753c0aee6d778a2
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O C++ bindings - shared library
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the shared library of the C++ bindings.
+
 Package: libgnome2-dev
 Architecture: amd64
 Version: 2.32.1-6
@@ -1193,6 +1583,27 @@ SHA512: c9f338aaff5e17d844024c878241de2d784225960d53e20949e0e7b5aea7831e119c5255
 Description: Deprecated GNOME 2 library - development files
  This package contains the static library and development headers for
  the deprecated GNOME 2 library functions.
+
+Package: liblogviewerplugin-dev
+Architecture: amd64
+Version: 6.0.7-1
+Priority: optional
+Section: utils
+Source: deepin-log-viewer
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 58
+Depends: liblogviewerplugin (= 6.0.7-1)
+Recommends: libqt5libqgtk2
+Conflicts: liblog-viewer-plugin-dev
+Replaces: liblog-viewer-plugin-dev
+Filename: ./l/liblogviewerplugin-dev/liblogviewerplugin-dev_6.0.7-1_amd64.deb
+Size: 13936
+MD5sum: a56751c5a427d2d139eea7db3fe64a81
+SHA1: d9b52d9b1d9fd23ea65ffa4dff1325155be5645a
+SHA256: d2fbd911dba14dfe078a815ec419123f0c9037c75fea28f916b7c792c292c6dc
+SHA512: 2b7e91e003da11e9fa9290ede61358caef1a3501901597fb4fa5ba052e3685171ebceecfc12e8fa1c85519f645619959e37bdadb09158eafbd74ee91cf5a9ab5
+Description: Log Viewer Plugin library development headers.
+ Deepin Log Viewer Plugin library development headers.
 
 Package: libfprint0
 Architecture: amd64
@@ -1502,25 +1913,29 @@ Description: Bonobo CORBA interfaces library -- support binaries
  This package contains a test component using bonobo and some utility
  binaries.
 
-Package: libdframeworkdbus2-dbgsym
+Package: libboost-filesystem1.67.0
 Architecture: amd64
-Version: 15.11~1.1.6-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 1.67.0-13+deb10u1
 Multi-Arch: same
 Priority: optional
-Section: debug
-Source: dde-qt-dbus-factory
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 30051
-Depends: libdframeworkdbus2 (= 15.11~1.1.6-1+comsta)
-Filename: ./l/libdframeworkdbus2-dbgsym/libdframeworkdbus2-dbgsym_15.11~1.1.6-1+comsta_amd64.deb
-Size: 29864332
-MD5sum: 75b887adfd012152a9120b6e7100d841
-SHA1: a8e5dc7068fcb1dfdbe06a7389a7def9a3eb8607
-SHA256: 5099c9d7d1f2b5b6b3b5a1025207f3ffab99460c52e2491fef8075320e2fc6e7
-SHA512: d00c07a154270aa78897e6da19bc60fa94a95c005d24708de768640be825e4bfaffbff583c8d39bd2ae72786c083618d8f5493e59f0a168aa06d0e55bae7a2c6
-Description: debug symbols for libdframeworkdbus2
-Build-Ids: 89795ae6bc115ab2e9ed1eb1843bd5ebccaf2661
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2118
+Depends: libboost-system1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-filesystem1.67.0/libboost-filesystem1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 261100
+MD5sum: 2c753057e53495bacaa86c7c590dc441
+SHA1: 95c608a07a582c5bacac62120f64d8b5554da00e
+SHA256: 7c9d923fcdf86a3b6dc2f5d62004b96f565c2aaf134d4637227ea6f75fec4ba5
+SHA512: a146c7a36c8ee48861ac534afbab510d466ce9db18de5cd02239341a8611336efffea4272b41b1e2bc6c84de02feae9ef2520fde1f7a7d74206012c058191a69
+Homepage: http://boost.org/libs/filesystem/
+Description: filesystem operations (portable paths, iteration over directories, etc) in C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost Filesystem Library provides portable facilities to query and
+ manipulate paths, files, and directories.  The goal is to
+ facilitate portable script-like operations from within C++ programs.
 
 Package: libdeepin-font-installer
 Architecture: amd64
@@ -1542,45 +1957,27 @@ Homepage: http://www.deepin.org
 Description: Deepin Font Installer library
  This package contains the shared libraries.
 
-Package: libdtkwm2-dbgsym
+Package: libimageeditor
 Architecture: amd64
-Version: 2.0.11.1-1+comsta
-Auto-Built-Package: debug-symbols
-Multi-Arch: same
+Version: 1.0.39-1
 Priority: optional
-Section: debug
-Source: dtkwm
+Section: utils
+Source: image-editor
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 516
-Depends: libdtkwm2 (= 2.0.11.1-1+comsta)
-Filename: ./l/libdtkwm2-dbgsym/libdtkwm2-dbgsym_2.0.11.1-1+comsta_amd64.deb
-Size: 503732
-MD5sum: f9759a91d8179396efeff3614172335c
-SHA1: e8fbd2b990076af4680cd341eaa49fdfbf18cddf
-SHA256: 2c4c7701a00d23ad071c6bbdf8e8a08e75d8182ffa33e0cb17cdc1c8243763aa
-SHA512: 60200a13fb1c228c6c98c87845f7742430754e853a1e156573a71a42bb0ba62164d89d0fee607dbfa2b96d3558c30dea1d3ebf8142a6ecaa1b010ce968f87cdb
-Description: debug symbols for libdtkwm2
-Build-Ids: 41a0c306ca1b932a8df4c483cde155a4828a5a7c
-
-Package: libdtkwm2-dbgsym
-Architecture: amd64
-Version: 15.11~2.0.11.1-1+comsta
-Auto-Built-Package: debug-symbols
-Multi-Arch: same
-Priority: optional
-Section: debug
-Source: dtkwm
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 516
-Depends: libdtkwm2 (= 15.11~2.0.11.1-1+comsta)
-Filename: ./l/libdtkwm2-dbgsym/libdtkwm2-dbgsym_15.11~2.0.11.1-1+comsta_amd64.deb
-Size: 503740
-MD5sum: c05fd004d15ef29319bebb1cc3d05464
-SHA1: cdf2aa256ace8861c07a212eb50b0aee038ae2e1
-SHA256: 470e05f8fcbe1507eef967476e6dedd7506ef97a67d7d11e60d265f323cc53ca
-SHA512: 13dd7fe72748eb485feaa35ea3eb7958202511ef9f1bb4c5bf6aea1b3fe60f94b4abb86afb2400d337da7d34c000f5bddaaee73cab811aaef91ac06bcb4a601f
-Description: debug symbols for libdtkwm2
-Build-Ids: 41a0c306ca1b932a8df4c483cde155a4828a5a7c
+Installed-Size: 12066
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreeimage3 (>= 3.18.0+ds2), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3)
+Recommends: libqt5libqgtk2, kimageformat-plugins, deepin-ocr, ffmpegthumbnailer, ffmpeg
+Conflicts: libimage-viewer
+Replaces: libimage-viewer
+Filename: ./l/libimageeditor/libimageeditor_1.0.39-1_amd64.deb
+Size: 830568
+MD5sum: 2c6f5a5c4014098b2220369b2e7c8d21
+SHA1: e59b86c30dac279216abd6844e3199b1407dd1a6
+SHA256: 7dd330a847c5135509048095945c4ed66c137d51776938448ec658a0a72c0f0d
+SHA512: 41850fc3cad4d0d4c95588a4fb5b005e90aad08cd025108ccd8efd98a5155e597be88066cd17a47f3131a615039b73971a66a34dbde43d9270a44ebbeb9e0d22
+Homepage: http://www.deepin.org
+Description: Image Viewer library.
+ Deepin Image Viewer library.
 
 Package: liborbit2-dev
 Architecture: mips64el
@@ -1728,25 +2125,6 @@ Description: Deepin Tool Kit Core Utilities
  .
  This package contains the utilities of DtkCore
 
-Package: libdtkwidget-bin-dbgsym
-Architecture: amd64
-Version: 15.11~2.0.16.1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 254
-Depends: libdtkwidget-bin (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkwidget-bin-dbgsym/libdtkwidget-bin-dbgsym_15.11~2.0.16.1-1+comsta_amd64.deb
-Size: 244056
-MD5sum: 2f4ab3e82116052da3ba941aa224f2ed
-SHA1: f012058ea0daff8166fcaa67632d2a67a8c38e92
-SHA256: 6be79246acb1b70a203a59e0c1bfeb82b2faa038a35a443057a691bc03f36a3b
-SHA512: b86e5b92d326dd94d12e4173fccf4b247e23e53afdc590085e1fb43ed1899f2c049718a89aa208323c539869921f79799fa1bad3d94b3836f9ed59cf2a419b45
-Description: debug symbols for libdtkwidget-bin
-Build-Ids: 6a5ee1ade78627c74f5bd69e5c0d908b694cb67c
-
 Package: libdeepin-font-installer-dev
 Architecture: amd64
 Version: 1.1.5.1-1+comsta
@@ -1766,6 +2144,65 @@ Homepage: http://www.deepin.org
 Description: Deepin Font Instaler Devel library
  This package contains the header files and static libraries
  of libdeepin-font-installer
+
+Package: libdtkgui-dev
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 125
+Depends: libdtkgui5 (= 5.6.12-1)
+Filename: ./l/libdtkgui-dev/libdtkgui-dev_5.6.12-1_amd64.deb
+Size: 19192
+MD5sum: 8a89cae298bd1ff78c74f48abaf61d4d
+SHA1: cde7c5c52824388bb3126470649e8717b623525e
+SHA256: f19a826d8e5c40348e8cf2a8c482b27a16e6b99bb70ea6fec44386381b4e1b6d
+SHA512: aa03ba11ad8a87092c0b53a73c93573d157b0bedcff82aad01b024258640f9336fafa5b117f9c6862927014fedb46d468a048a580ea00ac6570ddef64c6d2e45
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
+Package: libdtkgui-dev
+Architecture: amd64
+Version: 5.4.15
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 103
+Depends: libdtkgui5 (= 5.4.15)
+Filename: ./l/libdtkgui-dev/libdtkgui-dev_5.4.15_amd64.deb
+Size: 12368
+MD5sum: c0345ad153f0dca82d274d5ffa4965b3
+SHA1: 99b26970b52d39ce081ad1634faccf2df0d182ca
+SHA256: a83e1ead8b35b18d07bf647c54806e3d6ff57a82a4263652dfe1cd1000d98322
+SHA512: 0f0c6dc919150a6cfc60bad8ad663d86b9dc6e44ab92850ee80a6107cd8f248e4a93756c1f61ae2dfe7fa4b70eb8336aad62c24358ccb45e079b05fd6c85300f
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
+Package: libdtkgui-doc
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 2786
+Filename: ./l/libdtkgui-doc/libdtkgui-doc_5.6.12-1_amd64.deb
+Size: 1622320
+MD5sum: 78989aa8b3f0bc7e0008e8946e8958c8
+SHA1: 07928b1257810fb5285e11f2ecd2a0e113114a01
+SHA256: 02d13cdfd81c8fa4010235759e592f35125b9f8903bab03f3c5f08c30a5f7c6b
+SHA512: cc23dd444f859f6537485511f2a1426bed912b161738c052b3bf6bdcfab89223d132ba604c1da5a35ae15ddab8f41d3043a4335fc83313c9ea666649f29ae165
+Description: Deepin Tool Kit Gui (Document)
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the qt Document of DtkGui
 
 Package: libgnome-keyring0
 Architecture: mips64el
@@ -1887,6 +2324,60 @@ Description: GNOME keyring services library
  .
  This package contains shared libraries for GNOME.
 
+Package: libboost-chrono1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2042
+Depends: libboost-system1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-chrono1.67.0/libboost-chrono1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 233816
+MD5sum: 2799efc8fb463f67a1fff74935d96cce
+SHA1: e6f33f958a6e9d0c291ca9f191f59f9e2d6939a6
+SHA256: 3e4c66b508f6b4e08c5d7e8a2058cb7e140de572ff9171359d4e27ed72c143b2
+SHA512: 90702504c23c277b418c7db09abd0e97714c4dee9d800569de321f1b16c77d3d2548072264bfe611d47ca14441ca12a645db1f0c146dde4978804cf32a7d2b8d
+Homepage: http://www.boost.org/libs/chrono/
+Description: C++ representation of time duration, time point, and clocks
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost.Chrono library provides:
+ .
+  * A means to represent time durations: managed by the generic duration
+    class.Examples of time durations include days, minutes, seconds and
+    nanoseconds, which can be represented with a fixed number of clock
+    ticks per unit. All of these units of time duration are united with
+    a generic interface by the duration facility.
+  * A type for representing points in time: time_point. A time_point
+    represents an epoch plus or minus a duration. The library leaves
+    epochs unspecified. A time_point is associated with a clock.
+  * Several clocks, some of which may not be available on a particular
+    platform: system_clock, steady_clock and high_resolution_clock. A
+    clock is a pairing of a time_point and duration, and a function
+    which returns a time_point representing now.
+ .
+ To make the timing facilities more generally useful, Boost.Chrono
+ provides a number of clocks that are thin wrappers around the
+ operating system's time APIs, thereby allowing the extraction of wall
+ clock time, user CPU time, system CPU time spent by the process:
+ .
+  * process_real_cpu_clock, captures wall clock CPU time spent by the
+    current process.
+  * process_user_cpu_clock, captures user-CPU time spent by the current
+    process.
+  * process_system_cpu_clock, captures system-CPU time spent by the
+    current process.
+  * a tuple-like class process_cpu_clock, that captures real, user-CPU,
+    and system-CPU process times together.
+  * a thread_clock thread steady clock giving the time spent by the
+    current thread (when supported by a platform).
+ .
+ Lastly, Boost.Chrono includes typeof registration for duration and
+ time_point to permit using emulated auto with C++03 compilers.
+
 Package: libgnome-keyring-common
 Architecture: all
 Version: 3.12.0-1
@@ -1917,25 +2408,46 @@ Description: GNOME keyring services library - data files
  This package contains data files and translations for the GNOME keyring
  library.
 
-Package: libdeepin-font-installer-dbgsym
+Package: libdtkdeclarative-dev
 Architecture: amd64
-Version: 1.1.5.1-1+comsta
-Auto-Built-Package: debug-symbols
-Multi-Arch: same
+Version: 5.6.0-1
 Priority: optional
-Section: debug
-Source: deepin-font-installer
-Maintainer: Rekols <rekols@foxmail.com>
-Installed-Size: 1094
-Depends: libdeepin-font-installer (= 1.1.5.1-1+comsta)
-Filename: ./l/libdeepin-font-installer-dbgsym/libdeepin-font-installer-dbgsym_1.1.5.1-1+comsta_amd64.deb
-Size: 1086564
-MD5sum: ca6350219ef29ca8652dfbcea2413f89
-SHA1: c2c899b3c72fe82ce2f717d1c295c86ecdec1395
-SHA256: 050e518da8fb01b69861a3ef3c6a22999f49d52084652dc52d0d0781cff1eff2
-SHA512: 06c1853131452221daf4fa1e486fc81fff78c4c26d2e729ae8dfb05340bef5eaffcccde42bc33b68afb4b788ca3bfa649506e7f34daed887676525eee15f08e8
-Description: debug symbols for libdeepin-font-installer
-Build-Ids: b7ce401370b726c739687783b53b5e806c61c8ca
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 106
+Depends: libdtkdeclarative5 (= 5.6.0-1)
+Filename: ./l/libdtkdeclarative-dev/libdtkdeclarative-dev_5.6.0-1_amd64.deb
+Size: 13888
+MD5sum: 1484ae7e4b817845e8fa83e164281b9b
+SHA1: 2b4ac1adeb08a01f7cd92e49630a333496ba32c0
+SHA256: de8e8a36ccf13736b66af8b1892cb9468e80cfb198e4b8b9a3b82fda922bcca7
+SHA512: 2d48e0390e70cebb7c2503313bac817c40bcbecd51fb2624c22a69cf483921c469ca0cab2034f876f7d3a9fd0dc5c079f099f6c7f6baa2dc7a6ebb43ba3b6b55
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Gui Devel library
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+ .
+ This package contains the header files and shared libraries of DtkDeclarative
+
+Package: libdtkcore-dev
+Architecture: amd64
+Version: 5.4.20
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 178
+Depends: libdtkcore5 (= 5.4.20), libdtkcommon-dev
+Filename: ./l/libdtkcore-dev/libdtkcore-dev_5.4.20_amd64.deb
+Size: 20880
+MD5sum: 0e6e4b1c55ab728501863545692eb195
+SHA1: 91e356a957ddc2db5f1a34c9a1249309a9f8dd1b
+SHA256: bd21e5f76d5664015a4d81fb76f78b414060480f4bc1b18a53e9a095b236b29a
+SHA512: 176a92da38053c1ed8c1152cfc137b7c09456b7421e1e3ac10bcb3edaa9648a13976d22a8281ced36951396638edd71c0016bbf5e5db4a5759f61143e3a31f42
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
 
 Package: libdtkcore-dev
 Architecture: amd64
@@ -1952,6 +2464,26 @@ MD5sum: 93f5e8f247aea37eb3985f7be3288ed2
 SHA1: dd3321d88e8fded45f984061ee7e27f3b0284351
 SHA256: 026d75e7fa1891544c82cc8e855758c5740d036fef4c04976e183fe4a0ab4f72
 SHA512: 53d4066fffd67e75270c6e7ac266fdd4d1b221969e17dca44cb1000ac0f855f8f69cef606d1a46956d2e7167005c9b6ec6dcdc903aaacc345bfa6bbb047af7ab
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtkcore-dev
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 296
+Depends: libdtkcore5 (= 5.6.12-1), libdtkcommon-dev (>= 5.6.4)
+Filename: ./l/libdtkcore-dev/libdtkcore-dev_5.6.12-1_amd64.deb
+Size: 43392
+MD5sum: 9e3b045b839f01e48914c65a01785d72
+SHA1: ddacd2d5c2a0fa4acd2a1cef29ce76017fa07eed
+SHA256: 3ea0e0a89b96bfc78968be060ffce13fdb14882da95943965cc51df7b1bef934
+SHA512: bfb4873ed212b11e9f7fc4138c6bbf5ef619d173a968212543e9839a24ccb462edad3fa7f5c25baf6a0b83130b3c41794af630a56726382999b5b338f268fd43
 Description: Deepin Tool Kit Core Devel library
  DtkCore is base devel library of Deepin Qt/C++ applications.
  .
@@ -2180,6 +2712,107 @@ Description: Deprecated GNOME 2 library - documentation files
  This package contains documentation files for the deprecated GNOME 2 library
  functions.
 
+Package: libboost-atomic1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2017
+Depends: libc6 (>= 2.2.5), libgcc1 (>= 1:3.0), libstdc++6 (>= 4.1.1)
+Filename: ./l/libboost-atomic1.67.0/libboost-atomic1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 225812
+MD5sum: f7ca1a0f9991bc20206f6d09b91377f4
+SHA1: 68a5718464b0106a83bd302247bfd304e3aa99ff
+SHA256: f549f051877b4a87e02640c58a2e2c117c944af8ece79141908af5a3f2dffda4
+SHA512: d53ecf85a5fc1163780073394c65c4a50b922806a1b3d51dbf3d63df086699bb18a83186bd56d23d7bc9b5ec220aa6e083c4cf4644d6d1ceeba38f4e98a127db
+Homepage: http://www.boost.org/libs/atomic/
+Description: atomic data types, operations, and memory ordering constraints
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Boost.Atomic is a library that provides atomic data types and
+ operations on these data types, as well as memory ordering
+ constraints required for coordinating multiple threads through atomic
+ variables. It implements the interface as defined by the C++11
+ standard, but makes this feature available for platforms lacking
+ system/compiler support for this particular C++11 feature.
+ .
+ Users of this library should already be familiar with concurrency in
+ general, as well as elementary concepts such as "mutual exclusion".
+ .
+ The implementation makes use of processor-specific instructions where
+ possible (via inline assembler, platform libraries or compiler
+ intrinsics), and falls back to "emulating" atomic operations through
+ locking.
+
+Package: libdtkgui5-bin
+Architecture: amd64
+Version: 5.4.15
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.4), libdtkcore5 (>= 5.4), libdtkgui5 (= 5.4.15), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: ./l/libdtkgui5-bin/libdtkgui5-bin_5.4.15_amd64.deb
+Size: 16676
+MD5sum: 9e7a530e0469641f78e719c86c12e7c0
+SHA1: a67de725ece4cfb921d3f5b281be8f1c88d6af44
+SHA256: 7021c6c47646f95170172762f6b542c3dff8ae54565a3dc57e1362328e66946b
+SHA512: e6799dc7151b408b93e50c2878525be358984a292780559c8b318b9a0656d401c276daccd7bcf0b416629612e325a5d1178e17ebf840a724c6340036d09db2c7
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+
+Package: libdtkgui5-bin
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 192
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (= 5.6.12-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 6), libx11-6
+Filename: ./l/libdtkgui5-bin/libdtkgui5-bin_5.6.12-1_amd64.deb
+Size: 46792
+MD5sum: 1becd94fad7faf9dd9e199fcda000837
+SHA1: e8103bce5e846d534eb3ac372aaebbdc0f742592
+SHA256: eec52c6b752dd0a324c9aef2524b88127278b305e048c4fed68ae92a1491995a
+SHA512: 96b318dc1ab48f21297b7f13b7aca48110f90076dfda4bdeebf3ff6a2a5596bd3ecebb9a0a3d2939447455dc7858bf887ceae56006241f0158853afcdc3c3519
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+
+Package: libportaudio2
+Architecture: amd64
+Version: 19.6.0-1+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 211
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125
+Filename: ./l/libportaudio2/libportaudio2_19.6.0-1+deb10u1_amd64.deb
+Size: 66340
+MD5sum: 1624adda91cda169b9127e6336bae1ae
+SHA1: 3217b9e760934a0ad725a833602f110d9952dc2a
+SHA256: 93d0b7b6b371d7dbb711694fdf0f299133514128055e951f37c20b4c6297d5cd
+SHA512: 877e6f2711fbf3d52cfbed11e5637f636acd7920b64cc3e6bf1e43e2b1ba199df67ba6ff79ca789509981985987c29009cf461646f0ec4f7f0774e269542022e
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O - shared library
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the shared library.
+
 Package: libdframeworkdbus2
 Architecture: amd64
 Version: 15.11~1.1.6-1+comsta
@@ -2204,6 +2837,29 @@ Description: Qt DBus interface library for Deepin software (shared library)
  descriptions.
  .
  This package is part of DDE (Deepin Desktop Environment).
+
+Package: linux-image-deepin-hwe-amd64
+Architecture: amd64
+Version: 6.1.32-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-image-6.1.32-amd64-desktop-hwe
+Filename: ./l/linux-image-deepin-hwe-amd64/linux-image-deepin-hwe-amd64_6.1.32-hwe_amd64.deb
+Size: 2032
+MD5sum: 3ece94dd37df2308a3d4ed41008df377
+SHA1: 1cd9d39ee290ee5cfa4b82a66a9ef9abebb3a30c
+SHA256: e699e345a4d0ee79e2fc1ffd107806713921542d03bb5cd90e14dd9a94530d9b
+SHA512: b2cc354282533004adca1b421edcb9008c3c82ae917e662a1d2e286ab0d9014673fee9abcdab1b2bdffef4d22caca8d94ea78e3e9aa1531ef5628a10c946220c
+Homepage: http://www.deepin.com
+Description: Linux for 64-bit PCs (meta-package)
+ This package depends on the latest Linux kernel and modules for use on PCs
+ with AMD64, Intel 64 or VIA Nano processors.
+ .
+ This kernel also runs on a Xen hypervisor.  It supports both privileged
+ (dom0) and unprivileged (domU) operation.
 
 Package: libfprint-dev
 Architecture: amd64
@@ -2276,6 +2932,107 @@ Description: Deepin graphical user interface library
  DtkWm is used to handle double screen for deepin desktop development.
  This package contains the shared libraries.
 
+Package: libboost-system1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2025
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-system1.67.0/libboost-system1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 229068
+MD5sum: 3fc1c29f48945a2cbfb48cead91d035e
+SHA1: 1cc80d6d18d9abe4dda580b80faf7b512deb6b42
+SHA256: ca6785594503d0fbf66f02300beab24e6f3c028759cfb21cef35b8cfa15ba0dd
+SHA512: d4e5f634e38978f133a048a5faf56fd1f83bc6d9795143156c01c6c03536eb45a23bf156b7d50982e079ff66ecd99154389b681a6e4d7e4ed61ff1df98f05360
+Homepage: http://www.boost.org/libs/system/
+Description: Operating system (e.g. diagnostics support) library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ The Boost System library provides simple, light-weight error_code
+ objects that encapsulate system-specific error code values, yet also
+ provide access to more abstract and portable error conditions via
+ error_condition objects. Because error_code objects can represent
+ errors from sources other than the operating system, including
+ user-defined sources, each error_code and error_condition has an
+ associated error_category.
+
+Package: libdtkcommon-dev
+Architecture: amd64
+Version: 5.5.17
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 51
+Depends: libdtkcommon (= 5.5.17)
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./l/libdtkcommon-dev/libdtkcommon-dev_5.5.17_amd64.deb
+Size: 8904
+MD5sum: ad7a2e70aeddef7db42d1f5260928055
+SHA1: 909dc383ab8a3f8cdb0c2701599ff4f0cb990904
+SHA256: 6bd5575b202621276b2e5652138a5edf3e274fc35749350d813ca7f27c6a59d9
+SHA512: 4ecc4048f1b3d9af86b7b51497bca233baf6ac90f90903db7e8d2be887f06d44bfae96c6ed76127e725ff9670acb52baa49d1c725b6a774dc2ace8872b7e2e95
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+
+Package: libdtkcommon-dev
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 51
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./l/libdtkcommon-dev/libdtkcommon-dev_5.6.12-1_amd64.deb
+Size: 9432
+MD5sum: c156c39d4a19ff4364e0c917008da379
+SHA1: b4bf5445b876f6240a7ef2640b7bfbdb6b92a296
+SHA256: ffafee98be1a649f7b40c7921e3fc77f7667fdae20b549d1bb30a2eb8da39ced
+SHA512: 27232a90894e6e0f405ea7999649948a08c9a08a786b7109a2dc4ae35b907c06081a5a57a3543cca3ac4eb46344b4ab693976cf5e1579ed57c26d31d9b5f7503
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+
+Package: libboost-regex1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 3107
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libicu63 (>= 63.1-1~), libstdc++6 (>= 5.2)
+Breaks: ceph-common (= 12.2.8+dfsg1-1), ceph-common (= 12.2.8+dfsg1-2), nheko (= 0.6.1-1)
+Filename: ./l/libboost-regex1.67.0/libboost-regex1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 484968
+MD5sum: 1f71c98e59bf9e8639a6f3b623d2582a
+SHA1: b481855774dec1c20ffc2fc3c38957e947183aa3
+SHA256: b9f0e84f1649057e1abade1faa590ca4ef79b4159db7172e459b3d323de18f96
+SHA512: 374cd9a21ef454d0d484357aa08766d353a933e727ce537f0282ade6a66f074f9ce7f24b05971373644d8ec3af4e60a06c6f076ebaaea47423632b57f359f3e1
+Homepage: http://www.boost.org/libs/regex/
+Description: regular expression library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Regular expressions are a form of pattern-matching that are often
+ used in text processing; many users will be familiar with the Unix
+ utilities grep, sed and awk, and the programming language perl, each
+ of which make extensive use of regular expressions. Traditionally C++
+ users have been limited to the POSIX C APIs for manipulating regular
+ expressions, and while regex does provide these APIs, they do not
+ represent the best way to use the library. For example regex can cope
+ with wide character strings, or search and replace operations (in a
+ manner analogous to either sed or perl), something that traditional C
+ libraries can not do.
+
 Package: libdtkcore2
 Architecture: amd64
 Version: 2.0.16.1-1+comsta
@@ -2317,6 +3074,35 @@ Description: Deepin Tool Kit Core library
  DtkCore is base library of Deepin Qt/C++ applications.
  .
  This package contains the shared libraries.
+
+Package: libboost-timer1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2030
+Depends: libboost-chrono1.67.0, libboost-system1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-timer1.67.0/libboost-timer1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 231036
+MD5sum: b1a802c793c961ff3e95eb082a0cf4a7
+SHA1: fb6c2bd2d848b03df590482f6274d504bc29053a
+SHA256: 4e780be1109725bf3d0d6e3820d1b7314b621527df8887c38ccc5039743c4c8d
+SHA512: 7ae1ed0ede619d9377834ec1b783a153d780be4a1b1bdcb1858f1ec7b25a2f13a115a8a6c0b753e825e14efafd61d85cafd93fc4419636ba049b737f238dacf0
+Homepage: http://www.boost.org/libs/timer/
+Description: C++ wall clock and CPU process timers
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Portable C++ timer classes that answer the question "How long does my
+ C++ code take to run?" with as little as one #include and one
+ additional line of code.
+ .
+ Class cpu_timer measures wall clock time, user CPU process time, and
+ system CPU process time. Class auto_cpu_timer is a refinement of
+ cpu_timer that automatically reports the elapsed times when an
+ auto_cpu_timer object is destroyed.
 
 Package: libdisomaster
 Architecture: amd64
@@ -2459,6 +3245,46 @@ Homepage: https://github.com/linuxdeepin/dde-network-utils
 Description: DDE network utils
  DDE network utils.
 
+Package: libdtkcore5-bin
+Architecture: amd64
+Version: 5.4.20
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 318
+Depends: libc6 (>= 2.4), libdtkcore5 (= 5.4.20), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.11.3), libqt5xml5 (>= 5.11.3), libstdc++6 (>= 5), qtbase-abi-5-15-2
+Filename: ./l/libdtkcore5-bin/libdtkcore5-bin_5.4.20_amd64.deb
+Size: 90040
+MD5sum: 16f0e0441296bf5a776398b98d56b5f6
+SHA1: 5c7381914b68db5c4595a0aab13e262c19c8d011
+SHA256: 1d23a9eb18abf09fef830f92607bb52e07274fc7cedd19f69a220a764d745e11
+SHA512: 318bccdecb1eca79a1c3dff88f328b7f2642f5c02ee172a1ffcba2124a15bb0f74b44f3e33c0b1167ba9f0c32d1da78f3c9e84e8f64570e20ae79aa3e12d6dd9
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtkcore5-bin
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1046
+Depends: libc6 (>= 2.14), libdtkcore5 (= 5.6.12-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.8), qtbase-abi-5-15-2
+Filename: ./l/libdtkcore5-bin/libdtkcore5-bin_5.6.12-1_amd64.deb
+Size: 260940
+MD5sum: db7f7a60cfb41be042d5f5ff8cb5cc0c
+SHA1: 9d3a164e5c0fdfb77bcd7b49e8af53145afcab4d
+SHA256: f6a3930544e000d219f50b6abedb9830aeaf6f1f61de52a8e5339a7263b81ecd
+SHA512: ae81cc284eaaf6e34c1dce0333d7148da41930253b2d8e4470092bf7a1ef252ec30b8d42807197b02d31c221e0f923dfe7ed7ad749596f0fe7488929eb327fae
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
 Package: liborbit2
 Architecture: mips64el
 Version: 1:2.14.19-2+b1
@@ -2570,6 +3396,26 @@ Description: high-performance CORBA implementation - extra libraries
  This package contains extra run-time libraries needed by some
  applications that communicate with each other using the ORBit2
  implementation of CORBA.
+
+Package: linux-headers-6.1.32-amd64-desktop-hwe
+Architecture: amd64
+Version: 23.01.00.20-1
+Priority: optional
+Section: kernel
+Source: linux-upstream
+Maintainer: deepin <deepin@v23.deepinci-amd4>
+Installed-Size: 53241
+Filename: ./l/linux-headers-6.1.32-amd64-desktop-hwe/linux-headers-6.1.32-amd64-desktop-hwe_23.01.00.20-1_amd64.deb
+Size: 9041472
+MD5sum: 1345b821de3f1c18dc3d9699c760a160
+SHA1: 7dc27574a04403504d1eb90e332929143c788177
+SHA256: af587fde652b14359eda103061d4bb19568684c77a91100f51b410a4131500c1
+SHA512: 1be2711d11411f5bbd978f548deb7997c0092178b23542b7d25e67892bfa7415e74505a7d793e2e78b8e230830dc97510bb013f1bde0b045527f9e6e8dce3375
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 6.1.32-amd64-desktop-hwe on amd64
+ This package provides kernel header files for 6.1.32-amd64-desktop-hwe on amd64
+ .
+ This is useful for people who need to build external modules
 
 Package: libbonobo2-0
 Architecture: amd64
@@ -2699,25 +3545,6 @@ Description: Bonobo CORBA interfaces library
  .
  This package contains the shared libraries.
 
-Package: libdde-network-utils-dbgsym
-Architecture: amd64
-Version: 0.1.4-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-network-utils
-Maintainer: listenerri <listenerri@gmail.com>
-Installed-Size: 2059
-Depends: libdde-network-utils (= 0.1.4-1+comsta)
-Filename: ./l/libdde-network-utils-dbgsym/libdde-network-utils-dbgsym_0.1.4-1+comsta_amd64.deb
-Size: 2037868
-MD5sum: 4d79cdf6f968cc4b0964e17a9c121094
-SHA1: ddcd9acf16905289331a53310d48ccb959d7fd03
-SHA256: 7aeffb505a300a11718b0a24e8f7948ff643db17e91bf04caf255ccff4a054bf
-SHA512: b3d44b242cab5599b1229ab521dd6239269164dfd9f506482b74ab86c463bbfc5030ea295502fe610d0840977a28acdd824d41dcf9e81bad3a2e0f031bdf1eae
-Description: debug symbols for libdde-network-utils
-Build-Ids: ca7532c394b7a7320d23a75268d11862f874a22b
-
 Package: libdde-file-manager
 Architecture: amd64
 Version: 4.8.8.2+c1-1+comsta
@@ -2739,25 +3566,30 @@ Homepage: http://www.deepin.org
 Description: DDE File Manager library
  This package contains the shared libraries.
 
-Package: libdde-file-manager-dbgsym
+Package: libboost-test1.67.0
 Architecture: amd64
-Version: 4.8.8.2+c1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 1.67.0-13+deb10u1
 Multi-Arch: same
 Priority: optional
-Section: debug
-Source: dde-file-manager
-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 68305
-Depends: libdde-file-manager (= 4.8.8.2+c1-1+comsta)
-Filename: ./l/libdde-file-manager-dbgsym/libdde-file-manager-dbgsym_4.8.8.2+c1-1+comsta_amd64.deb
-Size: 68149224
-MD5sum: b2d50022834b9467450ff57692ad498d
-SHA1: a72b1248367174483605261472109486bb782e26
-SHA256: 1004bb46ba5b67819fcaa3e0d54d6fbb943e099052fed62a269b2169a80225dc
-SHA512: 6e114d2317f73653e188a52e7d4c1533f67ebb7e64bfaf747c8e1d7bc0199a1cd817a49f2a36cf1e931fbcb1af66eb98f233fe59ce726b7f287920d1ed6b4e29
-Description: debug symbols for libdde-file-manager
-Build-Ids: 0384d2f4caa0782b29877d204e99250ea2ff963f 079ec6ec5cdec98399cbc79f21a264a6089e45b7 40e78c56402d15b525d8260d1b253a1533113820 783b9bb3cf54d283553691afefb74c8a3b4666ac b518ba02695dd0197ddfab1964e304081c899a22 bbac9e70b28a09caa1a19ce21d1344b12a4580ab f8431e2889b02eca4af4d7a73cb80f5541d70b13
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2889
+Depends: libboost-system1.67.0, libboost-timer1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-test1.67.0/libboost-test1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 456208
+MD5sum: d72f46f3cebf7760793a60508e899e93
+SHA1: 7dc6fe6c5393e238c27d0fe8e0903f5ff21cae8d
+SHA256: 2be16731975a66bda5ccc91737bd4e2cab10aa51b89f57705b6ae5f73601d77b
+SHA512: 7fa0e00d4e2aae11da257ba29d0ae9270fe45d21825dabb3c69c02444bca02a17f4c0ddff3e960dac789eddcd6d993edec014b93271f05fb253b34271e84a9fb
+Homepage: http://www.boost.org/libs/test/
+Description: components for writing and executing test suites
+ This package forms part of the Boost C++ Libraries collection.  The
+ library contains several components.
+ .
+  * Basic execution, error detection, and reporting facility.
+  * Facilities to monitor program execution and produce error reports.
+  * Unit test framework to simplify writing test cases.
 
 Package: libdframeworkdbus-dev
 Architecture: amd64
@@ -2785,26 +3617,6 @@ Description: Qt DBus interface library for Deepin software (development files)
  This package is part of DDE (Deepin Desktop Environment).
  .
  This package provides development header files for libdframeworkdbus.
-
-Package: libfprint0-dbgsym
-Architecture: amd64
-Version: 1:0.6.0-2
-Auto-Built-Package: debug-symbols
-Multi-Arch: same
-Priority: optional
-Section: debug
-Source: libfprint
-Maintainer: FingerForce Team <fingerforce-devel@lists.alioth.debian.org>
-Installed-Size: 488
-Depends: libfprint0 (= 1:0.6.0-2)
-Filename: ./l/libfprint0-dbgsym/libfprint0-dbgsym_0.6.0-2_amd64.deb
-Size: 443652
-MD5sum: 9ed343fcbab42334d6d34d1da752aa65
-SHA1: 76d110e4646ad610e6894420ec30d29af7c66d0f
-SHA256: 5dccf5fedf38f098c5566433bedd39d1126fec9a2d91a15d16ae520ffd4bd87d
-SHA512: 9b92bdf8e6a7c6ac225e3d7fa3f5c43c3715cbd00dde9ca1f606c8fbbabf29a784c36b5589f33aefd18a54dd5732938554235a2d9e968a0214adfad7982b9843
-Description: debug symbols for libfprint0
-Build-Ids: 1ebf22d333ece1ac338a6a96b3f784802c55c5d9
 
 Package: libgnome-2-0
 Architecture: arm64
@@ -2923,6 +3735,31 @@ Description: Bonobo CORBA interfaces library -- support files
  .
  This package contains the support files needed by the Bonobo library.
 
+Package: libboost-thread1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2174
+Depends: libboost-atomic1.67.0, libboost-system1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-thread1.67.0/libboost-thread1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 267556
+MD5sum: 55d6ea987af1043ab5985827d0246de4
+SHA1: bcb0d27a3bc54b3bb380c74f727bd2a1798f7143
+SHA256: dc4b0c793d9181677f85523b8f7c69268d0f9309f796a514af62638748491645
+SHA512: 1aa9a2cf29c4b076e8fa5f0ec5c7fc4908922d3e2844b1537b812cb967eef9cd298d5ed0a92bd03746f39bc8fa605b707343833a29d7b3eaef519c5692de4d0b
+Homepage: http://www.boost.org/libs/thread/
+Description: portable C++ multi-threading
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Toolkit for writing C++ programs that execute as multiple,
+ asynchronous, independent, threads-of-execution. Each thread has its
+ own machine state including program instruction counter and
+ registers.
+
 Package: libdde-network-utils-dev
 Architecture: amd64
 Version: 0.1.4-1+comsta
@@ -2941,6 +3778,37 @@ SHA512: 0f8e02eb83c05321c8912eeade655aa79917de3efc29445baf556d5387b5a9adc374f8c0
 Homepage: https://github.com/linuxdeepin/dde-network-utils
 Description: DDE network utils dev
  DDE network utils dev.
+
+Package: libboost-log1.67.0
+Architecture: amd64
+Version: 1.67.0-13+deb10u1
+Priority: optional
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 3593
+Depends: libboost-atomic1.67.0, libboost-chrono1.67.0, libboost-date-time1.67.0, libboost-filesystem1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libicu63 (>= 63.1-1~), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-log1.67.0/libboost-log1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 610900
+MD5sum: 050dc03b1e602db574d880ceb9c2cf9a
+SHA1: 9ed889799f2b0254b7dad5fd355efb0947763d06
+SHA256: 4ae0be247a89b701c49a03a6a378cf199f79d316fedbfb833308e4553d71b797
+SHA512: c05b9c140748f6b8bd80025a920dd804983335b2449dac2d8139f7d25af91eabcd464d1a91bed3bcd3d50ae8a8d5fa3730312a5127f58e00f563131dfb2e5d22
+Homepage: http://www.boost.org/libs/log/
+Description: C++ logging library
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ This library aims to make logging significantly easier for the
+ application developer. It provides a wide range of out-of-the-box
+ tools along with public interfaces for extending the library. The
+ main goals of the library are:
+ .
+  * Simplicity. A small example code snippet should be enough to get
+ the feel of the library and be ready to use its basic features.
+  * Extensibility. A user should be able to extend functionality of the
+ library for collecting and storing information into logs.
+  * Performance. The library should have as little performance impact on
+ the user's application as possible.
 
 Package: libcroco-tools
 Architecture: amd64
@@ -2980,6 +3848,25 @@ Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit - util
  This package contains csslint, a standalone utility based on libcroco that
  can be used for testing CSS correctness.
 
+Package: libncnn-dev
+Architecture: amd64
+Version: 1.0.20221128-deepin1
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 236
+Depends: libncnn, libvulkan-dev
+Filename: ./l/libncnn-dev/libncnn-dev_1.0.20221128-deepin1_amd64.deb
+Size: 32764
+MD5sum: 279cfd819a630bf57a63615824646ad1
+SHA1: 92946495a7d78570ed4c1b1fd597296938eb7f89
+SHA256: e2780821ab87d94decca3be50660cf1f1ae91409baec1a6c5dba07a2e85f6f31
+SHA512: dc15bd7c6a8c62112003b48e48ebdb705a4164d45df4c11c17404eee495de10367de31884e773b5662dd012534d79bd28883b31c5fcfd0445cf0dd9cfd7d04f2
+Homepage: https://github.com/Tencent/ncnn
+Description: Neural network inference framework.
+ ncnn is a high-performance neural network inference framework optimized for the mobile platform.
+
 Package: libdtkwidget-bin
 Architecture: amd64
 Version: 15.11~2.0.16.1-1+comsta
@@ -3001,44 +3888,49 @@ Description: Deepin graphical user interface library utilities
  This package contains the utilities which are
  needed for developing Deepin applications.
 
-Package: libdtkwidget2-dbgsym
+Package: libboost-program-options1.67.0
 Architecture: amd64
-Version: 15.11~2.0.16.1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 1.67.0-13+deb10u1
 Multi-Arch: same
 Priority: optional
-Section: debug
-Source: dtkwidget
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 24708
-Depends: libdtkwidget2 (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkwidget2-dbgsym/libdtkwidget2-dbgsym_15.11~2.0.16.1-1+comsta_amd64.deb
-Size: 24551160
-MD5sum: 93b5297451db9dab201b0dba12fb607e
-SHA1: 245c3337eae673fe593d0bb57ac4db80b7554795
-SHA256: 69200bedf36894e6ebe43bf601e2cfe0f54747f09d4b3a6f8c5b48e8701dfd28
-SHA512: c865058b616327b9f5d5302b0ec9669a01fd553effd56a54378862811c604e7bff5c7eb91b063fc2cf25e05c3f1029977b289211db2467bf177beddedd4ce7ed
-Description: debug symbols for libdtkwidget2
-Build-Ids: df90b7c94c94f6e823d95e551922aa30121ecb14
+Section: libs
+Source: boost1.67
+Maintainer: Debian Boost Team <team+boost@tracker.debian.org>
+Installed-Size: 2538
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 5.2)
+Filename: ./l/libboost-program-options1.67.0/libboost-program-options1.67.0_1.67.0-13+deb10u1_amd64.deb
+Size: 357420
+MD5sum: 581d432e94955598a160b2d34deafcb3
+SHA1: 004905aa1bc298059694d03a4a565d7487818d64
+SHA256: 228137b25ed0193c524571df5edc78aaac6afd8f6b584604b8d3bb1c86c73905
+SHA512: 41feefa66b947c21432ddc5943a485c39639c927f92454d702782787a634942871af1adf98909a69c209043dd840d96616afa203995f373fc26bc9c5d595ce75
+Homepage: http://www.boost.org/libs/program_options/
+Description: program options library for C++
+ This package forms part of the Boost C++ Libraries collection.
+ .
+ Library to let program developers obtain program options, that is
+ (name, value) pairs from the user, via conventional methods such as
+ command line and config file.
 
-Package: libdisomaster-dbgsym
+Package: linux-headers-deepin-hwe-amd64
 Architecture: amd64
-Version: 0.2.0-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: disomaster
-Maintainer: Chris Xiong <chirs241097@gmail.com>
-Installed-Size: 318
-Depends: libdisomaster (= 0.2.0-1+comsta)
-Filename: ./l/libdisomaster-dbgsym/libdisomaster-dbgsym_0.2.0-1+comsta_amd64.deb
-Size: 302684
-MD5sum: 079676ee271891e0a849036049c2cb73
-SHA1: ab2114d5481d049e2a39510c6e294c688374d197
-SHA256: b27f4641b5a74326c98f07d430d9dbf66f983be12f9f97ab52040c0800c0379b
-SHA512: ef5ac31569005de3aa0ce9c6e948578d95afc3347752e13e887688674b238e3f646369ab530c3ab7c3232d94081ca9a8c22125fba86d477af08617244b77c9c4
-Description: debug symbols for libdisomaster
-Build-Ids: 4ea394a1d68a81d81201727dd60e55555ebd9ee3
+Version: 6.1.32-hwe
+Priority: extra
+Section: metapackages
+Source: linux-deepin-hwe
+Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 8
+Depends: linux-headers-6.1.32-amd64-desktop-hwe
+Filename: ./l/linux-headers-deepin-hwe-amd64/linux-headers-deepin-hwe-amd64_6.1.32-hwe_amd64.deb
+Size: 1936
+MD5sum: c1a2d1d97fc6b01b55fa96006605db80
+SHA1: 4e3bc5dea1a066e1ed3c0d368d3b3e877b7c77e0
+SHA256: 6e7ed17f45a5db419bcfd43db538a6469671f1f8b7450661bb15a27943435215
+SHA512: 023e1639f31602653506b6bef1d02d7d4619b78e8bd244c599cbe6a41a5d44baee873e003e104cc1f7bd5466d87fd2d7d70d352756f4101b3dfcf69adcc53ae8
+Homepage: http://www.deepin.com
+Description: Header files for Linux amd64 configuration (meta-package)
+ This package depends on the architecture-specific header files for the
+ latest Linux kernel amd64 configuration.
 
 Package: libcroco3
 Architecture: amd64
@@ -3077,64 +3969,47 @@ Description: Cascading Style Sheet (CSS) parsing and manipulation toolkit
  .
  This package contains the shared libraries.
 
-Package: libdtkcore2-dbgsym
+Package: libdtkgui5
 Architecture: amd64
-Version: 2.0.16.1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 5.6.12-1
 Multi-Arch: same
 Priority: optional
-Section: debug
-Source: dtkcore
+Section: libdevel
+Source: dtkgui
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 3509
-Depends: libdtkcore2 (= 2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore2-dbgsym/libdtkcore2-dbgsym_2.0.16.1-1+comsta_amd64.deb
-Size: 3491588
-MD5sum: 75ad3e95a8911173695e015990b36ab5
-SHA1: 01a2f2777db4c352b9b94238822889d12a667d44
-SHA256: 508eb6ea8dc060978f721ec95eafba5f8984215864e81cfae6ce541fb6337485
-SHA512: 6e9426cd84ad27589ac49dec1b57c49b21f7739f4d13744aeaa189d6dac56f038032740081d03d3c96e0c8988d71b29c2d33298fe9bb2c603f520f6e7b5553a1
-Description: debug symbols for libdtkcore2
-Build-Ids: 8caf543bb95ed1484b2e874b85150b0c375ceefb
+Installed-Size: 1063
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5xdgiconloader3 (>= 3.0.0), libstdc++6 (>= 5), qtbase-abi-5-15-2, libdtkdata, qt5-image-formats-plugins
+Filename: ./l/libdtkgui5/libdtkgui5_5.6.12-1_amd64.deb
+Size: 297288
+MD5sum: 33b263817738109a4f98c0dbccb5578a
+SHA1: 45a1c03b12168259a195240abd81e4df4baa7fa8
+SHA256: cf2effa64f4aa288de208fc7715a288a1bfb0b3094c97c80ebd7937077f26e83
+SHA512: d4daf2dacf0ef98c5d2b9da8af031c5f21f1a331fa40ef59c594447581a4b555915b955451ae971134c89663539f35e6e69a5c636bf66dcd74274768260b69f8
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
 
-Package: libdtkcore2-dbgsym
+Package: libdtkgui5
 Architecture: amd64
-Version: 15.11~2.0.16.1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 5.4.15
 Multi-Arch: same
 Priority: optional
-Section: debug
-Source: dtkcore
+Section: libdevel
+Source: dtkgui
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 3511
-Depends: libdtkcore2 (= 15.11~2.0.16.1-1+comsta)
-Filename: ./l/libdtkcore2-dbgsym/libdtkcore2-dbgsym_15.11~2.0.16.1-1+comsta_amd64.deb
-Size: 3491512
-MD5sum: abcbb5b4b94e212b8fbc583eef480cb3
-SHA1: 3608b3dbf920cc96545f31f29b7c36d1e141e292
-SHA256: 33e2116b859eab9e8142623618463364dd02f2b65f7ca1257ab6dcb1cfe74139
-SHA512: 304708fc405a2b1f5bc9f862e81328241a475fb8457a85ad0c1589f7cbdc355c118a30bdf5fb897a6720a32f9bc2dbc69dc353868f98e8d2097b5b5f2c6fb13f
-Description: debug symbols for libdtkcore2
-Build-Ids: 8caf543bb95ed1484b2e874b85150b0c375ceefb
-
-Package: libcroco-tools-dbgsym
-Architecture: amd64
-Version: 0.6.11-3
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: libcroco
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 39
-Depends: libcroco-tools (= 0.6.11-3)
-Filename: ./l/libcroco-tools-dbgsym/libcroco-tools-dbgsym_0.6.11-3_amd64.deb
-Size: 23920
-MD5sum: 321db5240c5e045a66a690ac731510f9
-SHA1: 755944ecda5c7ea32ae85c68320773a68eb0e826
-SHA256: 05bbecae03e63de0906cc5666a9c997acb97dbb7bffa18a6807486da79b1c1a2
-SHA512: 75a3fc257712525c242f6fd5be8f89bdd0d9c733f14dc0c4775617313eb830fd25f0dc3a592c9c2fd592c41ffe73d523794dd1cef2a28b7c30f37d8d4ae028b3
-Description: debug symbols for libcroco-tools
-Build-Ids: f05e00d21d3a5f1ccd14e0d18e95cbb4f9b0a05e
+Installed-Size: 488
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libstdc++6 (>= 4.5), qtbase-abi-5-15-2, libdtkcommon
+Filename: ./l/libdtkgui5/libdtkgui5_5.4.15_amd64.deb
+Size: 122192
+MD5sum: f1d6eca689d4fadd156f5b232ca70b0f
+SHA1: b53ec5cdb3d1e41c9b1304bb0419f6009dac6783
+SHA256: 43a15dd0324beb61c5249b9a2586c40d25529e3994bfbd4723d0f158ec991106
+SHA512: 262ed77b57c3d93e0659e9e4cbc0f570064ceb2c39bf63dc2ca38c4255279e0d73390d12ce1a035bc6741e063d1e682b4f782b644df0ebf1099a058a39f0eadb
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
 
 Package: libdisomaster-dev
 Architecture: amd64
@@ -3153,6 +4028,25 @@ SHA256: 6942f07c5860d64cfebaf0cfb70992603cf61e4e4cff024af2d70ab30c3845d2
 SHA512: 25020024e07b0dce4cacd68b8710a4190c3ea7a756eadc33492964fe3f9848d63025fa03704eb145459f8464e8a967e2979d54c612782307c8a1fdcbefeb4291
 Homepage: https://github.com/linuxdeepin/disomaster
 Description: Development package for libdisomaster.
+
+Package: libdtkcore-doc
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3882
+Filename: ./l/libdtkcore-doc/libdtkcore-doc_5.6.12-1_amd64.deb
+Size: 2896372
+MD5sum: a63f48225f3740254e10bb6fc6643876
+SHA1: 1845e02734604fc3c13db3c864a45ad29c83f73c
+SHA256: 33c5d178158df818ade74ce5d6d7fc71d61e663347535a5fffc532901dc280fd
+SHA512: ac8da7efce28c555dec8a912240ffc2aa285fd998ef6ab59ad19f606e95f8a9efe8244496261fdf769a6f2bb0db64a03480b96d89313afe5828c3a58e2933d39
+Description: Deepin Tool Kit Core (document)
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the doc files of DtkCore
 
 Package: libgnome2-common
 Architecture: all
@@ -3437,6 +4331,78 @@ Description: high-performance CORBA implementation - Object Request Broker
  C programs, and the command-line utilities ior-decode-2 and
  typelib-dump.
 
+Package: uengine-modules-dkms
+Architecture: amd64
+Version: 13.8.2
+Priority: optional
+Section: kernel
+Maintainer: Simon Fels <morphis@gravedo.de>
+Installed-Size: 214
+Depends: dkms (>= 2.1.0.0), deepin-elf-verify (>= 1.1.1-1)
+Filename: ./u/uengine-modules-dkms/uengine-modules-dkms_13.8.2_amd64.deb
+Size: 48728
+MD5sum: d4a31e253cb64647dd6f3713fde20ba1
+SHA1: 4956f0fb664202c855807b51fe833c11344ce61d
+SHA256: 47a11d748cbdff60342ade9f37596cd824893ee031a56dfb74e8d9fa719376a3
+SHA512: 1dfe0005ffe5a0d9f41bdbd726a89d90aa03270955d4c5a2738374e55a77d8525ed8aa1366e1879232cad1e80a1bb1f770a4817935b041cb4f3ac8553339d4a1
+Homepage: https://anbox.io
+Description: Android kernel driver (binder, ashmem) in DKMS format. . This package contains a out-of-tree version of the core Android kernel functionalities binder and ashmem.
+
+Package: portaudio19-dev
+Architecture: amd64
+Version: 19.6.0-1+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 606
+Depends: libasound2-dev, libjack-dev, libportaudio2 (= 19.6.0-1+deb10u1), libportaudiocpp0 (= 19.6.0-1+deb10u1)
+Suggests: portaudio19-doc
+Conflicts: libportaudio-19-dev, libportaudio-dev, libportaudio19-dev
+Replaces: libportaudio-19-dev, libportaudio19-dev
+Filename: ./p/portaudio19-dev/portaudio19-dev_19.6.0-1+deb10u1_amd64.deb
+Size: 108696
+MD5sum: 8789f0ff07bacc2da61ff4e1296caac9
+SHA1: 9b415a980824461b57b418633170f07ca6ac01e6
+SHA256: 736fd4f819be0b4c7a98b05f73839c9c3ed575e166df2056595aaa04b0f24fe3
+SHA512: 6dfb991c65cb899a9665a915e309a36a9d78bdebf5c4284fc21f92b209f1df95a8c3e01c59b26b13b70dea81e4766f8d024d130d7eb72126f08043f51565f1da
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O - development files
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the development files.
+
+Package: portaudio19-doc
+Architecture: all
+Version: 19.6.0-1+deb10u1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 2230
+Depends: libjs-jquery
+Filename: ./p/portaudio19-doc/portaudio19-doc_19.6.0-1+deb10u1_all.deb
+Size: 184372
+MD5sum: 5f04a62ac0096f354827d7fbcf1f63fb
+SHA1: 343f8e406b29fe8be7292c5c939d97be9368ce9f
+SHA256: 15f436adebf2bf68c883ba61fd7f08cd25e0f4c8d7404edbfede722a3ec42e01
+SHA512: f79ab34971cea9b974a40e44034ef3183a5baa4063bf0873904f1ea7eaf6ecb16f608b518df05c6bf7f4eaf93af97549cfd4b16414326fbc631e789a2e3cc649
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O - documentation
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the documentation.
+
 Package: plymouth-theme-deepin-logo
 Architecture: all
 Version: 15.10.9-1+comsta
@@ -3474,6 +4440,25 @@ SHA512: 91d8a6bda0ee467ecc10178060b9af50ba9a63599377042809e757999662d757e8993ab8
 Homepage: http://www.deepin.org
 Description: network-manager framework with plugin config.
  This is a network manager plugin config for deepin control center.
+
+Package: ncnn-tools
+Architecture: amd64
+Version: 1.0.20221128-deepin1
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 749
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libncnn, libstdc++6 (>= 5.2)
+Filename: ./n/ncnn-tools/ncnn-tools_1.0.20221128-deepin1_amd64.deb
+Size: 222084
+MD5sum: d631dab8feb6baafc0ae77ea2a56335b
+SHA1: 6c3c2306794584b698dbe13e57fc9c816b51f462
+SHA256: b1c62d554b928b1895bd17ff97923cca9e8dd18d1d1c7bcbf7e3a63b86f0fcda
+SHA512: 58b20c8e830ef4e13d778a86efc779f4a8923516f95a4d8685e117f3e8dcf8c33cac58e11cdd0503d8bf02bbe68adadf2f175589d99a8e5edc6a437da46bc4fd
+Homepage: https://github.com/Tencent/ncnn
+Description: Miscellaneous ncnn utilities.
+ miscellaneous ncnn utilities.
 
 Package: dde-account-faces
 Architecture: all
@@ -3529,44 +4514,6 @@ Homepage: https://www.deepin.org
 Description: GNOME keyring extension for dde-polkit-agent.
  DDE Polkit Agent extension to automatically do some thing with GNOME keyring.
 
-Package: deepin-anything-server-dbgsym
-Architecture: amd64
-Version: 0.1.0-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-anything
-Maintainer: Deepin Package Builder <packages@deepin.com>
-Installed-Size: 125
-Depends: deepin-anything-server (= 0.1.0-1+comsta)
-Filename: ./d/deepin-anything-server-dbgsym/deepin-anything-server-dbgsym_0.1.0-1+comsta_amd64.deb
-Size: 19812
-MD5sum: 09e79de712d48ad78a1780b401c3ec3c
-SHA1: ac9cf59406b2b0ac762ebbba9dd54ab1995d9cc3
-SHA256: 3dfa97a42820c667eafa3bfe6ea13da6f9f629fa77b6b979010460a8b69c9772
-SHA512: 13382edee988a805b4ead273fc8ce54d83b0dd684c18c4b328eddbfc676e535b1f1f786eddefb11694dea8e627419cd4b86210dfd3afede01da7c961099d7eb7
-Description: debug symbols for deepin-anything-server
-Build-Ids: 2ba4371dbc1d73df0f7cb65c46fd319405cede46 6aeb5b23caba15b54bfedf169ebae808d4e20832 bab3f39c8dd09ac8ff2bfd105bde3bb7d1c9d6c2 e5748f82074d1696a432a93dd479838b1a62ea47
-
-Package: dde-session-ui-dbgsym
-Architecture: amd64
-Version: 4.9.14-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-session-ui
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 93325
-Depends: dde-session-ui (= 4.9.14-1+comsta)
-Filename: ./d/dde-session-ui-dbgsym/dde-session-ui-dbgsym_4.9.14-1+comsta_amd64.deb
-Size: 93710296
-MD5sum: 3ffcaadb1d676e5ad2fc69b30847739f
-SHA1: 8dadf8a441e576b3823858124629bbf86180ba6b
-SHA256: 8e1273d048ddb400ae27e1b1d7f6e62f50d03e66d7a9c439b4f232becc338449
-SHA512: 39f6983fcb3ea94580bba9d8220b9d90c9286efa1bfcbccfc46c458f8e8aa67bef8cf84e449da1785449316dd5aacc3aea84ba8c182d32b016761b2d6b5d9a81
-Description: debug symbols for dde-session-ui
-Build-Ids: 16255f442ad2a18137e7ae4e6f8468137b5e9853 2241560326f08eec3aa53549bd224de5e064eba4 264204b47b73ebafd8f606ffe52f1fcd2bb23505 3edb7cb705b50050217e4fd4fbce0dee494d6487 5b737c0d74943bd8bd4470ff49de01adfb1ebfb4 5c0d70b6dbeb72e8684ee6a9419e44a5b42136f4 79b51b44bf25c579c819a4cced9ddc754ae5f9d9 ad4e245b82fd3920048a1ca71c80d5ca42d15c2c bdf49047d72447c996ec65c67c97b544d26f72a6 c3d7e179199674929a3c9a5dc432b23331e1d56a d270c8552eabe7cc7648af5e355a5fff0b8011b2 d6b3e7b36da9d252b05d1c7d589acd68c30d68b5 ed16dfa05c598f7e2e116fe60d5419a66de54dae
-
 Package: dde-polkit-agent-dev
 Architecture: amd64
 Version: 0.3.0-1+comsta
@@ -3603,43 +4550,23 @@ Homepage: http://www.deepin.org
 Description: Deepin Font Installer binary
  Deepin Font Installer is used to install and uninstall font file for users with bulk install function.
 
-Package: deepin-calculator-dbgsym
-Architecture: amd64
-Version: 15.11~1.0.12-1+comsta
-Auto-Built-Package: debug-symbols
+Package: deepin-icon-theme
+Architecture: all
+Version: 15.12.71-1+comsta
 Priority: optional
-Section: debug
-Source: deepin-calculator
-Maintainer: Rekols <rekols@foxmail.com>
-Installed-Size: 7042
-Depends: deepin-calculator (= 15.11~1.0.12-1+comsta)
-Filename: ./d/deepin-calculator-dbgsym/deepin-calculator-dbgsym_15.11~1.0.12-1+comsta_amd64.deb
-Size: 6958960
-MD5sum: 7b6e0f94ce867d25d39a4d52f7ff82bc
-SHA1: 99d512426d67539fd5d016c4bd920cb357c0dfca
-SHA256: ad013ed88ddbd0a914ab77617586d7b88b05dc5b644d18fcc923207f512f0a3b
-SHA512: a70720081ff8342573ae3b549c0fb44428a802552f3f93e5442ec4940ff641579333288d4c6a2ef5c589751410cf791a1d8ac88e67ea0681ab3fba4f46d6aaed
-Description: debug symbols for deepin-calculator
-Build-Ids: 2ed213f81be9b0688fa14e9b4ec1012e13e6ed7d
-
-Package: deepin-menu-dbgsym
-Architecture: amd64
-Version: 15.11~3.4.8-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-menu
+Section: x11
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2610
-Depends: deepin-menu (= 15.11~3.4.8-1+comsta)
-Filename: ./d/deepin-menu-dbgsym/deepin-menu-dbgsym_15.11~3.4.8-1+comsta_amd64.deb
-Size: 2626124
-MD5sum: 038d7b6b5bbd97029771c0c92b3140ac
-SHA1: fd66467859a5e7df43b6741cccd3a66f30eac92d
-SHA256: 812d7364c8d10b78ddbb23511e78e19d9c87f03a79b984a205bb74136ae1ec74
-SHA512: 30110eb9695a4dbff6fc62f81ed144909f507fccc76e4f3b0e909d772a3a4f564717f059cf6e682fd06baef98c2813f42ff7738c263dc75ab1864e49924df44c
-Description: debug symbols for deepin-menu
-Build-Ids: e59963d27f88c2b0997ad250196ddc06fe15cd85
+Installed-Size: 46352
+Depends: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Filename: ./d/deepin-icon-theme/deepin-icon-theme_15.12.71-1+comsta_all.deb
+Size: 7147308
+MD5sum: d786b86a1462ff2ee0938e12e63f313f
+SHA1: b407d3da9c30706917537264e53dd6c72c8ebb9c
+SHA256: e650b561fc804cf128357a8b63bac94501fd7ef6e676595281827a971099e73f
+SHA512: 45dbe9546092452e6d0886d6428eb7b60bb1907f72ad872a433cd3b5ecb5299ba2672b478ca5d87150906cba4477959e5e215cced991c8d06a7d7063b7bb8123
+Description: Deepin Icons
+ This package is DeepinIconTheme
 
 Package: dde-file-manager
 Architecture: amd64
@@ -3659,6 +4586,27 @@ SHA512: b136dbbc42466bf07a11a58160848fb744145a67b8e4cad3c489a772d4eeb89779faefa0
 Homepage: http://www.deepin.org
 Description: File manager front end
  File manager front-end of Deepin OS
+
+Package: deepin-log-viewer
+Architecture: amd64
+Version: 6.0.7-1
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 13634
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libicu67 (>= 67.1-1~), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), libsystemd0, libxerces-c3.2, zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-log-viewer/deepin-log-viewer_6.0.7-1_amd64.deb
+Size: 10374048
+MD5sum: 2ad52edea8abb467079a5cd1b30d5332
+SHA1: 21f30f61896f0fd7bc6eefe6dad6330c534f39f9
+SHA256: 509870d3eac65a628c24ae92a0e119dcd850596fa7be319dc982636c68c74ba9
+SHA512: 3edf5f2c17f75cfcff3b2d06279d9810d3d2ddb814a8135dc28b38dddb04de2519643c4480506d715e97e3c891b1653a96342f38475071f2e12b0894b620a681
+Description: Log Viewer is a useful tool for viewing system logs.
+ Log viewer is a tool that collects logs generated when an application
+ is running, for example, logs generated when operating system and
+ applications start up and run. You can do trouble-shooting and solve
+ problems quickly by analyzing logs.
 
 Package: deepin-graphics-driver-manager
 Architecture: amd64
@@ -3746,81 +4694,22 @@ SHA512: cab4c893487032c7a228ee11ae9943ab2bc6290d41215bcc9be1d377c9a8b2bf58bbd56f
 Description: Screensaver Tool
  Deepin screensaver viewer and tools.
 
-Package: dde-dock-dbgsym
+Package: deepin-diskmanager
 Architecture: amd64
-Version: 4.10.8+c1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 1.3.20-1
 Priority: optional
-Section: debug
-Source: dde-dock
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 24615
-Depends: dde-dock (= 4.10.8+c1-1+comsta)
-Filename: ./d/dde-dock-dbgsym/dde-dock-dbgsym_4.10.8+c1-1+comsta_amd64.deb
-Size: 24508984
-MD5sum: 7c2c4bcc73f0c3bcada16a8f314ceb78
-SHA1: 9ddefb2066dde52c7a542a0aa6bc79bbf51f90c0
-SHA256: 2a5210b34bd0e7af64d3a02f1817aeffd44f4c553b01e858a8329e5b2969524f
-SHA512: 8a32bd127bcc17204fd2fc98a622cccbca18bce90b9c9d0b17c9d98131854b16ead85e977ca7f048771f0720483bda3f20b942321cb3ef85fe6b42ee70a6518b
-Description: debug symbols for dde-dock
-Build-Ids: 0eed69855cfce3257feb2f6e41a8c091fecae4bd 27aeb6b6228328e17f226c3e9106233473781fac 29b420a3fb54a860f95dfeacdb3a0e0d2b2e583a 300b1b97d43a6fa792ddf3668475fbc316d448ef 435f493a3e977ee64395144fcb5d9af79b9ad76a 4f0fb9988c2f1a450d377ed659f7ade634d44ade 65bc5cade4d8e128d624290ea748f27911f97187 9abbed18a860fa4b43e147cb51aa423b04cea8cf c4f362081cf8169eb285b8f590074d96eec9f9d2 d70657d8c29d05d1df806ab352b01cae7151ea03
-
-Package: dde-dock-dbgsym
-Architecture: amd64
-Version: 4.10.7-1+stable
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-dock
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 24616
-Depends: dde-dock (= 4.10.7-1+stable)
-Filename: ./d/dde-dock-dbgsym/dde-dock-dbgsym_4.10.7-1+stable_amd64.deb
-Size: 24502736
-MD5sum: 281e00283a43e97ac28e29b87b30d65b
-SHA1: ce83c9d0195d1b6c551970b2008f6c8e51f0057c
-SHA256: b59fdf7923501cef5eca465de225f41e40eb4275a94c6de4b6b01513e91014a2
-SHA512: 4b264ef5866d300962d106ce1b6c4d927191076ea6c0a1969c558dd992d7d363d228cf55ababbe6569e135ca1989ff776a41f2c1ea4b3186f9052d084e0cd050
-Description: debug symbols for dde-dock
-Build-Ids: 0c2319eb28eb5a35b8d73bd8df0a65ce3499ec82 1eb4e12d0b9a39d158669d2efa1fa5f14f1a8239 43eca0d7878fa6237e437527a5e07c05f43694a4 446b6eb430a32c9a92bb67d0ce284af6d3a25ce6 7a0e3089e9df3519392dd652afb6a867febd4c48 8274b2545083b339f6b78d96b0ab1c851f0fdd18 8a428e1c9c9d0cc5afba0fc0bb9e34d23bb7c11b a3f660097fccd73da784d664668e621e066bc299 c599e4be280d73fb89799665d28f2e666037dec0 e288a146c939adae62502a29648837ca50c4f0ac
-
-Package: deepin-music-dbgsym
-Architecture: amd64
-Version: 15.11~3.1.18-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-music
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 16995
-Depends: deepin-music (= 15.11~3.1.18-1+comsta)
-Filename: ./d/deepin-music-dbgsym/deepin-music-dbgsym_15.11~3.1.18-1+comsta_amd64.deb
-Size: 16907560
-MD5sum: 7ddbcdd9fc506de2b5c73018f0edb679
-SHA1: dbf63aaaf899ed915106a2b3dcd4b5e195356bb0
-SHA256: 5118caa0963565c25abd41cfd80e74f27722f8ffcd1b2529af2b8e2f8c3b5878
-SHA512: 0d8e91d276edb7d46c5305e0eeb378e101b890deef45c45f89b4c9f52b7b1c3edbcc78940e747ae87f181fd32160b5cf9c79cd2e2b75de3b1fd8bba102c4ba1e
-Description: debug symbols for deepin-music
-Build-Ids: 3d4b4008eb3ba92b301e9ec4ed6a1d38769505a7 5aafc932ab12e2ae6b8c0b7e02cd0ccc6f9f4a49 6313805d37828fa63cd137eecb962db4eb958431 864acbbd3e21644d7f42e690c4245bc3c25f3cdd
-
-Package: deepin-anything-libs-dbgsym
-Architecture: amd64
-Version: 0.1.0-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-anything
-Maintainer: Deepin Package Builder <packages@deepin.com>
-Installed-Size: 19
-Depends: deepin-anything-libs (= 0.1.0-1+comsta)
-Filename: ./d/deepin-anything-libs-dbgsym/deepin-anything-libs-dbgsym_0.1.0-1+comsta_amd64.deb
-Size: 3228
-MD5sum: 91ea67a0f64f4aecdb6de63658ad60d5
-SHA1: ddd8831a716a697728ae4def32c6329abe75cbf2
-SHA256: baa75dcbbb8420b0b36011c92b6548467520e7c716484175fa38894d189410d5
-SHA512: 7d3c607011a41edf218d97999a09dbf831f62203b214d2734d928538b0ffc269824c240f8bd2158cf1be01e54574dcb60a3cf61f42555dfde57e8af6557a3f4c
-Description: debug symbols for deepin-anything-libs
-Build-Ids: 0f24a74faf121117c009d0102ccbadec1357ed24
+Section: tools
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 8919
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libparted-fs-resize0 (>= 3.1), libparted2 (>= 3.1), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), smartmontools, exfat-fuse
+Filename: ./d/deepin-diskmanager/deepin-diskmanager_1.3.20-1_amd64.deb
+Size: 4650684
+MD5sum: 153333b13b64ea37ca4227be238fc3df
+SHA1: c5538c637f86bd906083cb918314ae3ff25d6ead
+SHA256: 3650a6a12ae2fa8c7e6625274e8e713d1e936ab171eeb63a6a8a418fa61bf9e1
+SHA512: f48cc39484eb377b65f146bc7e9a61819e9832b0a141a217b0ab9c98a6713485ece604360a11627c95d4378d838fedeb26a1dccc6845a7cfc01bc37da54833a0
+Description: Disk Utility is a disk management tool for creating, reorganizing and formatting partitions.
+ Disk Utility is a disk management tool for disk.
 
 Package: deepin-anything-dev
 Architecture: amd64
@@ -3841,24 +4730,43 @@ Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything user interface library
  anything library developer package.
 
-Package: dde-disk-mount-plugin-dbgsym
+Package: dtk-exhibition
 Architecture: amd64
-Version: 4.8.8.2+c1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 5.6.0-1
 Priority: optional
-Section: debug
-Source: dde-file-manager
-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 3182
-Depends: dde-disk-mount-plugin (= 4.8.8.2+c1-1+comsta)
-Filename: ./d/dde-disk-mount-plugin-dbgsym/dde-disk-mount-plugin-dbgsym_4.8.8.2+c1-1+comsta_amd64.deb
-Size: 3169928
-MD5sum: affb108bf1f53f853932f02d22215577
-SHA1: 6af6b2f26262505b17d34bda52b8698f61d3c57e
-SHA256: a5e6f266abc02d94a5274984101b10f3541347f3c9de4d17cae9af6c07452181
-SHA512: 3f5c6db64751d631c99a71deea234cced689ec23acb38679d95961615bd567a46a743c5434c58e387aae92969a0ee2c02643517c2e1b693303662f1b9f7e8393
-Description: debug symbols for dde-disk-mount-plugin
-Build-Ids: 2a00d60727e83f6cd17bfc5e985ad49781f7b475
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21958
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.0.2) | libqt5quick5-gles (>= 5.0.2), libqt5quickcontrols2-5 (>= 5.7.1), libstdc++6 (>= 4.1.1), libdtkdeclarative5 (= 5.6.0-1), qml-module-qtquick-controls2-styles-chameleon (= 5.6.0-1)
+Filename: ./d/dtk-exhibition/dtk-exhibition_5.6.0-1_amd64.deb
+Size: 9839672
+MD5sum: 35da7da215a4b35974438a089d33b3f0
+SHA1: 402428d1879161cbdb6f76119b03367189d9423a
+SHA256: 00db504571b44070f73cc5e288298b385afe4b61df2ba2126084b1a378035f4a
+SHA512: 6418da869760219ac692a80fb1b57c3870a46ea25580349753a5b42b4d937e4f19da4ad617c05ae1e2f1f09589bd8e0c1001ae6de828c1529e46aee486025468
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit QML Controls example.
+ .
+ This package contains a applicatioin.
+
+Package: dde-kwin
+Architecture: amd64
+Version: 5.4.6-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1599
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libgcc-s1 (>= 3.4), libgsettings-qt1 (>= 0.1+14.04.20140408), libkdecorations2-5v5 (>= 4:5.3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5i18n5 (>= 4.97.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.10.0) | libqt5quick5-gles (>= 5.10.0), libqt5quickwidgets5 (>= 5.4.0), libqt5widgets5 (>= 5.1.0), libqt5x11extras5 (>= 5.7.0), libstdc++6 (>= 5), qtbase-abi-5-15-2, kwin-x11, plasma-framework, qml-module-qtquick-controls2, qml-module-qtquick-templates2
+Filename: ./d/dde-kwin/dde-kwin_5.4.6-1_amd64.deb
+Size: 362896
+MD5sum: edf852199210683bc98562db4023f154
+SHA1: 5dc5dfa1e31630e5162516d01467858e1c7a71df
+SHA256: ce21735b12f795253f26e502bc4915b6b7443518cb7d033c5e9114825a2f8866
+SHA512: e8ac508e931d243611929f1214e598acee276c1ce51c031fa214343c18a12a71502929a0581ada871cdc085386facdd29aa1107a264a19d301da5a7e0dd527c3
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: KWin configures/plugins on the DDE
+ Let kwin work well in the Deepin Desktop Environment.
 
 Package: dde-kwin
 Architecture: amd64
@@ -3877,6 +4785,63 @@ SHA512: 3c23428736026920fd4f007f7182a19d7a20e8abeb7f469039a4de6ab46041e2f3fa99f7
 Homepage: https://github.com/linuxdeepin/dde-kwin
 Description: KWin configures/plugins on the DDE
  Let kwin work well in the Deepin Desktop Environment.
+
+Package: dde-kwin
+Architecture: amd64
+Version: 0.1.0-3
+Priority: optional
+Section: devel
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 749
+Depends: libc6 (>= 2.29), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkdecorations2-5v5 (>= 4:5.3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), qtbase-abi-5-15-2, kwin-x11, plasma-framework, qml-module-qtquick-controls2, qml-module-qtquick-templates2
+Filename: ./d/dde-kwin/dde-kwin_0.1.0-3_amd64.deb
+Size: 144624
+MD5sum: ca20f19a972b3d77404ad736ca7fcc1a
+SHA1: 4dc8c47b7f9ef223e320380f777d3cb4ccbde9d0
+SHA256: 18200516dc99f2dfa5966122b9b0f2abdbb8ac186417657cd142558bf63f47ce
+SHA512: 65313151285a18918e388257d1828a065561ea8ca1a9e6de5e5d20704fc352fd5ed3f139d6b2d9b97785e567cddcd6bac3290f92c11a76439b61e0d54be04e50
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: KWin configures/plugins on the DDE
+ Let kwin work well in the Deepin Desktop Environment.
+
+Package: deepin-forum
+Architecture: all
+Version: 0.1-1
+Multi-Arch: foreign
+Priority: optional
+Section: net
+Maintainer: Heng Liu <liuhnga@uniontech.com>
+Installed-Size: 37
+Depends: xdg-utils
+Filename: ./d/deepin-forum/deepin-forum_0.1-1_all.deb
+Size: 6936
+MD5sum: 8c33762ae078ed64ee263999ff967d0e
+SHA1: 4064cd41b24cadf5cc3c864eef30ceec69ef6fba
+SHA256: a2392e999772fcea37c713cc476ea23b9e4914fd97ffac8a26f1da8b0d96f563
+SHA512: f5fda42eff19ab61357934d56ce1b72a858be2cc15d4d9c6816dc66a574c5843cd9abff9c4630e7880ed1352fdab918619852b575a63bf2a627425defd95c36b
+Homepage: https://www.deepin.org/
+Description: A scripts to deepin forum
+ A shortcut to deepin forum
+
+Package: deepin-anything-server
+Architecture: amd64
+Version: 15.11~0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 370
+Depends: deepin-anything-libs, libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libmount1 (>= 2.24.2), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libstdc++6 (>= 5), libudisks2-qt5-0 (>= 5.0.5), deepin-anything-dkms
+Filename: ./d/deepin-anything-server/deepin-anything-server_15.11~0.1.0-1+comsta_all.deb
+Size: 904
+MD5sum: 0bcce9af761894b0c14d274c40b5d0f7
+SHA1: c16431ce26a06e606b872ea725125022e6876563
+SHA256: cac52e9d749061ce5f93239d162775f3edf692dff803c2464a637afcd695b983
+SHA512: 55b48bb642bb08b52cbc8c59c3fdac8c3b5db720acf5fd3ea3fb983d771a203f8fe4f918fae32f7dddd99df11104733d92aad537b1b8412032b3872245cc0d52
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything server application and lib
+ anything server package
 
 Package: deepin-anything-server
 Architecture: amd64
@@ -3897,24 +4862,25 @@ Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server application and lib
  anything server package
 
-Package: deepin-installer-dbgsym
+Package: dde-qt5integration
 Architecture: amd64
-Version: 2.7.16-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 5.1.12
 Priority: optional
-Section: debug
-Source: deepin-installer-reborn
+Section: devel
+Source: qt5integration
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 46650
-Depends: deepin-installer (= 2.7.16-1+comsta)
-Filename: ./d/deepin-installer-dbgsym/deepin-installer-dbgsym_2.7.16-1+comsta_amd64.deb
-Size: 46359044
-MD5sum: a0d37cb3e18ae18283b810995fbe58da
-SHA1: 1f8e1e3567051e75a81f8b177e21cb3e2145f1eb
-SHA256: ec36018b5fc15403ce405e74cc6ae5bfdaae3bc44dc3e016cd04f19b1767c35d
-SHA512: b3c159bff3fe1bbbcb5c1c05cff2c45add8a43ddb5f777b42dacd474c92e16977f509875cf9e8bf52b4d3fec3cf1917e919a4d00116552c15bc7bba2caa9f9fa
-Description: debug symbols for deepin-installer
-Build-Ids: 332bd2677fc30904d95965a828e671b2c3a67c99 69a3a0248d6815423d007e69b77a70d25a75a751 6cef16d490b7b4e12a9fb31b7428573758040403 9e69e966e31f19e0fbac38044e5dc1a7ba7b30b7 9e85307d241cb7694c2841893479af24ec66cd4f abd8198b48762b196082fc9630c5f7eaa5ccbb7c
+Installed-Size: 881
+Provides: libqt5deepintheme-plugin
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.2.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.10.0), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.0.0), libqt5xdgiconloader3 (>= 3.0.0), libstdc++6 (>= 5), libx11-6, qtbase-abi-5-15-2, dde-qt5xcb-plugin
+Conflicts: libqt5deepintheme-plugin
+Filename: ./d/dde-qt5integration/dde-qt5integration_5.1.12_amd64.deb
+Size: 235416
+MD5sum: 105acee5575086c7b6c3df5ae63e57ab
+SHA1: b3d8857cbbdbeb22aaf4168c1e73c831076fed03
+SHA256: dd5d2931c1b8de49e29ed8076b27e3e2a78be757a7435acc698c7171edae6079
+SHA512: eb40859e1672bdcc5e944748af81e0bc6974575692a75357bae200503421cd5105418fabf7318b51d5b662d0c3dc8d2c3e5daa1b7e7f8b89c72c7b95fc1736b6
+Description: Qt platform theme integration plugins for DDE
+ Multiple Qt plugins to provide better Qt5 integration for DDE is included.
 
 Package: dde-api
 Architecture: i386
@@ -3988,6 +4954,25 @@ Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Deepin Go-lang bindings for dde-daemon
 
+Package: deepin-devicemanager
+Architecture: amd64
+Version: 5.9.7-1+rb1
+Priority: optional
+Section: devel
+Maintainer: Packages <packages@deepin.com>
+Installed-Size: 8244
+Depends: libc6 (>= 2.15), libcups2 (>= 1.7.0), libdframeworkdbus2, libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libkmod2 (>= 22~), libpolkit-qt5-1-1 (>= 0.112.0), libqapt3 (>= 3.0.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libudev1 (>= 183), qtbase-abi-5-15-2, dmidecode, x11-xserver-utils, hwinfo, cups, upower, deepin-shortcut-viewer, lshw
+Recommends: uos-reporter, deepin-event-log, deepin-elf-sign-tool
+Filename: ./d/deepin-devicemanager/deepin-devicemanager_5.9.7-1+rb1_amd64.deb
+Size: 3826016
+MD5sum: b9f8eb396059ad64c11d7c4b92483652
+SHA1: ee78356ed0d5257f1247d03fc4c34566d6cc491a
+SHA256: e06d292c4ea4bce01f5867e4d8196a6a69936dfa30b21e262c7f9f4d4ad7f530
+SHA512: d1659d1e9c6cdfce9d7f14cbdb1e81489bac70549d0cff24292f11acf75b029319f5e81a17daabbba639534c0805e0a74dcb45b0458ea33c528b603adb3d1f6b
+Description: Device Manager is a handy tool for viewing hardware information and managing the devices.
+ Device Manager helps users manage hardware devices installed on computers,
+ through which users can view parameters and export data of all hardware devices running in the system.
+
 Package: deepin-calculator
 Architecture: amd64
 Version: 15.11~1.0.12-1+comsta
@@ -4005,44 +4990,6 @@ SHA512: 21dde78b40a5c44a3eaee5571b81d3d470b31a36cfa87d1f3c823f0b784f342e46640942
 Homepage: http://www.deepin.org
 Description: Calculator for deepin
  deepin calculator tool.
-
-Package: dde-dock-onboard-plugin-dbgsym
-Architecture: amd64
-Version: 4.10.7-1+stable
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-dock
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 854
-Depends: dde-dock-onboard-plugin (= 4.10.7-1+stable)
-Filename: ./d/dde-dock-onboard-plugin-dbgsym/dde-dock-onboard-plugin-dbgsym_4.10.7-1+stable_amd64.deb
-Size: 842084
-MD5sum: 957e6bf8ed0d2083559c997ca0c1b5a2
-SHA1: 296883a06f3455f0aab264c75f4851249c821e9d
-SHA256: b861f2e56da6e2167e8400ffe5b9720a86b4f2627f99a78501469fea17b43f58
-SHA512: 4d465965cae4c6ce0f0f4b2b734442b651e4c3383775cd6ccf697b54a2facbfd9a8c45d7ee0c6d73b696a0961119d55e8d277b63e0982827206f2c8651fe8854
-Description: debug symbols for dde-dock-onboard-plugin
-Build-Ids: d95e37b4aed7e66c4ca2aeea5df8611e83820a66
-
-Package: dde-dock-onboard-plugin-dbgsym
-Architecture: amd64
-Version: 4.10.8+c1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-dock
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 854
-Depends: dde-dock-onboard-plugin (= 4.10.8+c1-1+comsta)
-Filename: ./d/dde-dock-onboard-plugin-dbgsym/dde-dock-onboard-plugin-dbgsym_4.10.8+c1-1+comsta_amd64.deb
-Size: 841996
-MD5sum: 044d75d34f9c2e28a6017f13fce4d226
-SHA1: f781c70a11727ce267de13c1d6e30ede767b4997
-SHA256: 6cb815023d533037d5cd31ad21f7a13b4699595d8a613c32fdb5da10312b0d64
-SHA512: a66ea9af5bcecfd36a10ac7824ac8003528b07554da9f803a07448c14da96ff8a91196bf1ea1d3f068130c515eb0c7bacc586e544ee3254717f80d6387a3568c
-Description: debug symbols for dde-dock-onboard-plugin
-Build-Ids: fcaafc8c25caf6fb621fb9b81449225c36d44a0a
 
 Package: deepin-menu
 Architecture: amd64
@@ -4062,6 +5009,24 @@ Homepage: https://github.com/linuxdeepin/deepin-menu
 Description: Deepin menu service
  Deepin menu service for building beautiful menus.
 
+Package: deepin-clone
+Architecture: amd64
+Version: 5.0.11-1
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 5051
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.14.1), libstdc++6 (>= 5), qtbase-abi-5-15-2, partclone, jfsutils, ntfs-3g, xfsprogs
+Filename: ./d/deepin-clone/deepin-clone_5.0.11-1_amd64.deb
+Size: 3945044
+MD5sum: fb3f20c5ec50cd2a197cbdc6511d8ef9
+SHA1: 38af361cb6893de3ad0933629b1abedc4a7af8fb
+SHA256: f66a477dbb1096b2e95b093054d1e921ce374e9d3a467a70884d7687980d57f0
+SHA512: 3c01cc11796459d3bc64f562f176af3dc1013e003dcbc09ca216d189bf681645e93f8ac3b83c23e2977f798c7d49c8cc13d2f627355112a8bf6e7419bc312f09
+Description: Backup Restore Tool
+  It is a tool for disk or partition clone, backup and restore, and other functions.
+  It supports clone disk to disk, disk to file, partition to partition, partition to file; and restore from file to disk, file to partition.
+
 Package: deepin-editor
 Architecture: amd64
 Version: 1.2.9.1-1+comsta
@@ -4079,6 +5044,25 @@ SHA512: 54b58ac56674d102d48036e7e50ca176594e5129217eebba825fcc01c2ef46efb69da8cd
 Homepage: https://www.deepin.org
 Description: dtk based text editor
  Advanced text editor based on dtk.
+
+Package: deepin-boot-maker
+Architecture: amd64
+Version: 2.0.4.11-1+comsta
+Priority: extra
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@linuxdeepin.com>
+Installed-Size: 4233
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.6.0~beta) | libqt5gui5-gles (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), p7zip-full, mtools, syslinux, syslinux-common
+Filename: ./d/deepin-boot-maker/deepin-boot-maker_2.0.4.11-1+comsta_amd64.deb
+Size: 837872
+MD5sum: e8c613d36f45cad16e6e04e6f84c1767
+SHA1: d3f7c093b6caa50a5acc701ec373f207934bd85f
+SHA256: 725b4d03f666ac723898be9dc0b562029204274239dcec81e3a73d7e7ddff17b
+SHA512: 92bec32182ae50baf6a0eb5d7097a188cce6ebbff08055a8be31abe22420c99c01111db7f306a00c7c7593ac6df4c50341418c80cb6c912c4a25ce9d252cc0f0
+Homepage: http://www.linuxdeepin.com/
+Description: Deepin Boot Maker is help for user to create a boot
+ usb stick quick and easy, it designed to support only deepin
+ install iso, but it can work for all ubuntu live install iso too.
 
 Package: dde-calendar
 Architecture: amd64
@@ -4098,24 +5082,43 @@ Homepage: http://www.deepin.org
 Description: Calendar software for Deepin OS
  Calendar for Deepin Desktop Environment.
 
-Package: deepin-installer-oem-dbgsym
+Package: deepin-app-store-runtime
 Architecture: amd64
-Version: 2.7.16-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 1.0.2+community
 Priority: optional
-Section: debug
-Source: deepin-installer-reborn
+Section: utils
+Maintainer: wurongjie <wurongjie@uniontech.com>
+Installed-Size: 10
+Provides: deepin-elf-verify:amd64 (= 100.0.0)
+Conflicts: deepin-elf-verify
+Replaces: deepin-elf-verify
+Filename: ./d/deepin-app-store-runtime/deepin-app-store-runtime_1.0.2+community_amd64.deb
+Size: 2316
+MD5sum: 19bd1719f0b42bfb302c8079f3334268
+SHA1: 17b5cc6f07f1055f7d79356c7b975afd22388c05
+SHA256: 72b0e156537437f4628468f53607a50c64aef9dd0984ea8187108b2d5bb2b6aa
+SHA512: 72a4b26df1e660a69d5402de4e2063b3433d64ca9ce1e0c67394001be35f4ca9bff81da41cb9d966a52b739c6f16b21bdd0142bb7c0c95a5692d5d3e4a878795
+Homepage: https://gitlabwh.uniontech.com/
+Description: A runtime environment software package for Deepin App Store.
+
+Package: deepin-camera
+Architecture: amd64
+Version: 1.4.9-1
+Priority: optional
+Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2633
-Depends: deepin-installer-oem (= 2.7.16-1+comsta)
-Filename: ./d/deepin-installer-oem-dbgsym/deepin-installer-oem-dbgsym_2.7.16-1+comsta_amd64.deb
-Size: 2631072
-MD5sum: 55a58ff9138180104d27b0e6ce5d384c
-SHA1: 933833df455ba30495e605971f25e34deaf6e3f6
-SHA256: 3118b5c9051d26c87f2081fed09a202635b3daf734fb86df77680f66a65d6e95
-SHA512: b229b632625a2450ddb4b84aeaa515479e3270a4ab0df5e000dc19f6f3cba1c93653c77bc0b7256bc1ec036aab4df2efa90d7cc96fac82408abe832d41b01681
-Description: debug symbols for deepin-installer-oem
-Build-Ids: 1376159fd0a2fcf94167ba5b4a05259de9eb0c45
+Installed-Size: 16598
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.16.0), libimageeditor, libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5multimedia5 (>= 5.6.0~beta), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 7), libasound2 (>= 1.0.16), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libffmpegthumbnailer4v5, libgl1, libpng16-16 (>= 1.6.2-1), libportaudio2 (>= 19+svn20101113), libqt5concurrent5 (>= 5.0.2), libqt5gui5 (>= 5.8.0), libqt5network5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libsdl2-2.0-0 (>= 2.0.9), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.8), libv4l-0 (>= 0.5.0), zlib1g (>= 1:1.1.4), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), dde-api
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-camera/deepin-camera_1.4.9-1_amd64.deb
+Size: 14938304
+MD5sum: a4d61177a8046b22a995c354eee23825
+SHA1: 41d85868d6c3bd9e64429b908d269db81c7fd2e0
+SHA256: e983d9021d751838ee180e2e3cb6a8cb26fb8882a61635620b48d9a472cec586
+SHA512: ed20d7f2857deedfd6df671dd161a0761ee7e42e3d5c49e0b756a01ac58eb53f7595d24139a6a8d092dacbf49240ba27df805be4fdaec8a8537948c71a4a3e60
+Homepage: http://www.deepin.org
+Description: this package software for  UOS
+ deepin-camera is a tool to view camera, and also a smart take photo and video in life.
 
 Package: dde-dock-dev
 Architecture: all
@@ -4178,6 +5181,25 @@ Description: deepin desktop-environment - dde-session-ui module
 
 Package: dde-kwin-dev
 Architecture: amd64
+Version: 0.1.0-3
+Priority: optional
+Section: libdevel
+Source: dde-kwin
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 33
+Filename: ./d/dde-kwin-dev/dde-kwin-dev_0.1.0-3_amd64.deb
+Size: 9228
+MD5sum: 07b5f4e070616e4906587c2e398a2f39
+SHA1: 4b8ee207fd5081c8ec66112853fd409eb4a8e1b5
+SHA256: 9da0998f5644f2a9180659228784a83f87c293ed518fa516a35a06568f082fd1
+SHA512: 81b522297a2b0463a8279f62cc18658f620adf4e8483b1350cd5c5ac21e287c8f544806945c9406d37ece3aeb8266692ee5fed3a2e8a6ad26cac045f231eba0b
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: Developer package of dde-kwin
+ Provide dde-kwin plugin implementation basis files.
+
+Package: dde-kwin-dev
+Architecture: amd64
 Version: 0.1.0-1+comsta
 Priority: optional
 Section: libdevel
@@ -4190,6 +5212,24 @@ MD5sum: f477fe97f832a13d390c9ffbf20b9734
 SHA1: 6c610df43c9b01567f7ad73c4f99e0dd4d62205c
 SHA256: 302eba77b380996c3d5c0bf210fa17b024d2e51941f12550f856c6c8af4229ed
 SHA512: bd7cfc1bc465253c2fcef84c81f37e5d16bbf9164091347c31ef727537930071a4cd693f19fba5e8f6a9664e870e6d582f0d2de2696bdc847acedb98bc2658b1
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: Developer package of dde-kwin
+ Provide dde-kwin plugin implementation basis files.
+
+Package: dde-kwin-dev
+Architecture: amd64
+Version: 5.4.6-1
+Priority: optional
+Section: libdevel
+Source: dde-kwin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 36
+Filename: ./d/dde-kwin-dev/dde-kwin-dev_5.4.6-1_amd64.deb
+Size: 10740
+MD5sum: e1b4b2061a28e73cefced5f79762ab77
+SHA1: 6b3f5b5fee0bc094244007b2ff27c43882396652
+SHA256: 6915a60a1940ea0aa1ca27bc61fa25ef5518de20316efe2def8aae007f29587c
+SHA512: 211bba3123e089c944161e89aabcb2629d46f02c896d5d8886080b8dced59eb4779cb271d0ff2ba4bf131e5da4c709935091a4e4fdc781cfea2a8eb26e6e59fe
 Homepage: https://github.com/linuxdeepin/dde-kwin
 Description: Developer package of dde-kwin
  Provide dde-kwin plugin implementation basis files.
@@ -4231,62 +5271,23 @@ Homepage: https://www.deepin.com/
 Description: deepin system repair tools - dev files
  Deepin Repair Tools is a useful tools for system repair & clean.
 
-Package: deepin-font-installer-dbgsym
+Package: deepin-reader
 Architecture: amd64
-Version: 1.1.5.1-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 5.10.27-1
 Priority: optional
-Section: debug
-Source: deepin-font-installer
-Maintainer: Rekols <rekols@foxmail.com>
-Installed-Size: 3193
-Depends: deepin-font-installer (= 1.1.5.1-1+comsta)
-Filename: ./d/deepin-font-installer-dbgsym/deepin-font-installer-dbgsym_1.1.5.1-1+comsta_amd64.deb
-Size: 3185024
-MD5sum: 0c5a6c7344a14a478c2f80fc1469609e
-SHA1: 162da816a4e420d4d016db7f8a1aa11f598bc962
-SHA256: 9fee90d49d4009d694612c95ed4521b76ffbaf414e821408509c95c15170f5c1
-SHA512: cbcbd91e39f27378e0b3065a770bb9bbdf673a9e36b7aa701913cfd8c95211348649ec480280e7dfdd1bd89a28db7a3e0b2d05ed235cb62c21174b4aa85c549d
-Description: debug symbols for deepin-font-installer
-Build-Ids: 1ab4900bbb630c155cce6a892a65501051ce6237 308e201b2c8988e3790d7d421e259c2702f13b60 3e7b16b714fa392448e415d2af74b79c23a6a95a d8f83f1e188aa7d84aab454ccbe7d7eed5214768
-
-Package: dde-polkit-agent-dbgsym
-Architecture: amd64
-Version: 0.3.0-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-polkit-agent
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 3638
-Depends: dde-polkit-agent (= 0.3.0-1+comsta)
-Filename: ./d/dde-polkit-agent-dbgsym/dde-polkit-agent-dbgsym_0.3.0-1+comsta_amd64.deb
-Size: 3657296
-MD5sum: 5928047d5ea5b7ba2c16c11957d29a34
-SHA1: c957cdbb91a6c108275d94d4f52e6c44bfa6045a
-SHA256: bd7120d689c642e3412aeea2d23e7e26525a3b50dcdaee515b3491468c5b3d78
-SHA512: 0abf3a1e85b0abf3a5beefa2cd60127b72d8792164026b70eb6b8ef9a7f6be7b7929be84288abdd448148c6ae8fca1d887ed4e9537b67526058e8a51118da097
-Description: debug symbols for dde-polkit-agent
-Build-Ids: 90163c809ceb9fc6a92062bd2b2449a6eeab0c97
-
-Package: deepin-screensaver-dbgsym
-Architecture: amd64
-Version: 0.0.10-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-screensaver
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1317
-Depends: deepin-screensaver (= 0.0.10-1+comsta)
-Filename: ./d/deepin-screensaver-dbgsym/deepin-screensaver-dbgsym_0.0.10-1+comsta_amd64.deb
-Size: 1308912
-MD5sum: 8655a942b41818d5cd05a6fc7ee43943
-SHA1: 2498ca532f297259911e736ba5498fd5f1141114
-SHA256: cc911cd2a87ad42789e05d734653413f042d2fdeab51295a93289dd6e1bc8302
-SHA512: f7e814ccbc1088dd55258b79a1afee112aae969ce6d7bf7045f94b97c40126329d9e0aab41beb5afdb14d3e83679ca4a3a1d744e83bdb64a0cc83efaea9db4a3
-Description: debug symbols for deepin-screensaver
-Build-Ids: 154ea728c7c18ca9dfb5bfe77de0d1fd2617de19
+Section: graphics
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 7858
+Depends: libc6 (>= 2.27), libchardet1, libdjvulibre21 (>= 3.5.28), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libfreetype6 (>= 2.3.5), libgcc-s1 (>= 3.0), liblcms2-2 (>= 2.2+git20110628), libopenjp2-7 (>= 2.2.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5printsupport5 (>= 5.0.2), libqt5sql5 (>= 5.0.2), libqt5webenginewidgets5 (>= 5.9.0), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 9), pandoc
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-reader/deepin-reader_5.10.27-1_amd64.deb
+Size: 3085452
+MD5sum: d6f65bd748ff35b3c390fceba6a49081
+SHA1: fe0b0079635092f0ca34fe18c821a9adb8218933
+SHA256: b41648f137d3de869efccb805660c6eb8b2c461d6428a3ccc8e8dd0aec530f39
+SHA512: 3f40d1d225483283673ba435eb64e7c0e6a029ef954993557c128241d314e8ad4e8466ec08bbe0af9725be787b63c9843e45c175bd908a0459c29a9644698878
+Description: a tool for reading document files.
+ Document Viewer is a tool for reading document files,supporting PDF, DJVU, DOCX etc
 
 Package: deepin-desktop-base
 Architecture: all
@@ -4304,25 +5305,6 @@ SHA1: 34dfb1ee337f5882a8da169d004d3245d0330363
 SHA256: 0c42d3bcc9b56967eee29255bd61b1c0f8623979858d96e9b1a3904a463086c3
 SHA512: 8384d3d1e941cd2c988aed46e48bad7ac54d82de2d1859fd0ecca1cdd17e5b58a73dfcc61ac0b45909e216c73aea395638cccf303a6c5d57dac51ecb54c59147
 Description: Base files for Deepin Desktop
-
-Package: dde-control-center-dbgsym
-Architecture: amd64
-Version: 4.10.12.2-1+stable
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-control-center
-Maintainer: Deepin Sysdev <sysdev@deepin.com>
-Installed-Size: 48606
-Depends: dde-control-center (= 4.10.12.2-1+stable)
-Filename: ./d/dde-control-center-dbgsym/dde-control-center-dbgsym_4.10.12.2-1+stable_amd64.deb
-Size: 46009112
-MD5sum: 52556248a3ccce8aedccbce43750ff5c
-SHA1: cf90dac810937939664d068b01e887dc12e48c04
-SHA256: 806506adea7b439999cc62a96961d449fbf4df71014d09521e4e869fcdc1d40d
-SHA512: c57694dc3f1bb493af9416a2cc4ced114c0915c43b79e494d6ff8a98904d76592a6492f654cef7ffd384ed68f0bd8d7d354d4aa6284664e91e513f9db315be49
-Description: debug symbols for dde-control-center
-Build-Ids: 94b5e63fbc6871ad9095f387ee9dbb9c150786cd bd25f4a4a59a531ba3b41ab78021906fc1d38c8b
 
 Package: deepin-anything-dkms
 Architecture: all
@@ -4342,6 +5324,45 @@ SHA512: 3b328ac26a980017a710a2631e8878d5f824792cc76bd6baef812e8efd8f59130dd6045b
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything module
  anything kernel module package
+
+Package: deepin-anything-dkms
+Architecture: all
+Version: 15.11~0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 62
+Depends: dkms (>= 2.1.0.0)
+Filename: ./d/deepin-anything-dkms/deepin-anything-dkms_15.11~0.1.0-1+comsta_all.deb
+Size: 808
+MD5sum: 153971c61344f72a6aeb5817b0f715d0
+SHA1: 15ce6d68b064feb068bf6ccfa561d7796d3aa08f
+SHA256: c8e284807bcff27006e37e479c4f041f2774a0416abdae077f01ad22a6ffe12f
+SHA512: 84518e1dc572a1e2d46faae705e06e523194da7c46718c9bccec5735bf60ae3a9de0c2b192c5d075d60c7040bb2d68b0a945c239536170a861bbd2972f50b468
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything module
+ anything kernel module package
+
+Package: dtkwidget-doc
+Architecture: amd64
+Version: 5.6.12-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 20
+Filename: ./d/dtkwidget-doc/dtkwidget-doc_5.6.12-1_amd64.deb
+Size: 14776
+MD5sum: 36137ee8fcabae4413da3460d81fb24c
+SHA1: 1cfa67eee9c00662964d3c1c9d72fabcb995f646
+SHA256: 06cc957f1e63f992b011f838860dbd1e1765e6f8a3016fd3927e3e29dd6c4a26
+SHA512: 3d09753661e03b86ff5d6a701cce65b39635f76d92f0eb3e610318ae31f85b659bd687821816a5bd9616ece6a3347984ebbb72a3ec4cc1b70328bb9e272e1eeb
+Description: Deepin graphical user interface library (Document)
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
 
 Package: deepin-repair-tools
 Architecture: amd64
@@ -4378,6 +5399,27 @@ SHA256: ead5b6ac6c22f5e1f49037228c7bb5e9ea5cc866a6d74e01351afa959913d1df
 SHA512: e7f05ef1dc0554cbb75128a21ab7e2a4cc7fb82d3558a81688e2020e5fe244c39950382d23dce40a68e8afc36788cba9bb11156819ebb3f1d2172fa30f4a472f
 Description: Screensaver data
  xscreensaver extra with the Deepin Screensaver.
+
+Package: debian-dde-wallpapers
+Architecture: all
+Version: 1.7.19
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 36629
+Provides: deepin-wallpapers
+Conflicts: deepin-wallpapers
+Breaks: deepin-desktop-base (<< 2017.11.2)
+Replaces: deepin-wallpapers
+Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.19_all.deb
+Size: 32706756
+MD5sum: e09b6a316a9d4fd3bccabce1da9923e6
+SHA1: 6655d384498b3e73480dc5c5a49c5db1412a232d
+SHA256: a9d2443b301f3d375c79782ce80a217473856631787da836918cc738efbf1b81
+SHA512: ac5ad4987d437255550bd98832afae5a38559dc730afee012ccad52322302e17a36c2a8b1184b91187c657a278f21ec0823a9965bc9c280be95bcd7b0979712e
+Homepage: https://www.deepin.org/
+Description: dde wallpapers
+ Default wallpapers for debian-dde
 
 Package: dde-dock-onboard-plugin
 Architecture: amd64
@@ -4435,6 +5477,24 @@ Homepage: http://www.deepin.org
 Description: Introduction for deepin
  Deepin initialization setup tool
 
+Package: deepinwine-foxitreader5
+Architecture: all
+Version: 0.0.1
+Priority: extra
+Section: net
+Maintainer: Li Longyu <leaeasy@gmail.com>
+Installed-Size: 12899
+Depends: wine | wine-1.3, wine1.3-gecko, gzip, tar
+Filename: ./d/deepinwine-foxitreader5/deepinwine-foxitreader5_0.0.1_all.deb
+Size: 13099576
+MD5sum: 1e46a63a95c21778a1b97dfbad6ca596
+SHA1: 0cc9cd054a4ee4480e0a8bc7a18a6854d9286bf4
+SHA256: f1a2ebee50bcc21664e3dc1d14881d94a55390efc82fe85e99e4a8b1065a63e9
+SHA512: 95595f8cd1f4960f8d1db48a70e91499570bbd7460a2190738e46893b9a51d76d1cd15bff9d58edfef25c3cb227143363773aa35e91eb8020eac1d3611c1169e
+Homepage: http://www.linuxdeepin.com
+Description: WINE FoxitReader5
+ 借助wine可以运行于linux下的FoxitReader5
+
 Package: dde-api-dev
 Architecture: all
 Version: 3.18.5-1
@@ -4472,25 +5532,6 @@ SHA512: 3eddac6989bbf05b332a53a9ae0fdcaf5ed56d3c68ae284fbecf139bea2954dda798977e
 Homepage: http://www.deepin.org
 Description: Go-lang bingdings for dde-daemon
  Go-lang bindings for dde-daemon -- dev file
-
-Package: deepin-graphics-driver-manager-dbgsym
-Architecture: amd64
-Version: 1.1.10-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-graphics-driver-manager
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 1851
-Depends: deepin-graphics-driver-manager (= 1.1.10-1+comsta)
-Filename: ./d/deepin-graphics-driver-manager-dbgsym/deepin-graphics-driver-manager-dbgsym_1.1.10-1+comsta_amd64.deb
-Size: 1819272
-MD5sum: a09cea6a875cedd2bbf968d50cbb1bd1
-SHA1: 1d09b281caf942906ab315baba5bd4c0bb426dfe
-SHA256: 117052c82ca1eec9ab3a458c84b681391a22bb16147b0431b4256097b25fcc55
-SHA512: 28fa2e5ab04b13ddfc13bb1c5d5ed9806db0492edc2b1c4ab8c5b880a7f652296c4dd09cbf4d919fdb3cc1d31bc6eb8a73a036c558d95f30d4c4744e7a0d6122
-Description: debug symbols for deepin-graphics-driver-manager
-Build-Ids: 593566fb50756c37f4d0a3ffa86fe15addf28c51 ed2d7c9b28593ed5b50b2eab5cb9fbf30c9b2df7 f2e97c6d03963971ade06b544ab1f14b897a0ab8
 
 Package: deepin-voice-recorder
 Architecture: amd64
@@ -4531,25 +5572,6 @@ Description: Awesome music player with brilliant and tweakful UI
  functions you will found.
  .
  Just enjoy it! have fun!
-
-Package: dpa-ext-gnomekeyring-dbgsym
-Architecture: amd64
-Version: 0.1.0-1+stable
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dpa-ext-gnomekeyring
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 466
-Depends: dpa-ext-gnomekeyring (= 0.1.0-1+stable)
-Filename: ./d/dpa-ext-gnomekeyring-dbgsym/dpa-ext-gnomekeyring-dbgsym_0.1.0-1+stable_amd64.deb
-Size: 457396
-MD5sum: 6773b87b0663a37cff1a8926cb534ca6
-SHA1: 267f6c92787c030bbdb8c96a4efc8afc647c92d7
-SHA256: eea95001cb0417a366192395dd00f0df00634f2ea80df2851c9a09a50bee45af
-SHA512: cbf7fa28f76ef159403ca2488d9ae040b56940204a0bc884e6ae0a005f61535e7081c66132f003e5fcf822987aca057162a9637ad41b63a6b48f76d99945b9c6
-Description: debug symbols for dpa-ext-gnomekeyring
-Build-Ids: aaaa5407269825d508d4ce94fb6ad9a4f3541fdb
 
 Package: dde-control-center
 Architecture: amd64
@@ -4594,43 +5616,23 @@ Homepage: http://www.deepin.org
 Description: deepin desktop-environment - desktop module
  Deepin Desktop Environment (DDE) - desktop module.
 
-Package: deepin-editor-dbgsym
-Architecture: amd64
-Version: 1.2.9.1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-editor
-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 5889
-Depends: deepin-editor (= 1.2.9.1-1+comsta)
-Filename: ./d/deepin-editor-dbgsym/deepin-editor-dbgsym_1.2.9.1-1+comsta_amd64.deb
-Size: 5837560
-MD5sum: a332b2c4e3067064003e61afc5862d51
-SHA1: 548171951eb02a33d704caa860b66b1d9124ba44
-SHA256: 26b96759859cea4a36099398f355db1f7a6d9292418a43f376db1d893502e21b
-SHA512: 531fb50cc5fcf09499b376653dcb664f1f8486ac67b9aefb484703abb940e8fb55e700f3fe71ccd1eb1ba3a09360246db8e1bc018ed792670b7133867c310288
-Description: debug symbols for deepin-editor
-Build-Ids: 3872aa6e01ecb264f8ced3b1aec744c6c0c65eb9 80173c9cf37249329e270769616e62a43bbfe63d
-
-Package: dde-introduction-dbgsym
-Architecture: amd64
-Version: 1.1.10-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-introduction
-Maintainer: zhangdingyuan <zhangdingyuan@deepin.com>
-Installed-Size: 5939
-Depends: dde-introduction (= 1.1.10-1+comsta)
-Filename: ./d/dde-introduction-dbgsym/dde-introduction-dbgsym_1.1.10-1+comsta_amd64.deb
-Size: 5981072
-MD5sum: e0e8a9a9eacbb6e847e252d7a7703869
-SHA1: 820deceb01caf59994c85c0289cb6acf616979ea
-SHA256: 6e6a3cc7cbdf51fc257d7444344b92641589d535bfb519c2d5440c7c0a7f4080
-SHA512: 8d11ed4d26596ddb829db3b872c9bf7bb70a615035587530ec449d92751e902f93bcf07f3ec57ef3d6b3d87d20329bc411142252439e6a8706b3994e20fb78b2
-Description: debug symbols for dde-introduction
-Build-Ids: f2d6c2e79b10ba84942eddcfc9bd03dc3d639acd
+Package: deepinwine-foxitreader4
+Architecture: all
+Version: 0.0.2
+Priority: extra
+Section: net
+Maintainer: Li Longyu <leaeasy@gmail.com>
+Installed-Size: 6916
+Depends: wine | wine-1.3, wine1.3-gecko, gzip, tar
+Filename: ./d/deepinwine-foxitreader4/deepinwine-foxitreader4_0.0.2_all.deb
+Size: 6959992
+MD5sum: df41ee4b6b38f6b0ae3bb37af5cf9ea2
+SHA1: a1b4e3872f7cd27ad0d45325be274a7c95c45b50
+SHA256: e990b4c22084e222b95c798d1c71c455b851cec47cbef302b00e2c3040d88e81
+SHA512: 50b05330d037cbcc82fe2d18c352237b32c6a83c3b4929b75b2fd1f052ea609d4b0bf65965e47f39a08d6d53a13b13671af9b4a62eccb3eb615ba04c08080550
+Homepage: http://www.linuxdeepin.com
+Description: WINE FoxitReader4
+ 借助wine可以运行于linux下的FoxitReader经典版
 
 Package: deepin-installer-oem
 Architecture: amd64
@@ -4651,81 +5653,24 @@ Homepage: http://www.deepin.org
 Description: OEM tool
  OEM tool for deepin-installer
 
-Package: deepin-image-viewer-dbgsym
+Package: deepin-draw
 Architecture: amd64
-Version: 15.11~1.3.18-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 6.0.3-1
 Priority: optional
-Section: debug
-Source: deepin-image-viewer
+Section: utils
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 13689
-Depends: deepin-image-viewer (= 15.11~1.3.18-1+comsta)
-Filename: ./d/deepin-image-viewer-dbgsym/deepin-image-viewer-dbgsym_15.11~1.3.18-1+comsta_amd64.deb
-Size: 13663148
-MD5sum: a803a84756ce33c208a3ade954b39379
-SHA1: e35089e6f814b23d55af3081af5782dba962ef66
-SHA256: 30c6656c9f0b9a14c1ddc99eb9b3524bbceb22c4a41adde83aa6465ad240588d
-SHA512: 69c9571e6ff1566ce392d36d0915db938cef3b8b3c4c6989e22bcde8ceeec9476cab7865f8678d87cacfea4cb36a80adf7371a0953511e6eee825af9e794cdb3
-Description: debug symbols for deepin-image-viewer
-Build-Ids: 6f604787b5f2b7f99e75f3e9d111b99082b89ade de6dd5b8c9fa88a2f5d0bbf5fdd5bc78eff423e5
-
-Package: deepin-repair-tools-dbgsym
-Architecture: amd64
-Version: 1.0.14.1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-repair-tools
-Maintainer: 石博文 <sbw@sbw.so>
-Installed-Size: 5204
-Depends: deepin-repair-tools (= 1.0.14.1-1+comsta)
-Filename: ./d/deepin-repair-tools-dbgsym/deepin-repair-tools-dbgsym_1.0.14.1-1+comsta_amd64.deb
-Size: 5147588
-MD5sum: bb36d06f54dc3401955f46e436dbe775
-SHA1: 258b1adf9bd601d2f792749054ab58c3b4ee2140
-SHA256: 2a145274ea50f8f3b7b9cc7624ccb5a274ef45306672bfa3a91edfe3177c44cb
-SHA512: 475919f48b57624061924b31f88a4df3f02ce36a7f28361b3e598a446302fce6fa1fc0b4f24278636b984f6bed5eae065d1109ea03d46fa74dceab0d5bc950ce
-Description: debug symbols for deepin-repair-tools
-Build-Ids: 078096fa266787f2a24da80b1030419f1ef5e53c 0b382065c214f13ae15d1a93848a03649d1ffc56 47c66b9df076f4591c7917336c5e924f05b531e0 51c4b6b32aaa689d74cee60d970e06b5fa7bd67f 7aaf1c00a7161fcd0e0eda256bae585052c1cb2e e2e2b7eb5598e9a09ea7ea85dd88179250ecc08a
-
-Package: dde-launcher-dbgsym
-Architecture: amd64
-Version: 4.6.14+c1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-launcher
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 10797
-Depends: dde-launcher (= 4.6.14+c1-1+comsta)
-Filename: ./d/dde-launcher-dbgsym/dde-launcher-dbgsym_4.6.14+c1-1+comsta_amd64.deb
-Size: 10765748
-MD5sum: 0141da6d33d3c87011d0260861ccaf6e
-SHA1: 1e79721291f46858fec31b6ecbde5d549211256a
-SHA256: bec31b1c182c8bd48669969d5361596e33a136a3f404c849d399340318ac1c82
-SHA512: 7c9e5107b65c2f322e41a7065394934516d91676575c3383387e6899d75092a14f28d898dece5f77a32d3633a5ac31984bd857028f6b5174d915edf8d692654a
-Description: debug symbols for dde-launcher
-Build-Ids: 81f29109ae479f45146810062065a4d4a09cb3b9
-
-Package: dde-calendar-dbgsym
-Architecture: amd64
-Version: 15.11~1.2.11-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-calendar
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 2050
-Depends: dde-calendar (= 15.11~1.2.11-1+comsta)
-Filename: ./d/dde-calendar-dbgsym/dde-calendar-dbgsym_15.11~1.2.11-1+comsta_amd64.deb
-Size: 2030156
-MD5sum: c501518894efba68ec1c23c163a1b262
-SHA1: c3e28cdbadb4e855d57a716c1b8d68f43c66b7a0
-SHA256: 6948ed0efb8b7582ce5adfadfa205288210552372d06c535fa0d538200e0151b
-SHA512: 41eac1095961c900a59e5987d1e41c2776c4d8e58c3817c7eaf3eaeda3f6dee6c53b4a141e24b2191932931afcd0e2f2317ce89bb408c77fd0b9827ae1c4042e
-Description: debug symbols for dde-calendar
-Build-Ids: e672d59238042d2e97a9df7e0bb8655c998fab05
+Installed-Size: 27062
+Depends: libc6 (>= 2.29), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5printsupport5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5widgets5 (>= 5.15.1), libstdc++6 (>= 5.2), qt5-image-formats-plugins, deepin-picker-cli
+Recommends: uos-reporter, deepin-event-log
+Filename: ./d/deepin-draw/deepin-draw_6.0.3-1_amd64.deb
+Size: 24122156
+MD5sum: de7101048920cebca1be3cf6e4e3d0dc
+SHA1: c22d0af0adb33fa3801461439156630002c66adb
+SHA256: d0e8dab917499e70f2b08bbca71a9a5e4e213b825ad4dfbaa80335c539458b0d
+SHA512: e84fef95000e9eba9896f2413108e6387154bf3a113e86dc3c48a4bc968a0a4f7d6061c4a9b70ac87bbd46a50551ece3b0354d30a7a8a12c5b8f33e3b8e45117
+Homepage: http://www.deepin.org
+Description: Draw for UOS
+ Draw is a lightweight drawing tool for users to freely draw and simply edit images.
 
 Package: deepin-installer-timezones
 Architecture: all
@@ -4769,6 +5714,25 @@ Description: Deepin New Desktop Environment - Next
 
 Package: deepin-anything-libs
 Architecture: amd64
+Version: 15.11~0.1.0-1+comsta
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 136
+Depends: libc6 (>= 2.14)
+Filename: ./d/deepin-anything-libs/deepin-anything-libs_15.11~0.1.0-1+comsta_all.deb
+Size: 804
+MD5sum: d87271032d69e75636e6620481bd94c1
+SHA1: 084d2b56bdea7cb0ae59dab107a6037f62c81608
+SHA256: 9857b15656928ec78321926a066a4413115670482c058077bb8b46d3edb10493
+SHA512: 7783f895c39001df30b25be1ed77c5067f74adf886fc0960f2e89590abc29584c41ca6163c28cc927582d7ac7b7c435fe62be0377088df767664cab88e773ff8
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything library
+ anything library package
+
+Package: deepin-anything-libs
+Architecture: amd64
 Version: 0.1.0-1+comsta
 Priority: optional
 Section: admin
@@ -4785,6 +5749,28 @@ SHA512: 8124789b74e46927ed5b7394cbcacb7ac1ca710ae794872804c0623efd149653195fc8e3
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything library
  anything library package
+
+Package: dde-qt5xcb-plugin
+Architecture: amd64
+Version: 5.0.42
+Priority: optional
+Section: devel
+Source: dde-qt5platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 689
+Provides: libqt5dxcb-plugin
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.11.3.35), libqt5gui5 (>= 5.12.5) | libqt5gui5-gles (>= 5.12.5), libqt5widgets5 (>= 5.11.3.35), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5.2), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-2
+Conflicts: libqt5dxcb-plugin, qt5dxcb-plugin
+Breaks: dde-qt5integration (<< 0.2.8.1)
+Replaces: qt5dxcb-plugin
+Filename: ./d/dde-qt5xcb-plugin/dde-qt5xcb-plugin_5.0.42_amd64.deb
+Size: 214284
+MD5sum: 9f22894b86b2ad62ac2ec27030fa971a
+SHA1: bef910a24602bbe78b4f988c54d5dc42e3c53bcb
+SHA256: 67a1beedc64ae8e1e32aa5093d65b992f9f4b111b37323929f102b7d3c007a3c
+SHA512: fff176fd735ed7b5dc43343c57ca2bb0db6134d3ae6ec314a7e1f08f1e429b1f2963bb781c8494a71ce328a759c09080191f27debe63668dbbf334923b26c5a0
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
 
 Package: deepin-anything-server-dev
 Architecture: amd64
@@ -4804,25 +5790,6 @@ SHA512: b708a71fcdc3ab18738eb1e012ec8fcad70bcfea27c4c272a4839b1910ea9fce15c4f115
 Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: anything server user interface library
  anything server library developer package.
-
-Package: dde-kwin-dbgsym
-Architecture: amd64
-Version: 0.1.0-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-kwin
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 3446
-Depends: dde-kwin (= 0.1.0-1+comsta)
-Filename: ./d/dde-kwin-dbgsym/dde-kwin-dbgsym_0.1.0-1+comsta_amd64.deb
-Size: 3398532
-MD5sum: b0a473b20b524e5de490d18556541f80
-SHA1: 8bd252208a499d7d5f12e141b99158f45e8bc2d2
-SHA256: e7c9462ecf4c909144393d8102ac50657c718e011abe53a59f1faabe1b374e07
-SHA512: 885ea7632295b93af92ae03922075076067da182bce2360dc182f7c8eac6ea27251abd8236b5fc84e8658e62b5a893e24e588f491152d641a7dc4d88832f159f
-Description: debug symbols for dde-kwin
-Build-Ids: 06211f4e5cd0ae80cdad49bf3bd2f12fe0727234 915bfcf068089017799ccda454a9d3b06a69e5a3 aaf68e594c453d0bdd506b4a890cef169cb2c37b d28fc8f923b8b4ee6d4849a58fc152e69211e9d4
 
 Package: dde-launcher
 Architecture: amd64
@@ -4885,6 +5852,66 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - dock module
  Deepin desktop environment - dock module.
 
+Package: deepin-screen-recorder
+Architecture: amd64
+Version: 15.11~2.8.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4269
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libdtkwm2 (>= 15.11~2.0.11.1), libgcc-s1 (>= 3.0), libprocps8 (>= 2:3.3.16-1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxtst6, byzanz, ffmpeg
+Recommends: dde-session-ui
+Filename: ./d/deepin-screen-recorder/deepin-screen-recorder_15.11~2.8.1-1+comsta_amd64.deb
+Size: 4124352
+MD5sum: cca6002d48d4c0c55868cc0cb621f678
+SHA1: 3ed5db26b4ce1fc6cf075d487429395ae216b129
+SHA256: ee1e5528ca4a6ef9c48a97ac21e6c5779b2692929be18c8ad64c2ec9c18db647
+SHA512: 759763e290001ea1d685d837f044b16dfb1e7190940753c88c8eefcb704055e0cd084e80a4b83cd04fb71fe752b716cfeba6e78756969b040992655e5ae441f8
+Homepage: https://github.com/linuxdeepin/deepin-screen-recorder
+Description: Simple recorder tools for deepin
+ A simple recorder tools for deepin.
+
+Package: deepin-screen-recorder
+Architecture: amd64
+Version: 2.8.1-1+comsta
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4269
+Depends: libc6 (>= 2.14), libdtkcore2 (>= 2.0.11), libdtkwidget2 (>= 15.11~2.0.16.1), libdtkwm2 (>= 15.11~2.0.11.1), libgcc-s1 (>= 3.0), libprocps8 (>= 2:3.3.16-1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.1.1), libx11-6, libxext6, libxtst6, byzanz, ffmpeg
+Recommends: dde-session-ui
+Filename: ./d/deepin-screen-recorder/deepin-screen-recorder_2.8.1-1+comsta_amd64.deb
+Size: 4124344
+MD5sum: 91d26d5c84f3e15612d496c328ae777a
+SHA1: 49ea84aab4317949205a711659b68e28d81007a5
+SHA256: c9f7aef92d9b6777cf846ee53d4f8cf254158246bd3f31c125004021bd852029
+SHA512: 9b4c7c4291005f9bac0c050bac16fc94c1a8be18f5c2c58d327e90460f83183e3585905d153761126ab5cf512f2a4aca37160984ab773a3f015d9def0379f8b0
+Homepage: https://github.com/linuxdeepin/deepin-screen-recorder
+Description: Simple recorder tools for deepin
+ A simple recorder tools for deepin.
+
+Package: debiandde
+Architecture: all
+Version: 15.11~2024.02.05
+Priority: extra
+Section: metapackages
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 15
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-center (>> 2.90.5), startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, plymouth-theme-deepin-logo, debian-dde-wallpapers, fonts-noto, dde-introduction, dde-kwin, deepin-screensaver
+Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
+Filename: ./d/debiandde/debiandde_15.11~2024.02.05_all.deb
+Size: 2928
+MD5sum: 5094e5ac1037d385813858767675d4b0
+SHA1: 0b95b68c8935e5e21a471c370814e7041b3d8fe8
+SHA256: e4498547c2305f472c704207255f25edee08c1aa32406a5e431b815acf353bbc
+SHA512: b87bf4d95abd478212a37f9f49c175a15c0f53b1dda13db516c44f4a92222ae48034eaaf2310b04dd1609c3324e0c03464b88391f87b893bf68a6b0223bc95d2
+Homepage: http://www.gfdgdxi.top
+Description: Deepin New Desktop Environment - Next
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
 Package: deepin-community-wallpapers
 Architecture: all
 Version: 1.7.7-1+comsta
@@ -4903,25 +5930,6 @@ SHA512: ec771de0d5da685d12ad3f6b8938536808fece95b6a1c93b987594f3b0433815f5242ae2
 Homepage: https://www.deepin.org/
 Description: community wallpapers
  Community wallpapers for dde
-
-Package: dde-file-manager-dbgsym
-Architecture: amd64
-Version: 4.8.8.2+c1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-file-manager
-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 17957
-Depends: dde-file-manager (= 4.8.8.2+c1-1+comsta)
-Filename: ./d/dde-file-manager-dbgsym/dde-file-manager-dbgsym_4.8.8.2+c1-1+comsta_amd64.deb
-Size: 17886396
-MD5sum: eb95639871827fc1813368a62a28962f
-SHA1: fb3204c1037b4ca64e3978f9ccbd9bf249c2b910
-SHA256: 3d28f57ca919d039c13b757a8e0bffb0b95376b62ae1a8b2424fd203f0d0e665
-SHA512: a4dcd673966501357e3ef5da7244c14721faa6cf7497e967be1256b997c96c9e3cecfbecc6774a2d852b85b5fd36940fcf779397f9b5306dcb404151d7373ebd
-Description: debug symbols for dde-file-manager
-Build-Ids: 290f18475badcba163552649c68784fda595d5d2 5b9a67e4710a6049ad8ae552ebcdecd9a4782815 9a3a5e41a7d4f18f87628e828a19a008495925ba d732d48d0ccc3a82120c02634b5b11b184e752ee
 
 Package: deepin-keyring
 Architecture: all
@@ -4942,25 +5950,6 @@ SHA512: 29ef0cc9038b6e3bc1ab20b8a4693fe9e4f91da0c9108eba34dbc03926116afbd227505a
 Description: GnuPG keys of the Deepin archive
  The Deepin project digitally signs its Release files. This package
  contains the archive keys used for that.
-
-Package: dde-desktop-dbgsym
-Architecture: amd64
-Version: 4.8.8.2+c1-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: dde-file-manager
-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 11356
-Depends: dde-desktop (= 4.8.8.2+c1-1+comsta)
-Filename: ./d/dde-desktop-dbgsym/dde-desktop-dbgsym_4.8.8.2+c1-1+comsta_amd64.deb
-Size: 11372740
-MD5sum: e07d604d762201eee8f6b4d6952bc8aa
-SHA1: 7f22e62fa1af4cd49223b5cb594a4335aa8de00f
-SHA256: 2e460cd9280edd03c1bef45552cf0a4cbb246aef6e4e1c37b7a03fa9ad8075aa
-SHA512: 5fc7c646d8bb64a09906cd4b257b35169a390658d4f35a240989831f3617b53ccbaa85466d2c90bc85f299a902ba9f1cdbfce0a42819862c0eae7242f196bd38
-Description: debug symbols for dde-desktop
-Build-Ids: d1c04beb27621da4ced9e08faf50d52355d84ebb
 
 Package: dde-disk-mount-plugin
 Architecture: amd64
@@ -5018,25 +6007,6 @@ Homepage: http://www.deepin.org
 Description: Image Viewer for Deepin Desktop Environment
  Deepin Image Viewer is Deepin Desktop Environment Image Viewer.
 
-Package: deepin-anything-dev-dbgsym
-Architecture: amd64
-Version: 0.1.0-1+comsta
-Auto-Built-Package: debug-symbols
-Priority: optional
-Section: debug
-Source: deepin-anything
-Maintainer: Deepin Package Builder <packages@deepin.com>
-Installed-Size: 19
-Depends: deepin-anything-dev (= 0.1.0-1+comsta)
-Filename: ./d/deepin-anything-dev-dbgsym/deepin-anything-dev-dbgsym_0.1.0-1+comsta_amd64.deb
-Size: 3228
-MD5sum: 2cde76b0cdbd622c3a04d7f35a868b38
-SHA1: c1063e634df5e3e07ef0c2dcdb0678fdd07a7058
-SHA256: c1b16732de22e5bc0dfd2567dbda6cd2a87baf1f363db2e7d46349c16ee8360b
-SHA512: 2ee08324a9320c87981ca898c09e5d0bd579bf4337941360e46479d4b115ddbf7cd929b9b51f4d6efc61ccb4e70071bcdd06859a6d3df4fd73b9403ee2bf6387
-Description: debug symbols for deepin-anything-dev
-Build-Ids: 0f24a74faf121117c009d0102ccbadec1357ed24
-
 Package: dde-polkit-agent
 Architecture: amd64
 Version: 0.3.0-1+comsta
@@ -5056,6 +6026,23 @@ Description: PolicyKit agent for DDE.
  PolicyKit agent is usually a dialog used to provide a way to let users
  grant permission to specific actions, this package serves the role in
  Deepin Desktop Environment.
+
+Package: deepin-gtk-theme
+Architecture: all
+Version: 17.10.11-1
+Priority: optional
+Section: gnome
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4435
+Breaks: libgtk-3-0 (<= 3.5.0)
+Filename: ./d/deepin-gtk-theme/deepin-gtk-theme_17.10.11-1_all.deb
+Size: 262968
+MD5sum: 2a7014cd66720f92ab3f27fcfd56ae29
+SHA1: 2b3775d56598b122742dd56af6f53dc7edb44af2
+SHA256: c1ca78b9c8d7b87c9815a8bd51a93658d4ae2a4cd928553762481c5ad4d8e4b8
+SHA512: 38faccf4ac15c001476b8634f709d05eba2fb3a613a492519be252823f1a7ab825591e7598674d5255a8682abb9b57fbd994681a220a16a636c799b0f14e4297
+Description: Deepin Gtk Themes
+ This package contains GTK+ themes for Deepin Desktop Environment.
 
 Package: deepin-gtk-theme
 Architecture: all
@@ -5096,24 +6083,43 @@ Description: GSettings deepin desktop-wide schemas
  deepin-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.
 
-Package: deepin-voice-recorder-dbgsym
+Package: dtkwidget5-examples
 Architecture: amd64
-Version: 15.11~1.4.2-1+comsta
-Auto-Built-Package: debug-symbols
+Version: 5.6.12-1
 Priority: optional
-Section: debug
-Source: deepin-voice-recorder
+Section: libdevel
+Source: dtkwidget
 Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 3787
-Depends: deepin-voice-recorder (= 15.11~1.4.2-1+comsta)
-Filename: ./d/deepin-voice-recorder-dbgsym/deepin-voice-recorder-dbgsym_15.11~1.4.2-1+comsta_amd64.deb
-Size: 3807692
-MD5sum: 40acee7ccd34bb3482198c64b03595b3
-SHA1: bc490c9f2c212010c04a2d019260788afe959b7d
-SHA256: eb7e623c8bfa23a42a8e4a5893166ec86992524259a4fe64338d9d5ea296b6b6
-SHA512: db8b543a2619de96b641c4e087de4f5cede5b45f37f1c123d4713620a5bfcde4698680b25dc4045a1eabcb0fadce09afecac4a1338c664884944da07ecfe80bf
-Description: debug symbols for deepin-voice-recorder
-Build-Ids: 7c9cffa974258a89daabfad76af5b1507c40f43f
+Installed-Size: 18470
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (= 5.6.12-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libstdc++6 (>= 4.1.1)
+Filename: ./d/dtkwidget5-examples/dtkwidget5-examples_5.6.12-1_amd64.deb
+Size: 15017812
+MD5sum: 5818ccdd3a20f3e298fe3ceddf9fb899
+SHA1: 363785cb0046eb84cadf84a57c3ad37b4fd3f7b9
+SHA256: e216255fcb5c0eecaf99ef74416bf0df4dd4bbdbefa0dfc2506b3737a77fa3de
+SHA512: 1679bdb69fb5a001e533ee10f25dd9426ff8694ba9d307162971875efcb40a46ae8b7e77e01bd4f5d7088a7a0dbfb0c1a5aab97e5ad1dfaa7ecdb262e4a245ab
+Description: dtkwidget-examples is generated by dtkwidget.
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
+
+Package: deepin-home
+Architecture: amd64
+Version: 1.0.13-1
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 1166
+Depends: libc6 (>= 2.4), libdtkdeclarative5, libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5)
+Filename: ./d/deepin-home/deepin-home_1.0.13-1_amd64.deb
+Size: 635960
+MD5sum: 17f3300e7e4f35da690654d0ac45e2e8
+SHA1: 8960efd1f751e2dc94809b6ca64378f2acc92ab2
+SHA256: fad48f57fda05e23215e34ad6e75a78f3450b3f7f7817e8789c25d1073e4aa38
+SHA512: f0203a69fb3d9d36d7cdd2d567f0bd4ff958ae93e997e0d887ef847acd0677c298a11fdeb3e4277afd1e030708b75caf3c02611c28a741328f775783d9cbf3e2
+Description: deepin home
+ quick login bbs, bug report.
 
 Package: ttf-deepin-opensymbol
 Architecture: all
@@ -5206,6 +6212,25 @@ Homepage: http://www.deepin.org
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 
+Package: qml-module-qtquick-controls2-styles-chameleon
+Architecture: amd64
+Version: 5.6.0-1
+Priority: optional
+Section: libs
+Source: dtkdeclarative
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 100
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5qml5 (>= 5.9.0~beta), libstdc++6 (>= 5), qml-module-qtquick-shapes (>= 5.11.3), libdtkdeclarative5 (= 5.6.0-1)
+Filename: ./q/qml-module-qtquick-controls2-styles-chameleon/qml-module-qtquick-controls2-styles-chameleon_5.6.0-1_amd64.deb
+Size: 9764
+MD5sum: 8bcdcfd70ff856e045e7ee2d2d1eafbb
+SHA1: 0eabaf5f429515353827aa4f434617682bf6f6d8
+SHA256: 3fea15feabee6d34f590b2a186bf1044f74517ea94cef3ceb03f9027023f8b81
+SHA512: 1f2a1924ccced14a56af83fe0a03a897cf158847759d71f3982df5f5eeaf0dee0bedfedd7c42ca5565339e6e3996973738d1baf6b90f0eb074fce5160b2d3b82
+Homepage: http://www.deepin.org
+Description: Deepin Tool Kit Qt Quick Controls 2 QML module
+ Dtkdeclarative is base library of Deepin Qt/QtQuick applications.
+
 Package: startdde
 Architecture: arm64
 Version: 3.14.6.6+c1-1+stable
@@ -5293,6 +6318,108 @@ SHA512: d93dc5e4a7394c4871fcda381c899e42285c7e99e400798ad56ca37afabd918edf81db84
 Homepage: http://github.com/linuxdeepin/startdde
 Description: start deepin desktop environment
  starter of deepin desktop environment.
+
+Package: spark-store
+Architecture: amd64
+Version: 4.2.10
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1336
+Provides: spark-store-console-in-container
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.4), libdtkgui5 (>= 5.4), libdtkwidget5 (>= 5.4), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.11.0~rc1), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
+Filename: ./s/spark-store/spark-store_4.2.10_amd64.deb
+Size: 711984
+MD5sum: ffefa141eb0a918c53434367b4b5c157
+SHA1: 993d54a769505565a7c2f9a0ee959407c994f1db
+SHA256: b8da276af1cd6b2b0eebf879efc7953b5e9cfd77f472843a25a9f9b3dbcfd65b
+SHA512: ae48d97eebc3a4130e41f47cc2f5cbbc49a7ae98b16174e88311b152216975850813f6d6b80808046d8b67281bada96be9c10aa6ea66e1aded659499ff8e414c
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: spark-store
+Architecture: arm64
+Version: 4.2.10
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1341
+Provides: spark-store-console-in-container
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.2), libdtkgui5 (>= 5.2), libdtkwidget5 (>= 5.2), libgcc1 (>= 1:3.0), libgl1, libqt5concurrent5 (>= 5.0.2), libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.5.0), libqt5gui5 (>= 5.10.0), libqt5network5 (>= 5.0.2), libqt5positioning5 (>= 5.6.0), libqt5printsupport5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libqt5webchannel5 (>= 5.6.1), libqt5webenginecore5 (>= 5.7.1), libqt5webenginewidgets5 (>= 5.7.1), libqt5widgets5 (>= 5.11.0~rc1), libstdc++6 (>= 5.2), qtwayland5, curl, openssl, dde-qt5integration, aria2, gnupg, zenity, policykit-1, libnotify-bin, desktop-file-utils
+Filename: ./s/spark-store/spark-store_4.2.10_arm64.deb
+Size: 697940
+MD5sum: 3f4e3f719570cea9633f5bbfdd43617d
+SHA1: e2cdc46170866cf687907c7645fee918dcedc2ea
+SHA256: 583a8fd8ee475a4f139263c2ca3b2c342f272452545b9564b6f5997a28e512c2
+SHA512: 566b90d9f6acadd5567df28ae286335c745e6c6932cfe5bed5c5d4143a6efbe9a883cccb30f367669e3e78901e74b70e6cc743430bb1c7c71f4428d49d770b69
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
+
+Package: sea-icon-theme
+Architecture: all
+Version: 15.12.71-1+comsta
+Priority: optional
+Section: x11
+Source: deepin-icon-theme
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6233
+Conflicts: deepin-icon-theme (<< 15.12.65)
+Filename: ./s/sea-icon-theme/sea-icon-theme_15.12.71-1+comsta_all.deb
+Size: 2017836
+MD5sum: b19ad996d0e0b016795494ae3d83effe
+SHA1: 0fa2606f5ef6baec9a8b2e0c502fa834396f81b7
+SHA256: 7653e5851a0ded59a7545cf4fa9021c0adf098ab84db8f61910f325aff8efcb1
+SHA512: b4e84f4ddc29c79cd7835d142295b18e250af8083b8ab571688e07e1b57b4796dea6bfd38d2733dbe2139ec061d2b783630a6b588885e72cd1d73ae102ba5b48
+Description: Deepin Sea Icons
+ This package is DeepinIconTheme Sea
+
+Package: spark-deepin-wine-runner
+Architecture: amd64
+Version: 3.7.0
+Priority: optional
+Section: utils
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 96408
+Provides: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Depends: python3, python3-pil, libc6, python3-pil.imagetk, python3-pyquery, aria2, curl, unrar | unrar-free , unzip, python3-requests, python3-pyqt5, python3-psutil, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, python3-dbus, python3-pip, p7zip-full, sudo, python3-pyperclip, bubblewrap, zenity, tree, dpkg, fakeroot, deepin-elf-verify (>= 1.1.10-1)
+Recommends: winbind, wimtools, python3-pyqt5.qtwebengine, binfmt-support, libc6:i386, libc6:armhf, libwine, qemu-system, qemu-full, alien
+Conflicts: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Replaces: spark.deepin-venturi-setter, spark-deepin-wine5-application-packer, spark-deepin-wine-runner-52
+Filename: ./s/spark-deepin-wine-runner/spark-deepin-wine-runner_3.7.0_amd64.deb
+Size: 31486106
+MD5sum: a35fad8524e399323899c1037ed7fb35
+SHA1: aa689ec35a97799dd7de0110ff087efa00582ae6
+SHA256: e236bd084a6787d00df3f66aa2cebff67c0b4056371fba833f43c7923dbb8a3e
+SHA512: 6dc02a1cd3132bf11702d477dec265338ddfe0fb30d1cf8654dad7d6c68de47169e1f39de85991478e29475cb14ad43288d426892be9714d112a8ce40b625900
+Homepage: https://gitee.com/gfdgd-xi/deep-wine-runner
+Description: Wine运行器是一个能让Linux用户更加方便地运行Windows应用的程序。原版的 Wine 只能使用命令操作，且安装过程较为繁琐，对小白不友好。于是该运行器为了解决该痛点，内置了对Wine图形化的支持、Wine 安装器、微型应用商店、各种Wine工具、自制的Wine程序打包器、运行库安装工具等。 它同时还内置了基于Qemu/VirtualBox制作的、专供小白使用的Windows虚拟机安装工具，可以做到只需下载系统镜像并点击安装即可，无需考虑虚拟机的安装、创建、分区等操作，也能在非 X86 架构安装 X86 架构的 Windows 操作系统（但是效率较低，可以运行些老系统）。 而且对于部分 Wine 应用适配者来说，提供了图形化的打包工具，以及提供了一些常用工具以及运行库的安装方式，以及能安装多种不同的 Wine 以测试效果，能极大提升适配效率。 且对于 Deepin23 用户做了特别优化，以便能在缺少 i386 运行库的情况下运行 Wine32。同时也为非 X86 架构用户提供了 Box86/64、Qemu User 的安装方式
+Certainty: possible
+Check: binaries
+Severity: serious
+Type: binary, udeb
+
+Package: spark-store-console
+Architecture: all
+Version: 4.2.9.1
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 1187
+Provides: spark-store(=4.2.10)
+Depends: wget,aria2, zenity, policykit-1, libnotify-bin, python3, desktop-file-utils,curl,uuid-runtime
+Conflicts: spark-store
+Replaces: spark-store(=4.2.10)
+Filename: ./s/spark-store-console/spark-store-console_4.2.9.1_all.deb
+Size: 58540
+MD5sum: 846a1ac9cef42cb84560b7bace47cb15
+SHA1: 5f9b96a296ee4f90f44ea83d4c22f655364e4f3e
+SHA256: 1ba4d10164b97d53def198bedfc8ee2520a89eee351db75d3c26894f76d3bebd
+SHA512: 3f213d74acf24d506546c9f31e42c1ee0f262ff57128523ddb3c5678b182f44963b98b48fc1f784615f19d1d09a35ee42ae1c6d85806ba2b80096bf192364afd
+Homepage: https://www.spark-app.store/
+Description: Spark Store
+ A community powered app store, based on DTK.
 
 Package: cloud-initramfs-copymods
 Architecture: all
@@ -5392,4 +6519,25 @@ Description: write a network interface file in /run for BOOTIF
  This package provides an initramfs module that will write a simple
  network interfaces formated file to /run/network/interfaces with
  entries for any devices that were configured during initramfs.
+
+Package: com.gitee.uengine.runner.spark
+Architecture: all
+Version: 2.2.0.1
+Priority: optional
+Section: utils
+Source: com.gitee.uengine.runner.spark
+Maintainer: gfdgd xi <3025613752@qq.com>
+Installed-Size: 9384
+Depends: python3, python3-tk, python3-pip, python3-setuptools, deepin-terminal | mate-terminal | gnome-terminal | xfce4-terminal, curl, python3-pil, python3-requests, adb, fonts-noto-cjk, python3-numpy, wget, aria2, python3-pyqt5, python3-matplotlib, python3-urllib3, zenity, python3-pil.imagetk
+Recommends: uengine, deepin-elf-verify, python3-pyqt5.qtwebengine, aapt
+Conflicts: spark-uengine-apk-builder, com.gitee.uengine.runner.spark.ubuntu, kbox
+Replaces: spark-uengine-runner, com.gitee.uengine.runner.spark.ubuntu
+Filename: ./c/com.gitee.uengine.runner.spark/com.gitee.uengine.runner.spark_2.2.0.1_all.deb
+Size: 4799384
+MD5sum: 7d79d7dca30f8ed0254318e8e41777b0
+SHA1: a7bc05cc344d5c6f83b5123c34402658f698d522
+SHA256: 85d42f1c1b54fdffe266da80efdaa2fa0f6e6c45d6806f93684f833eaee3575e
+SHA512: 2ccf83d31f674fa34946d6d984f1d7b99b147a11310e50587a6e2a5aa70781b050dd64c3047d299102f7f8ff92a7b54402933f1293ec83f2e7e77a10f49670c5
+Homepage: https://gitee.com/gfdgd-xi/uengine-runner
+Description: 新版本Deepin/UOS发布后，可以在应用商店安装部分官方已适配的安卓应用，对爱好者来说，不能自己安装APK软件包始终差点意思，本程序可以为Deepin/UOS上的Uengine安卓运行环境安装/卸载/打包自定义APK软件包，并能发送安装的APK包启动菜单到桌面或系统菜单。
 

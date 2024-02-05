@@ -1,0 +1,18 @@
+Package: deepin-icon-theme
+Architecture: all
+Version: 15.12.71-1+comsta
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46352
+Depends: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Filename: ./d/deepin-icon-theme/deepin-icon-theme_15.12.71-1+comsta_all.deb
+Size: 7147308
+MD5sum: d786b86a1462ff2ee0938e12e63f313f
+SHA1: b407d3da9c30706917537264e53dd6c72c8ebb9c
+SHA256: e650b561fc804cf128357a8b63bac94501fd7ef6e676595281827a971099e73f
+SHA512: 45dbe9546092452e6d0886d6428eb7b60bb1907f72ad872a433cd3b5ecb5299ba2672b478ca5d87150906cba4477959e5e215cced991c8d06a7d7063b7bb8123
+Description: Deepin Icons
+ This package is DeepinIconTheme
+

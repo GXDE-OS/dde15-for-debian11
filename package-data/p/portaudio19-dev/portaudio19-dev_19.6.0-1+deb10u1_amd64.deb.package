@@ -1,0 +1,29 @@
+Package: portaudio19-dev
+Architecture: amd64
+Version: 19.6.0-1+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 606
+Depends: libasound2-dev, libjack-dev, libportaudio2 (= 19.6.0-1+deb10u1), libportaudiocpp0 (= 19.6.0-1+deb10u1)
+Suggests: portaudio19-doc
+Conflicts: libportaudio-19-dev, libportaudio-dev, libportaudio19-dev
+Replaces: libportaudio-19-dev, libportaudio19-dev
+Filename: ./p/portaudio19-dev/portaudio19-dev_19.6.0-1+deb10u1_amd64.deb
+Size: 108696
+MD5sum: 8789f0ff07bacc2da61ff4e1296caac9
+SHA1: 9b415a980824461b57b418633170f07ca6ac01e6
+SHA256: 736fd4f819be0b4c7a98b05f73839c9c3ed575e166df2056595aaa04b0f24fe3
+SHA512: 6dfb991c65cb899a9665a915e309a36a9d78bdebf5c4284fc21f92b209f1df95a8c3e01c59b26b13b70dea81e4766f8d024d130d7eb72126f08043f51565f1da
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O - development files
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the development files.
+

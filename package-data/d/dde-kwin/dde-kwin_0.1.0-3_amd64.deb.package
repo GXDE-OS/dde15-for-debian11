@@ -1,0 +1,19 @@
+Package: dde-kwin
+Architecture: amd64
+Version: 0.1.0-3
+Priority: optional
+Section: devel
+Maintainer: Arun Kumar Pariyar <expertaruncorp@gmail.com>
+Original-Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 749
+Depends: libc6 (>= 2.29), libdtkcore2 (>= 2.0.11), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libkdecorations2-5v5 (>= 4:5.3.0), libkf5configcore5 (>= 4.97.0), libkf5coreaddons5 (>= 4.99.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.10.0), libkf5windowsystem5 (>= 4.100.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), qtbase-abi-5-15-2, kwin-x11, plasma-framework, qml-module-qtquick-controls2, qml-module-qtquick-templates2
+Filename: ./d/dde-kwin/dde-kwin_0.1.0-3_amd64.deb
+Size: 144624
+MD5sum: ca20f19a972b3d77404ad736ca7fcc1a
+SHA1: 4dc8c47b7f9ef223e320380f777d3cb4ccbde9d0
+SHA256: 18200516dc99f2dfa5966122b9b0f2abdbb8ac186417657cd142558bf63f47ce
+SHA512: 65313151285a18918e388257d1828a065561ea8ca1a9e6de5e5d20704fc352fd5ed3f139d6b2d9b97785e567cddcd6bac3290f92c11a76439b61e0d54be04e50
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: KWin configures/plugins on the DDE
+ Let kwin work well in the Deepin Desktop Environment.
+

@@ -1,0 +1,26 @@
+Package: libportaudio2
+Architecture: amd64
+Version: 19.6.0-1+deb10u1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: portaudio19
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 211
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.29), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125
+Filename: ./l/libportaudio2/libportaudio2_19.6.0-1+deb10u1_amd64.deb
+Size: 66340
+MD5sum: 1624adda91cda169b9127e6336bae1ae
+SHA1: 3217b9e760934a0ad725a833602f110d9952dc2a
+SHA256: 93d0b7b6b371d7dbb711694fdf0f299133514128055e951f37c20b4c6297d5cd
+SHA512: 877e6f2711fbf3d52cfbed11e5637f636acd7920b64cc3e6bf1e43e2b1ba199df67ba6ff79ca789509981985987c29009cf461646f0ec4f7f0774e269542022e
+Homepage: http://www.portaudio.com/
+Description: Portable audio I/O - shared library
+ PortAudio is a portable audio I/O library designed for cross-platform
+ support of audio. It uses a callback mechanism to request audio
+ processing.  Audio can be generated in various formats, including 32
+ bit floating point, and will be converted to the native format
+ internally.
+ .
+ This package contains the shared library.
+
