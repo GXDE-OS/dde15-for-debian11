@@ -4552,6 +4552,24 @@ Description: Deepin Font Installer binary
 
 Package: deepin-icon-theme
 Architecture: all
+Version: 15.11~15.12.71-1+comsta
+Priority: optional
+Section: x11
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46575
+Depends: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Filename: ./d/deepin-icon-theme/deepin-icon-theme_15.11~15.12.71-1+comsta_all.deb
+Size: 7142448
+MD5sum: 9d2bd765b98fc2ee65c854955ed8fb88
+SHA1: 079c6d39c2dc04dd318c76f3257ac9e04c8e6eee
+SHA256: c6b945a786efa7adfafd95d39c8a941ad2e88077774ce183e50febd471a7af35
+SHA512: aa094b95aaa4b684d82ed8937d56cc4c63067911f719ae03d691aee7d8120aadf9b15618c78e54fae6ec1483e2999c6ddb8c7d60cf2275474f1ef9f10bb02b87
+Description: Deepin Icons
+ This package is DeepinIconTheme
+
+Package: deepin-icon-theme
+Architecture: all
 Version: 15.12.71-1+comsta
 Priority: optional
 Section: x11
@@ -6372,6 +6390,24 @@ MD5sum: b19ad996d0e0b016795494ae3d83effe
 SHA1: 0fa2606f5ef6baec9a8b2e0c502fa834396f81b7
 SHA256: 7653e5851a0ded59a7545cf4fa9021c0adf098ab84db8f61910f325aff8efcb1
 SHA512: b4e84f4ddc29c79cd7835d142295b18e250af8083b8ab571688e07e1b57b4796dea6bfd38d2733dbe2139ec061d2b783630a6b588885e72cd1d73ae102ba5b48
+Description: Deepin Sea Icons
+ This package is DeepinIconTheme Sea
+
+Package: sea-icon-theme
+Architecture: all
+Version: 15.11~15.12.71-1+comsta
+Priority: optional
+Section: x11
+Source: deepin-icon-theme
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6233
+Conflicts: deepin-icon-theme (<< 15.12.65)
+Filename: ./s/sea-icon-theme/sea-icon-theme_15.11~15.12.71-1+comsta_all.deb
+Size: 2017900
+MD5sum: a72d0e3bdede22c742f35d9408cac330
+SHA1: 0234642659d170f9dc359f4b490b78cacf47f9d1
+SHA256: 1b110654e4ca92e13d226835867a9812d50028b3392327bffe87ca7bf5d0980f
+SHA512: f01f326a922c916970f210bebaa8fef5619e1b3badba15c7f0eb93a18768dfc0779800bf66ec747e87aa8d35454499cea2e3aa023d145dd1ce7be83aa2602b54
 Description: Deepin Sea Icons
  This package is DeepinIconTheme Sea
 
