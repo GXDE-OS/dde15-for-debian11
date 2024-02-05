@@ -1,0 +1,18 @@
+Package: deepin-icon-theme
+Architecture: all
+Version: 2024.02.05-15.11
+Priority: optional
+Section: x11
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 46575
+Depends: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Filename: ./d/deepin-icon-theme/deepin-icon-theme_2024.02.05-15.11_all.deb
+Size: 7140596
+MD5sum: 74a9746c153acb7c9af51e09b43eb893
+SHA1: 6c4d5d70dceda3169a7b59ab245fb5187398ef2e
+SHA256: e4386e24810ded484477752d47713573a560981146bd3dee6908a849bd37ffdb
+SHA512: dbc2a0889c7d97734c4fbd22b5fdc0faf6a436b0202d1bde948130ded049eda0599b5281503a2d08691513bcc8a5a8f53502dc14a249a9a4ef0315a8c07530ef
+Description: Deepin Icons
+ This package is DeepinIconTheme
+
