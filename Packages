@@ -6099,11 +6099,11 @@ Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-c
 Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark
 Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
 Filename: ./d/debiandde/debiandde_15.11~2024.02.06_all.deb
-Size: 3384
-MD5sum: f7c196c978dd24927751825d6cf4c571
-SHA1: fce6f4c2337bdf744975e5c3e03cca7110b40cbb
-SHA256: c12c22078ce4f8d8d1c4abc8c64967684fb06b4945d61cff589a1d774ee6671a
-SHA512: c3d89010ba39080642f7f2dbd920328ff7fcbbde9abef96351a3f37bb8436850f82c280243d4ecada56d149ddc86a6f5b5ac978350dc43f86e83cc5fcc25ee17
+Size: 3372
+MD5sum: 142158859b610dfd4b93820da2cf671f
+SHA1: 270f515ae16435df8dad930b31ead10800327d21
+SHA256: 14fa0ae3b256a5a52267d86c23d232d21c1949fea49c08014ee4031e33e0804f
+SHA512: 1711a103f67bc5e5e42e442f6ab2ca6d944dfffbdc28e91beff6cfadd37576890ca263583619aee3ff4d7ec5210ac4af2e4f2ebc5186e215035e3ee802125320
 Homepage: http://www.gfdgdxi.top
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.
