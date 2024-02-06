@@ -4,17 +4,17 @@ Version: 1.7.19
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 36629
+Installed-Size: 36714
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.19_all.deb
-Size: 32706756
-MD5sum: e09b6a316a9d4fd3bccabce1da9923e6
-SHA1: 6655d384498b3e73480dc5c5a49c5db1412a232d
-SHA256: a9d2443b301f3d375c79782ce80a217473856631787da836918cc738efbf1b81
-SHA512: ac5ad4987d437255550bd98832afae5a38559dc730afee012ccad52322302e17a36c2a8b1184b91187c657a278f21ec0823a9965bc9c280be95bcd7b0979712e
+Size: 32808760
+MD5sum: d2741fcada2c0a6d69e5ed8bbddbb521
+SHA1: 4f4d8082744569684a8168cc031a6c527c76fd59
+SHA256: 22b2cb0d560d3c102ccced29d5fdb4de23cf09124081ea15f0a5b422b3ad9d63
+SHA512: d4674d68371e1445540ccc1ee786b5782f8a91f722f59a4814cc1970990cd778e965e7eddad43b053a2f6e5f70be4181a8ffeb92f73b8d41fa50914017ade198
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde

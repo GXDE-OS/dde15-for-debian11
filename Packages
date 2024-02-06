@@ -5565,17 +5565,17 @@ Version: 1.7.19
 Priority: optional
 Section: utils
 Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 36629
+Installed-Size: 36714
 Provides: deepin-wallpapers
 Conflicts: deepin-wallpapers
 Breaks: deepin-desktop-base (<< 2017.11.2)
 Replaces: deepin-wallpapers
 Filename: ./d/debian-dde-wallpapers/debian-dde-wallpapers_1.7.19_all.deb
-Size: 32706756
-MD5sum: e09b6a316a9d4fd3bccabce1da9923e6
-SHA1: 6655d384498b3e73480dc5c5a49c5db1412a232d
-SHA256: a9d2443b301f3d375c79782ce80a217473856631787da836918cc738efbf1b81
-SHA512: ac5ad4987d437255550bd98832afae5a38559dc730afee012ccad52322302e17a36c2a8b1184b91187c657a278f21ec0823a9965bc9c280be95bcd7b0979712e
+Size: 32808760
+MD5sum: d2741fcada2c0a6d69e5ed8bbddbb521
+SHA1: 4f4d8082744569684a8168cc031a6c527c76fd59
+SHA256: 22b2cb0d560d3c102ccced29d5fdb4de23cf09124081ea15f0a5b422b3ad9d63
+SHA512: d4674d68371e1445540ccc1ee786b5782f8a91f722f59a4814cc1970990cd778e965e7eddad43b053a2f6e5f70be4181a8ffeb92f73b8d41fa50914017ade198
 Homepage: https://www.deepin.org/
 Description: dde wallpapers
  Default wallpapers for debian-dde
@@ -6082,11 +6082,11 @@ Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-c
 Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark
 Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
 Filename: ./d/debiandde/debiandde_15.11~2024.02.06_all.deb
-Size: 3380
-MD5sum: d9dff360f6bba4a293e589e0a914a20c
-SHA1: 9edae41da6beb66207bbe2b7dd3be6a3b47d1b47
-SHA256: b60a7abfe69bfbf91c9193c0e2e9b7a1b339831a3479c450e466ebbbd536034d
-SHA512: 5c7298d0e93c3f1237d451ef9503c32590eeb8b7883400d5d5947d9271264d2f3b0319398f3dfafafb2c29bec8ec3da141f03e9bbd296887e3e97c8aec324d2e
+Size: 3384
+MD5sum: f7c196c978dd24927751825d6cf4c571
+SHA1: fce6f4c2337bdf744975e5c3e03cca7110b40cbb
+SHA256: c12c22078ce4f8d8d1c4abc8c64967684fb06b4945d61cff589a1d774ee6671a
+SHA512: c3d89010ba39080642f7f2dbd920328ff7fcbbde9abef96351a3f37bb8436850f82c280243d4ecada56d149ddc86a6f5b5ac978350dc43f86e83cc5fcc25ee17
 Homepage: http://www.gfdgdxi.top
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.
