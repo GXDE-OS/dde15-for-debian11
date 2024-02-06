@@ -6071,6 +6071,28 @@ Description: Deepin New Desktop Environment - Next
  .
  You can safety remove it after installed.
 
+Package: debiandde
+Architecture: all
+Version: 15.11~2024.02.06
+Priority: extra
+Section: metapackages
+Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
+Installed-Size: 15
+Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-center (>> 2.90.5), startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-introduction, dde-kwin, deepin-screensaver
+Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark
+Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
+Filename: ./d/debiandde/debiandde_15.11~2024.02.06_all.deb
+Size: 2908
+MD5sum: 0945bb748977d05ffc1a4075fbcdde7a
+SHA1: 32fd5aa189b07f2807afb0b38ebd574edd3b8f32
+SHA256: 5c4ebcbfadbd42ab5795e0f37dd1d0f40445f540cbf7985e782c084ff7941b2d
+SHA512: 952d75d611dd51478c1545956b3024845990ea15a26039acb3b6c74e1ea490fdfee01d478bf9bd66c561d0b8957719097d5d176d15901af62bb4eb41703dedc3
+Homepage: http://www.gfdgdxi.top
+Description: Deepin New Desktop Environment - Next
+ This is a meta package depends Deepin New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
+
 Package: deepin-community-wallpapers
 Architecture: all
 Version: 1.7.7-1+comsta
