@@ -5395,6 +5395,25 @@ Description: Developer package of dde-kwin
 
 Package: deepin-installer
 Architecture: amd64
+Version: 2.7.17
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 27397
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libparted2 (>= 3.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.8.0) | libqt5gui5-gles (>= 5.8.0), libqt5network5 (>= 5.5.0), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxrandr2 (>= 2:1.2.99.3), libxtst6, zlib1g (>= 1:1.1.4), btrfs-progs, deepin-installer-timezones, dosfstools, imagemagick, jfsutils, mtools, ntfs-3g, os-prober, parted, pciutils, reiserfsprogs, squashfs-tools, tshark, udev, x11-xserver-utils, xfsprogs, xinit, xkb-data
+Filename: ./d/deepin-installer/deepin-installer_2.7.17_amd64.deb
+Size: 20151624
+MD5sum: 4ec6bc8cd5e78c9048dc89bf12a84052
+SHA1: 5d6923c75e0530bf03172105044d3e8826af321f
+SHA256: c0416382d6e68d8877373e6b779b31f909e98dfaead848b55c2bcc6a4a76e2dd
+SHA512: 78cba6cdf1ab3f6f217d9d041db03f3f74521aec6c4c95c6231b4ff1048414883f3187e5a3fd83781c7c97d1a4de53f950647710446e839126c3d9db254899de
+Homepage: http://www.gfdgdxi.top
+Description: Release version of deepin installer
+ New version of deepin-installer, rewritten with Qt5.
+
+Package: deepin-installer
+Architecture: amd64
 Version: 2.7.16-1+comsta
 Priority: extra
 Section: utils
@@ -5812,6 +5831,25 @@ Description: WINE FoxitReader4
 
 Package: deepin-installer-oem
 Architecture: amd64
+Version: 2.7.17
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 252
+Depends: libc6 (>= 2.29), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), deepin-installer
+Filename: ./d/deepin-installer-oem/deepin-installer-oem_2.7.17_amd64.deb
+Size: 73964
+MD5sum: 16d906702c06e025f0d75a21b3c38332
+SHA1: 12d14010f14f1ab93aa2ab95d5549c9444d63336
+SHA256: ee4f04ccfcb36cd39d1577af52393ac5c216772ffbe97521e53d581fa7053d5f
+SHA512: 2e104f9f2aec4c1f65fac3ccf0475aa8d63dcfaa38a4f254f0e923145e11aae74eac8d55f088b2f1f596c171314b868c9e4a6b7988a36c7cd225f1a3e7e5233a
+Homepage: http://www.gfdgdxi.top
+Description: OEM tool
+ OEM tool for deepin-installer
+
+Package: deepin-installer-oem
+Architecture: amd64
 Version: 2.7.16-1+comsta
 Priority: extra
 Section: utils
@@ -5863,6 +5901,24 @@ SHA1: 8f7ad44637f4258a721d75f011244fbb679753d5
 SHA256: f0fe45d799d96c479d2314b05ca1aa15a35e60ac8127db132c5a5da8aaa11c04
 SHA512: 417657ee085aeb47a259018c456647bc266a0f30e6deb55e584e11ff1b46f630b53432a4775cc2d4977e4850d20ac975a6f0bede44a628d2f48561ecd2147229
 Homepage: http://www.deepin.org
+Description: Language package for timezone names
+ Installer language package for timezone names
+
+Package: deepin-installer-timezones
+Architecture: all
+Version: 2.7.17
+Priority: extra
+Section: utils
+Source: deepin-installer-reborn
+Maintainer: gfdgd xi <3025613752@qq.com>, Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 546
+Filename: ./d/deepin-installer-timezones/deepin-installer-timezones_2.7.17_all.deb
+Size: 53436
+MD5sum: 548300017cb89ef694b8a0d206b2c259
+SHA1: c4a6160663d96bd129ecfd87bd9d9229396e2dc7
+SHA256: 6bf0f625b41810e9087173549e545ba8bc167c355323ad86c07faa3cbb5943e2
+SHA512: 7eadab017f96be5c25945d7253b85faff0a4465d7ce1044d7cb9b4f02300990d95322ffa14a0e4e95eae43f631025869e061e2db0b2d99d79d5456be1024bd01
+Homepage: http://www.gfdgdxi.top
 Description: Language package for timezone names
  Installer language package for timezone names
 
@@ -6094,16 +6150,16 @@ Version: 15.11~2024.02.06
 Priority: extra
 Section: metapackages
 Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
-Installed-Size: 19
+Installed-Size: 15
 Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-center (>> 2.90.5), startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-introduction, dde-kwin, deepin-screensaver
 Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark
 Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
 Filename: ./d/debiandde/debiandde_15.11~2024.02.06_all.deb
-Size: 3372
-MD5sum: 142158859b610dfd4b93820da2cf671f
-SHA1: 270f515ae16435df8dad930b31ead10800327d21
-SHA256: 14fa0ae3b256a5a52267d86c23d232d21c1949fea49c08014ee4031e33e0804f
-SHA512: 1711a103f67bc5e5e42e442f6ab2ca6d944dfffbdc28e91beff6cfadd37576890ca263583619aee3ff4d7ec5210ac4af2e4f2ebc5186e215035e3ee802125320
+Size: 2928
+MD5sum: be1306fa2bbbca75607aed5cc688b73e
+SHA1: 7344b917f773124a1cfcec0b4b9177aa324839f3
+SHA256: 87f0480c054760d935b54e699cd6c7dccddd828c32372e488a3a431364eba147
+SHA512: 0e031ddf7f653e351f501d3b7aa3f0f02ff4a339570180d7f65c51a6b3ad0a71664822476eb6373f60dd90c0b49553f65e288ea65c2f41d5b1d74e952e6061c6
 Homepage: http://www.gfdgdxi.top
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.

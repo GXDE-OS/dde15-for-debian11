@@ -4,16 +4,16 @@ Version: 15.11~2024.02.06
 Priority: extra
 Section: metapackages
 Maintainer: gfdgd xi <3025613752@qq.com>, LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
-Installed-Size: 19
+Installed-Size: 15
 Depends: deepin-desktop-base, dde-desktop, dde-dock, dde-launcher, dde-control-center (>> 2.90.5), startdde, dde-session-ui, deepin-artwork, dde-file-manager, dde-qt5integration, eject, debian-dde-wallpapers, fonts-noto, dde-introduction, dde-kwin, deepin-screensaver
 Recommends: file-roller, deepin-manual, deepin-appstore, gksu, deepin-editor, deepin-system-monitor, pppoe, gvfs-fuse, smbclient, python-smbc, cups-filters, printer-driver-all, foomatic-db-compressed-ppds, foomatic-db-engine, openprinting-ppds, libsane-hpaio, linux-firmware, wireless-tools, deepin-wine-uninstaller:i386, ttf-deepin-opensymbol, deepin-terminal, deepin-feedback, printer-driver-hpcups, printer-driver-hpijs, libmtp-runtime, samsung-print, open-vm-tools-desktop, open-vm-tools, usbmuxd, ipheth-utils, libimobiledevice-dev, libimobiledevice-utils, dnsutils, libfile-mimeinfo-perl, deepin-shortcut-viewer, crda, network-manager-integration-plugins, libtxc-dxtn-s2tc0 | libtxc-dxtn-s2tc, libflashplugin-pepper, miraclecast, x-display-manager, deepin-screenshot, deepin-music, deepin-image-viewer, dde-calendar, deepin-calculator, deepin-voice-recorder, deepin-screen-recorder, deepin-graphics-driver-manager, deepin-font-installer, warm-sched, uengine, spark-deepin-wine-runner, com.gitee.uengine.runner.spark
 Conflicts: dde-control-center (<< 2.90.5), deepin-desktop-environment-desktop, deepin-desktop-environment-dock, deepin-desktop-environment-launcher
 Filename: ./d/debiandde/debiandde_15.11~2024.02.06_all.deb
-Size: 3372
-MD5sum: 142158859b610dfd4b93820da2cf671f
-SHA1: 270f515ae16435df8dad930b31ead10800327d21
-SHA256: 14fa0ae3b256a5a52267d86c23d232d21c1949fea49c08014ee4031e33e0804f
-SHA512: 1711a103f67bc5e5e42e442f6ab2ca6d944dfffbdc28e91beff6cfadd37576890ca263583619aee3ff4d7ec5210ac4af2e4f2ebc5186e215035e3ee802125320
+Size: 2928
+MD5sum: be1306fa2bbbca75607aed5cc688b73e
+SHA1: 7344b917f773124a1cfcec0b4b9177aa324839f3
+SHA256: 87f0480c054760d935b54e699cd6c7dccddd828c32372e488a3a431364eba147
+SHA512: 0e031ddf7f653e351f501d3b7aa3f0f02ff4a339570180d7f65c51a6b3ad0a71664822476eb6373f60dd90c0b49553f65e288ea65c2f41d5b1d74e952e6061c6
 Homepage: http://www.gfdgdxi.top
 Description: Deepin New Desktop Environment - Next
  This is a meta package depends Deepin New Desktop Envrionment.
